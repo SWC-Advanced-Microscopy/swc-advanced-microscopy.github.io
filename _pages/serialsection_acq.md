@@ -8,9 +8,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.3"
   overlay_image: /assets/images/serialsection/rgb_brain_banner.jpg
-  actions:
-    - label: "All repos"
-      url: "https://github.com/orgs/SainsburyWellcomeCentre/teams/serial2p/repositories"
+
 
 feature_row_bakingtray:
   - image_path: "https://raw.githubusercontent.com/wiki/SainsburyWellcomeCentre/StitchIt/images/rgb_brain_example.jpg"
