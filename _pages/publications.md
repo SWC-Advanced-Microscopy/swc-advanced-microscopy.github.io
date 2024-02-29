@@ -2,14 +2,13 @@
 permalink: /publications/
 title: "Publications"
 layout: splash
+classes: wide
 excerpt: "What we've done"
 toc: false
 header:
   overlay_color: "#000"
   overlay_filter: "0.3"
   overlay_image: /assets/images/home/GCamp6s_brain.jpg
-
-
 
 feature_row_rob:
   - image_path: /assets/images/home/rob_campbell.jpg
