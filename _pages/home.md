@@ -16,11 +16,11 @@ feature_row_01:
     url: /ss_acquisition
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/home/Registration.jpg
-    alt: "analysis"
-    title: "Analysis"
-    excerpt: "Register brains to the Allen Atlas and count cells."
-    url: /analysis
+  - image_path: /assets/images/home/zapit_with_mouse_row.jpg
+    alt: "Zapit"
+    title: "Zapit"
+    excerpt: "Random-access photostimulation"
+    url: /zapit
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/home/masiv.jpg
