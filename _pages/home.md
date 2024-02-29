@@ -2,7 +2,7 @@
 title: "Advanced Microscopy Facility"
 layout: splash
 permalink: /
-date: 2019-03-07
+date: 2024-02-29
 header:
   overlay_image: /assets/images/home/GCamp6s_brain.jpg
   actions:
