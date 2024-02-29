@@ -1,8 +1,8 @@
 ---
-permalink: /people/
-title: "People"
+permalink: /publications/
+title: "Publications"
 layout: splash
-excerpt: "Who we are"
+excerpt: "What we've done"
 toc: false
 header:
   overlay_color: "#000"
