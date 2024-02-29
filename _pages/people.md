@@ -7,10 +7,10 @@ toc: false
 header:
   overlay_color: "#000"
   overlay_filter: "0.3"
-  overlay_image: /assets/images/home/GCamp6s_brain.jpg
+  overlay_image: /assets/images/people/GCamp6s_brain.jpg
 
 feature_row_rob:
-  - image_path: /assets/images/home/rob_campbell.jpg
+  - image_path: /assets/images/people/rob_campbell.jpg
     url: "https://github.com/raacampbell"
     alt: "Lasagna"
     title: "Rob Campbell"
@@ -19,7 +19,7 @@ feature_row_rob:
     btn_class: "btn--primary"
 
 feature_row_jess:
-  - image_path: /assets/images/home/jessica_broni-tabi.png
+  - image_path: /assets/images/people/jessica_broni-tabi.png
     url: ""
     alt: "Lasagna"
     title: "Jessica Broni-Tabi"
@@ -28,7 +28,7 @@ feature_row_jess:
     btn_class: "btn--primary"
 
 feature_row_peter:
-  - image_path: /assets/images/home/peter_gordon.png
+  - image_path: /assets/images/people/peter_gordon.png
     url: ""
     alt: "Lasagna"
     title: "Peter Gordon"
@@ -37,7 +37,7 @@ feature_row_peter:
     btn_class: "btn--primary"
 
 feature_row_igor:
-  - image_path: /assets/images/home/igor_tatarnikov.png 
+  - image_path: /assets/images/people/igor_tatarnikov.png 
     url: ""
     alt: "Lasagna"
     title: "Igor Tatarnikov"
@@ -46,7 +46,7 @@ feature_row_igor:
     btn_class: "btn--primary"
 
 feature_row_isabell:
-  - image_path: /assets/images/home/profile_image_placeholder.png 
+  - image_path: /assets/images/people/profile_image_placeholder.png 
     url: ""
     alt: "Lasagna"
     title: "Isabell Whiteley"
