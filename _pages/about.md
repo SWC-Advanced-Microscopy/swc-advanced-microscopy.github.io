@@ -11,9 +11,11 @@ header:
 ---
 
 ## Serial Section Imaging
-Serial section imaging is the process of alternately imaging and slicing a block of tissue in order to obtain a 3D volume. 
-There are many variants of this approach, ranging from EM to light microscopy. 
-This site concentrates on block-face serial section 2-photon imaging of brain tissue, however the tools we present here can be used for other organs and other imaging systems (e.g. confocal, widefield, knife-edge imaging, etc). 
+* [Zapit: Open Source Random-Access Photostimulation For Neuroscience](https://doi.org/10.1101/2024.02.12.579892), 2024, AMF, bioRxiv
+* [Standardised Measurements for Monitoring and Comparing Multiphoton Microscope Systems](https://www.biorxiv.org/content/10.1101/2024.01.23.576417v1), 2024, AMF, bioRxiv
+* [Reproducibility of in-vivo electrophysiological measurements in mice](https://www.biorxiv.org/content/10.1101/2022.05.09.491042v4.full), 2023, SWC and IBL, bioRxiv, BrainSaw
+* [Antibody stabilization for thermally accelerated deep immunostaining.](https://www.nature.com/articles/s41592-022-01569-1), 2022, Nat. Meth., BrainSaw, MesoSPIM
+* [The mesoSPIM initiative: open-source light-sheet microscopes for imaging cleared tissue](https://www.nature.com/articles/s41592-019-0554-0), 2019, AMF, Nature Methods, mesoSPIM
 
 ## Our Tools
 This site presents open source tools used at the Sainsbury Wellcome Centre (UCL) for acquisition, analysis, and visualisation of serial section imaging data. 
