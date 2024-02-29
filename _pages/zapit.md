@@ -10,7 +10,7 @@ header:
   overlay_image: /assets/images/zapit/zapit_waveforms_banner.jpg
   actions:
     - label: "GitHub"
-      url: "hhttps://github.com/zapit-optostim/"
+      url: "https://github.com/zapit-optostim/"
 ---
 
 
