@@ -1,9 +1,9 @@
 ---
 permalink: /about/
-title: "Open Serial Section"
+title: "About"
 layout: single
 classes: wide
-excerpt: "About"
+excerpt: "About the Advanced Microscopy Facility"
 toc: false
 header:
   overlay_color: "#000"
