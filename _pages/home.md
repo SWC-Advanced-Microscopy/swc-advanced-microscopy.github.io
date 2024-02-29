@@ -10,13 +10,13 @@ excerpt: "Advanced Microscopy at the Sainsbury Wellcome Centre"
 
 feature_row_01:
   - image_path: /assets/images/home/two_brains_acq.jpg
-    alt: "Acquisition"
+    alt: "Serial section 2-photon acquisition and stitching"
     title: "Serial Section Imaging"
     excerpt: "MATLAB-based acquisition and stitching software: ready to install and ready to modify."
     url: /ss_acquisition
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/home/zapit_with_mouse_row.jpg
+  - image_path: /assets/images/zapit/zapit_with_mouse_row.jpg
     alt: "Zapit"
     title: "Zapit"
     excerpt: "Random-access photostimulation"
