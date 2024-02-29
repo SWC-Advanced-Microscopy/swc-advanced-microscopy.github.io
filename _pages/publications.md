@@ -27,7 +27,7 @@ header:
 * [The retrosplenial cortex combines internal and external cues to encode head velocity during navigation](http://dx.doi.org/10.1016/j.neuron.2021.10.031), 2021, Margrie, Neuron, BrainsSaw
 * [Flexible inhibitory control of visually-evoked defensive behavior by the ventral lateral geniculate nucleus](https://www.sciencedirect.com/science/article/pii/S0896627321006577), 2021
       Hofer, Branco, Neuron, BrainsSaw
-* [Excitatory and inhibitory L2/3 neurons in mouse primary visual cortex are balanced in their input connectivity](https://www.biorxiv.org/content/10.1101/2020.04.21.053504v1),2020, Margrie, Pre-print, TissueVision
+* [Excitatory and inhibitory L2/3 neurons in mouse primary visual cortex are balanced in their input connectivity](https://www.biorxiv.org/content/10.1101/2020.04.21.053504v1), 2020, Margrie, Pre-print, TissueVision
 * [Visual intracortical and transthalamic pathways carry distinct information to cortical areas](https://www.sciencedirect.com/science/article/pii/S089662732100283X?via%3Dihub), 2021, Hofer, Neuron, SP8, BrainSaw
 * [Mesoscale cortical dynamics reflect the interaction of sensory evidence and temporal expectation during perceptual decision-making](https://www.sciencedirect.com/science/article/pii/S0896627321002014?via%3Dihub), 2021, TMF, Neuron, BrainSaw
 * [A Circuit for Integration of Head- and Visual-Motion Signals in Layer 6 of Mouse Primary Visual Cortex](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5896233/), 2018, Margrie, Neuron, Leica SP8, TissueVision
