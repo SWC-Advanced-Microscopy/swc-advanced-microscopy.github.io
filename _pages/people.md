@@ -14,17 +14,30 @@ feature_row_one:
     image_width: "200"
     alt: "Rob Campbell"
     title: "Rob Campbell"
-    excerpt: "This Python-based software is currently under development. It provides three linked orthogonal 2-D views for fast visualisation of downsampled image stacks. Allows overlays of multiple brains, multiple channels, traced neurites, or soma locations. Includes viewer for Allen Atlas. Extendable via plugins."
+    excerpt: "Facility Manager"
   - image_path: /assets/images/people/jessica_broni-tabi.png
     image_width: "200"
     alt: "Jessica Broni-Tabi"
     title: "Jessica Broni-Tabi"
-    excerpt: "This Python-based software is currently under development. It provides three linked orthogonal 2-D views for fast visualisation of downsampled image stacks. Allows overlays of multiple brains, multiple channels, traced neurites, or soma locations. Includes viewer for Allen Atlas. Extendable via plugins."
+    excerpt: "Head of histology"
   - image_path: /assets/images/people/peter_gordon.png
     image_width: "200"
     alt: "Peter Gordon"
     title: "Peter Gordon"
-    excerpt: "This Python-based software is currently under development. It provides three linked orthogonal 2-D views for fast visualisation of downsampled image stacks. Allows overlays of multiple brains, multiple channels, traced neurites, or soma locations. Includes viewer for Allen Atlas. Extendable via plugins."
+    excerpt: "Microscopy wizard"
+
+feature_row_two:
+  - image_path: /assets/images/people/igor_tatarnikov.png 
+    alt: "Igor Tatarnikov"
+    title: "Igor Tatarnikov"
+    excerpt: "Imaging data scientist"
+  - image_path: /assets/images/people/profile_image_placeholder.png 
+    alt: "Isabell Whiteley"
+    title: "Isabell Whiteley"
+    excerpt: "In-vivo microscopy specialist"
+
+
+
 
 feature_row_rob:
   - image_path: /assets/images/people/rob_campbell.jpg
@@ -59,5 +72,4 @@ feature_row_isabell:
 ---
 
 {% include feature_row id="feature_row_one"  %}
-
-
+{% include feature_row id="feature_row_two"  %}
