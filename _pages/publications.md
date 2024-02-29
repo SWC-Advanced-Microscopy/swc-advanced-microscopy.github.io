@@ -13,15 +13,15 @@ header:
 
 
 ## AMF Publications
-* [Zapit: Open Source Random-Access Photostimulation For Neuroscience](https://doi.org/10.1101/2024.02.12.579892), 2024, AMF, Preprint
-* [Standardised Measurements for Monitoring and Comparing Multiphoton Microscope Systems](https://www.biorxiv.org/content/10.1101/2024.01.23.576417v1), 2024, AMF, Preprint
-* [Reproducibility of in-vivo electrophysiological measurements in mice](https://www.biorxiv.org/content/10.1101/2022.05.09.491042v4.full), 2023, SWC and IBL, Preprint, BrainSaw
+* [Zapit: Open Source Random-Access Photostimulation For Neuroscience](https://doi.org/10.1101/2024.02.12.579892), 2024, AMF, bioRxiv
+* [Standardised Measurements for Monitoring and Comparing Multiphoton Microscope Systems](https://www.biorxiv.org/content/10.1101/2024.01.23.576417v1), 2024, AMF, bioRxiv
+* [Reproducibility of in-vivo electrophysiological measurements in mice](https://www.biorxiv.org/content/10.1101/2022.05.09.491042v4.full), 2023, SWC and IBL, bioRxiv, BrainSaw
 * [Antibody stabilization for thermally accelerated deep immunostaining.](https://www.nature.com/articles/s41592-022-01569-1), 2022, Nat. Meth., BrainSaw, MesoSPIM
 * [The mesoSPIM initiative: open-source light-sheet microscopes for imaging cleared tissue](https://www.nature.com/articles/s41592-019-0554-0), 2019, AMF, Nature Methods, mesoSPIM
 
 
 ## Publications From SWC Groups Using The Facility 
-* [A Brain-Wide Map of Neural Activity during Complex Behaviour](https://www.biorxiv.org/content/10.1101/2023.07.04.547681v2.full.pdf), 2023, SWC and IBL, Preprint, BrainSaw
+* [A Brain-Wide Map of Neural Activity during Complex Behaviour](https://www.biorxiv.org/content/10.1101/2023.07.04.547681v2.full.pdf), 2023, SWC and IBL, bioRxiv, BrainSaw
 * [Functional gene delivery to and across brain vasculature of systemic AAVs with endothelial-specific tropism in rodents and broad tropism in primates](https://www.nature.com/articles/s41467-023-38582-7), 2023, Akrami + external collaborators, Nat. Comms., BrainSaw
 * [Accurate determination of marker location within whole-brain microscopy images](https://doi.org/10.1038/s41598-021-04676-9), 2022, Margrie, Sci. Rep., BrainSaw
 * [A deep learning algorithm for 3D cell detection in whole mouse brain image datasets](https://doi.org/10.1371/journal.pcbi.1009074), 2021, Margrie, PLOS Comp Bio, BrainSaw, TissueVision
