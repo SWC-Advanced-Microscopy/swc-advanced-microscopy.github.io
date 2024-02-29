@@ -5,9 +5,6 @@ permalink: /
 date: 2024-02-29
 header:
   overlay_image: /assets/images/home/GCamp6s_brain.jpg
-  actions:
-    - label: "AMF GitHub"
-      url: "https://github.com/SWC-Advanced-Microscopy"
 excerpt: "Advanced Microscopy at the Sainsbury Wellcome Centre"
 intro:
   - excerpt: "The Advanced Microscopy Facility (AMF) is the imaging core facility of the Sainsbury Wellcome Centre, UCL.
