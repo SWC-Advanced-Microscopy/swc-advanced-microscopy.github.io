@@ -1,5 +1,5 @@
 ---
-permalink: /Zapit/
+permalink: /zapit/
 title: "Analysing serial section data"
 layout: splash
 excerpt: "Sample registration and analysis"
