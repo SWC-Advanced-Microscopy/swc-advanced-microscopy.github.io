@@ -1,7 +1,8 @@
 ---
 permalink: /micstub/
 title: "Microscope"
-layout: splash
+layout: single
+classes: wide
 excerpt: "Details about this microscope"
 toc: true
 toc_label: "My Table of Contents"
