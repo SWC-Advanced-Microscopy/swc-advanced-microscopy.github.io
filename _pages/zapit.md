@@ -1,12 +1,12 @@
 ---
 permalink: /zapit/
 title: "Zapit"
-layout: splash
+layout: single
 excerpt: "Random-access photostimulation"
 toc: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.3"
+  overlay_filter: "0.4"
   overlay_image: /assets/images/zapit/zapit_waveforms_banner.jpg
   actions:
     - label: "GitHub"
