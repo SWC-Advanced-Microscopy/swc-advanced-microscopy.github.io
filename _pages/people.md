@@ -11,7 +11,7 @@ header:
 
 feature_row_rob:
   - image_path: /assets/images/home/rob_campbell.jpg
-    url: "https://github.com/raacampbell
+    url: "https://github.com/raacampbell"
     alt: "Lasagna"
     title: "Rob Campbell"
     excerpt: "This Python-based software is currently under development. It provides three linked orthogonal 2-D views for fast visualisation of downsampled image stacks. Allows overlays of multiple brains, multiple channels, traced neurites, or soma locations. Includes viewer for Allen Atlas. Extendable via plugins."
@@ -20,7 +20,7 @@ feature_row_rob:
 
 feature_row_jess:
   - image_path: /assets/images/home/jessica_broni-tabi.png
-    url: "https://github.com/raacampbell
+    url: ""
     alt: "Lasagna"
     title: "Jessica Broni-Tabi"
     excerpt: "This Python-based software is currently under development. It provides three linked orthogonal 2-D views for fast visualisation of downsampled image stacks. Allows overlays of multiple brains, multiple channels, traced neurites, or soma locations. Includes viewer for Allen Atlas. Extendable via plugins."
@@ -29,7 +29,7 @@ feature_row_jess:
 
 feature_row_peter:
   - image_path: /assets/images/home/peter_gordon.png
-    url: "https://github.com/raacampbell
+    url: ""
     alt: "Lasagna"
     title: "Peter Gordon"
     excerpt: "This Python-based software is currently under development. It provides three linked orthogonal 2-D views for fast visualisation of downsampled image stacks. Allows overlays of multiple brains, multiple channels, traced neurites, or soma locations. Includes viewer for Allen Atlas. Extendable via plugins."
@@ -38,7 +38,7 @@ feature_row_peter:
 
 feature_row_igor:
   - image_path: /assets/images/home/igor_tatarnikov.png 
-    url: "https://github.com/raacampbell
+    url: ""
     alt: "Lasagna"
     title: "Igor Tatarnikov"
     excerpt: "This Python-based software is currently under development. It provides three linked orthogonal 2-D views for fast visualisation of downsampled image stacks. Allows overlays of multiple brains, multiple channels, traced neurites, or soma locations. Includes viewer for Allen Atlas. Extendable via plugins."
@@ -47,7 +47,7 @@ feature_row_igor:
 
 feature_row_isabell:
   - image_path: /assets/images/home/profile_image_placeholder.png 
-    url: "https://github.com/raacampbell
+    url: ""
     alt: "Lasagna"
     title: "Isabell Whiteley"
     excerpt: "This Python-based software is currently under development. It provides three linked orthogonal 2-D views for fast visualisation of downsampled image stacks. Allows overlays of multiple brains, multiple channels, traced neurites, or soma locations. Includes viewer for Allen Atlas. Extendable via plugins."

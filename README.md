@@ -1,6 +1,7 @@
 
 # Notes for our site
 * The header links are in `_data/navigation.yml`
+* The YAML front matter of the pages is indentation sensitive. Sometimes pages don't display and generate a 404 error due to this. If there are errors, they will come up when you navigate to the page in GitHub's web-based file browser of the repo.
 
 # [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
 
