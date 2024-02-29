@@ -11,62 +11,50 @@ header:
 
 feature_row_one:
   - image_path: /assets/images/peopl/rob_campbell.jpg
+    image_width: "300"
     alt: "Rob Campbell"
     title: "Rob Campbell"
     excerpt: "This Python-based software is currently under development. It provides three linked orthogonal 2-D views for fast visualisation of downsampled image stacks. Allows overlays of multiple brains, multiple channels, traced neurites, or soma locations. Includes viewer for Allen Atlas. Extendable via plugins."
   - image_path: /assets/images/people/jessica_broni-tabi.png
+    image_width: "300"
     alt: "Jessica Broni-Tabi"
     title: "Jessica Broni-Tabi"
     excerpt: "This Python-based software is currently under development. It provides three linked orthogonal 2-D views for fast visualisation of downsampled image stacks. Allows overlays of multiple brains, multiple channels, traced neurites, or soma locations. Includes viewer for Allen Atlas. Extendable via plugins."
   - image_path: /assets/images/people/peter_gordon.png
+    image_width: "300"
     alt: "Peter Gordon"
     title: "Peter Gordon"
     excerpt: "This Python-based software is currently under development. It provides three linked orthogonal 2-D views for fast visualisation of downsampled image stacks. Allows overlays of multiple brains, multiple channels, traced neurites, or soma locations. Includes viewer for Allen Atlas. Extendable via plugins."
 
 feature_row_rob:
   - image_path: /assets/images/people/rob_campbell.jpg
-    url: "https://github.com/raacampbell"
-    alt: "Lasagna"
+    alt: "Rob Campbell"
     title: "Rob Campbell"
     excerpt: "This Python-based software is currently under development. It provides three linked orthogonal 2-D views for fast visualisation of downsampled image stacks. Allows overlays of multiple brains, multiple channels, traced neurites, or soma locations. Includes viewer for Allen Atlas. Extendable via plugins."
-    btn_label: "Repo"
-    btn_class: "btn--primary"
 
 feature_row_jess:
   - image_path: /assets/images/people/jessica_broni-tabi.png
-    url: ""
-    alt: "Lasagna"
+    alt: "Jessica Broni-Tabi"
     title: "Jessica Broni-Tabi"
     excerpt: "This Python-based software is currently under development. It provides three linked orthogonal 2-D views for fast visualisation of downsampled image stacks. Allows overlays of multiple brains, multiple channels, traced neurites, or soma locations. Includes viewer for Allen Atlas. Extendable via plugins."
-    btn_label: "Repo"
-    btn_class: "btn--primary"
 
 feature_row_peter:
   - image_path: /assets/images/people/peter_gordon.png
-    url: ""
-    alt: "Lasagna"
+    alt: "Peter Gordon"
     title: "Peter Gordon"
     excerpt: "This Python-based software is currently under development. It provides three linked orthogonal 2-D views for fast visualisation of downsampled image stacks. Allows overlays of multiple brains, multiple channels, traced neurites, or soma locations. Includes viewer for Allen Atlas. Extendable via plugins."
-    btn_label: "Repo"
-    btn_class: "btn--primary"
 
 feature_row_igor:
   - image_path: /assets/images/people/igor_tatarnikov.png 
-    url: ""
-    alt: "Lasagna"
+    alt: "Igor Tatarnikov"
     title: "Igor Tatarnikov"
     excerpt: "This Python-based software is currently under development. It provides three linked orthogonal 2-D views for fast visualisation of downsampled image stacks. Allows overlays of multiple brains, multiple channels, traced neurites, or soma locations. Includes viewer for Allen Atlas. Extendable via plugins."
-    btn_label: "Repo"
-    btn_class: "btn--primary"
 
 feature_row_isabell:
   - image_path: /assets/images/people/profile_image_placeholder.png 
-    url: ""
-    alt: "Lasagna"
+    alt: "Isabell Whiteley"
     title: "Isabell Whiteley"
     excerpt: "This Python-based software is currently under development. It provides three linked orthogonal 2-D views for fast visualisation of downsampled image stacks. Allows overlays of multiple brains, multiple channels, traced neurites, or soma locations. Includes viewer for Allen Atlas. Extendable via plugins."
-    btn_label: "Repo"
-    btn_class: "btn--primary"
 
 ---
 
