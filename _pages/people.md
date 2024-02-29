@@ -9,8 +9,6 @@ header:
   overlay_filter: "0.3"
   overlay_image: /assets/images/home/GCamp6s_brain.jpg
 
-
-
 feature_row_rob:
   - image_path: /assets/images/home/rob_campbell.jpg
     url: "https://github.com/raacampbell
@@ -55,6 +53,7 @@ feature_row_isabell:
     excerpt: "This Python-based software is currently under development. It provides three linked orthogonal 2-D views for fast visualisation of downsampled image stacks. Allows overlays of multiple brains, multiple channels, traced neurites, or soma locations. Includes viewer for Allen Atlas. Extendable via plugins."
     btn_label: "Repo"
     btn_class: "btn--primary"
+
 ---
 
 {% include feature_row id="feature_row_rob" type="left" %}
