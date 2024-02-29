@@ -58,6 +58,6 @@ feature_row_isabell:
 
 ---
 
-{% include feature_row id="feature_row_one" type="left" %}
+{% include feature_row id="feature_row_one"  %}
 
 
