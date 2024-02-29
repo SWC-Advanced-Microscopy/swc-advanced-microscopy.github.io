@@ -13,7 +13,7 @@ header:
       url: "https://github.com/orgs/SainsburyWellcomeCentre/teams/serial2p/repositories"
 
 feature_row_bakingtray:
-  - image_path: "https://raw.githubusercontent.com/wiki/BaselLaserMouse/StitchIt/images/rgb_brain_example.jpg"
+  - image_path: "https://raw.githubusercontent.com/wiki/SainsburyWellcomeCentre/StitchIt/images/rgb_brain_example.jpg"
     url: "https://bakingtray.mouse.vision"
     alt: "Acquisition of raw data"
     title: "BakingTray: serial-section acquisition software"
@@ -22,7 +22,7 @@ feature_row_bakingtray:
     btn_class: "btn--primary"
 
 feature_row_stitchit:
-  - image_path:  /assets/images/home/stitching.jpg
+  - image_path:  /assets/images/serialsection/stitching.jpg
     alt: "Stitching"
     title: "StitchIt: assembling tile scan data to stitched sections"
     excerpt: "Pre-processes data during acquisition, streams the last stitched section to a web page, initiates stitching automatically when acquisition completes. Includes tools for downsampling and generally batch-processing image stacks. Operations highly parallelized for speed."
