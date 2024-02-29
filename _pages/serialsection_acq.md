@@ -1,5 +1,5 @@
 ---
-permalink: /acquisition/
+permalink: /ss_acquisition/
 title: "Image Acquisition and Stitching"
 layout: splash
 excerpt: "Open tools for acquiring and stitching serial section data"
@@ -7,7 +7,7 @@ toc: false
 header:
   overlay_color: "#000"
   overlay_filter: "0.3"
-  overlay_image: /assets/images/acquisition/rgb_brain_banner.jpg
+  overlay_image: /assets/images/serialsection/rgb_brain_banner.jpg
   actions:
     - label: "All repos"
       url: "https://github.com/orgs/SainsburyWellcomeCentre/teams/serial2p/repositories"
