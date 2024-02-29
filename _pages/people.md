@@ -10,7 +10,7 @@ header:
   overlay_image: /assets/images/home/GCamp6s_brain.jpg
 
 feature_row_one:
-  - image_path: /assets/images/peopl/rob_campbell.jpg
+  - image_path: /assets/images/people/rob_campbell.jpg
     image_width: "300"
     alt: "Rob Campbell"
     title: "Rob Campbell"
