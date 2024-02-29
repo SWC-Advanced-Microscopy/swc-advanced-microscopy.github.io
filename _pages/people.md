@@ -11,17 +11,17 @@ header:
 
 feature_row_one:
   - image_path: /assets/images/people/rob_campbell.jpg
-    image_width: "300"
+    image_width: "200"
     alt: "Rob Campbell"
     title: "Rob Campbell"
     excerpt: "This Python-based software is currently under development. It provides three linked orthogonal 2-D views for fast visualisation of downsampled image stacks. Allows overlays of multiple brains, multiple channels, traced neurites, or soma locations. Includes viewer for Allen Atlas. Extendable via plugins."
   - image_path: /assets/images/people/jessica_broni-tabi.png
-    image_width: "300"
+    image_width: "200"
     alt: "Jessica Broni-Tabi"
     title: "Jessica Broni-Tabi"
     excerpt: "This Python-based software is currently under development. It provides three linked orthogonal 2-D views for fast visualisation of downsampled image stacks. Allows overlays of multiple brains, multiple channels, traced neurites, or soma locations. Includes viewer for Allen Atlas. Extendable via plugins."
   - image_path: /assets/images/people/peter_gordon.png
-    image_width: "300"
+    image_width: "200"
     alt: "Peter Gordon"
     title: "Peter Gordon"
     excerpt: "This Python-based software is currently under development. It provides three linked orthogonal 2-D views for fast visualisation of downsampled image stacks. Allows overlays of multiple brains, multiple channels, traced neurites, or soma locations. Includes viewer for Allen Atlas. Extendable via plugins."
