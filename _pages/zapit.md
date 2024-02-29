@@ -1,53 +1,19 @@
 ---
 permalink: /zapit/
-title: "Analysing serial section data"
+title: "Zapit"
 layout: splash
-excerpt: "Sample registration and analysis"
+excerpt: "Random-access photostimulation"
 toc: false
 header:
   overlay_color: "#000"
   overlay_filter: "0.3"
-  overlay_image: /assets/images/analysis/reg_banner.jpg
+  overlay_image: /assets/images/zapit/zapit_waveforms_banner.jpg
   actions:
     - label: "GitHub"
       url: "hhttps://github.com/zapit-optostim/"
-
-
-feature_row_ara_tools:
-  - image_path: /assets/images/analysis/reg_coronal.jpg
-    url: "https://github.com/SainsburyWellcomeCentre/ara_tools"
-    alt: "MATLAB based registration"
-    title: "Elastix-based registration"
-    excerpt: 'Registering images in MATLAB using Elastix'
-    btn_label: "Repo"
-    btn_class: "btn--primary"
-
-feature_row_amap:
-  - image_path:  /assets/images/analysis/NiftyReg_Logo.jpg
-    alt: "NiftyReg Registration"
-    title: "NiftyReg-based registration"
-    excerpt: "Register brains using NiftyReg in Python"
-    url: "https://github.com/brainglobe/brainreg"
-    btn_label: "Repo"
-    btn_class: "btn--primary"
-
-feature_row_cellfinder:
-  - image_path:  /assets/images/analysis/cellfinder-logo.jpg
-    alt: "Automatic cell counting"
-    title: "Automatic cell counting"
-    excerpt: "Automatically count labelled cells with this cross-platform Python package"
-    url: "https://github.com/SainsburyWellcomeCentre/cellfinder"
-    btn_label: "Repo"
-    btn_class: "btn--primary"
-
 ---
 
 
+Zapit is point-based (scanner-based) optostimulator system for head-fixed mouse behavioral tasks. The software will run on a variety of hardware designs and experimental paradigms. A user-friendly MATLAB GUI handles creation of stimulus sets, scanner calibration, and alignment of stereotaxic coordinates to the sample. The experiment itself is run via a MATLAB API: using a small number of simple commands the user can initiate and stop optostimulation, and handle trial logging to disk. There is a Python wrapper for the MATLAB API and support for presenting stimuli in other programming languages. 
 
-
-## Related tools
-- [ClearMap](https://idisco.info/) - An Elastix/Python pipeline related to iDISCO
-- [SimpleElastix](https://simpleelastix.github.io/) - A nice Elastix wrapper for multiple languages
-- [BIRDS (pre-print)](https://www.biorxiv.org/content/10.1101/2020.06.30.181255v2)
-- [Whole Brain Software](http://www.wholebrainsoftware.org/)
-- [MelastiX](https://github.com/raacampbell/matlab_elastix) - Elastix wrapper for MATLAB. 
+Zapit is a collaboration between the AMF and several SWC labs. Click [HERE](https://doi.org/10.1101/2024.02.12.579892) to read out pre-print. 
