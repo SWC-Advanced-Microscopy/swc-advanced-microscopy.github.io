@@ -12,8 +12,7 @@ excerpt: "Advanced Microscopy at the Sainsbury Wellcome Centre"
 intro:
   - excerpt: "The Advanced Microscopy Facility (AMF) is the imaging core facility of the Sainsbury Wellcome Centre, UCL.
     The AMF runs the microscopes and pipelines through which all the Centre's microscopy samples are processed. 
-    We are an agile facility that builds custom equipment based on the needs of the Centre and offer highly automated solutions to our scientists' research questions. 
-."
+    We are an agile facility that builds custom equipment based on the needs of the Centre and offer highly automated solutions to our scientists' research questions."
 feature_row_01:
   - image_path: /assets/images/home/two_brains_acq.jpg
     alt: "Acquisition"
@@ -37,6 +36,6 @@ feature_row_01:
     btn_class: "btn--primary"
 ---
 
-{% include feature_row id="intro" type="center" %}
+{% include feature_row id="intro" type="left" %}
 {% include feature_row id="feature_row_01"      %}
 
