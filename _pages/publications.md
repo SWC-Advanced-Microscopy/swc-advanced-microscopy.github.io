@@ -1,8 +1,7 @@
 ---
 permalink: /publications/
 title: "Publications"
-layout: single
-classes: wide
+layout: splash
 excerpt: "What we've done"
 toc: false
 header:
