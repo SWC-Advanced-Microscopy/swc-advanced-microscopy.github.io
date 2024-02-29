@@ -6,7 +6,6 @@ excerpt: "MATLAB and Python tools for visualising raw data"
 toc: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.3"
   overlay_image: /assets/images/acquisition/rgb_brain_banner.jpg
   actions:
     - label: "All repos"
