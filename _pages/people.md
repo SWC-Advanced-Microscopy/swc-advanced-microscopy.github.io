@@ -7,7 +7,7 @@ toc: false
 header:
   overlay_color: "#000"
   overlay_filter: "0.3"
-  overlay_image: /assets/images/people/GCamp6s_brain.jpg
+  overlay_image: /assets/images/home/GCamp6s_brain.jpg
 
 feature_row_rob:
   - image_path: /assets/images/people/rob_campbell.jpg
