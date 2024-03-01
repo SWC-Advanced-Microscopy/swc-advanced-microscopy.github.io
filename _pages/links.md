@@ -34,7 +34,7 @@ header:
 
 ## Useful stuff
 - [Simple mouse and rat brain atlases](http://labs.gaidi.ca/mouse-brain-atlas/)
-
+- [Labrigger](https://labrigger.com/blog)
 
 ## Hardware
 - [Cheap LEDs](https://i-led.co.uk/LED-Light-Engines/LED-PowerStars/Oslon.php)
