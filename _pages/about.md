@@ -11,7 +11,8 @@ header:
 ---
 
 
-<span style="color:red">MY TEXT</span>
+<span style="color:red">MY TEXT</span>&#129504;
+
 
 ## Serial Section Imaging
 * [Zapit: Open Source Random-Access Photostimulation For Neuroscience](https://doi.org/10.1101/2024.02.12.579892), 2024, AMF, bioRxiv
