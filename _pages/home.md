@@ -23,7 +23,7 @@ feature_row_01:
     url: /zapit
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/home/masiv.jpg
+  - image_path: /assets/images/software/masiv.jpg
     title: "Software"
     excerpt: "Visualise full or downsampled stacks in MATLAB and Python."
     url: /software

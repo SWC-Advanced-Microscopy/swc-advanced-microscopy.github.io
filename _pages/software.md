@@ -12,7 +12,7 @@ header:
       url: "https://github.com/orgs/SWC-Advanced-Microscopy/repositories"
 
 feature_row_lasagna:
-  - image_path: /assets/images/home/Lasagna.jpg
+  - image_path: /assets/images/software/Lasagna.jpg
     url: "https://github.com/SainsburyWellcomeCentre/lasagna"
     alt: "Lasagna"
     title: "Visualisation: Lasagna"
@@ -21,7 +21,7 @@ feature_row_lasagna:
     btn_class: "btn--primary"
 
 feature_row_masiv:
-  - image_path:  /assets/images/home/masiv.jpg
+  - image_path:  /assets/images/software/masiv.jpg
     alt: "MaSIV"
     title: "Visualisation: MaSIV"
     excerpt: "This MATLAB-based package was developed by Alex Brown in Troy Margrie's lab.  MaSIV is a simple multi-resolution image viewer: it loads a small downsampled image stack into RAM but presents the user with full-res data as they zoom in. MaSIV is stable but can only display a single channel at once. It is extendable via plugins, some of which were written by AMF members."
@@ -30,7 +30,7 @@ feature_row_masiv:
     btn_class: "btn--primary"
 
 feature_row_brainrender:
-  - image_path:  /assets/images/home/brain_render.jpg
+  - image_path:  /assets/images/software/brain_render.jpg
     alt: "brainrender"
     title: "Visualisation: BrainRender"
     excerpt: "This Python-based package handles visualization of three dimensional neuroanatomical from publicly available datasets (e.g. Allen Brain atlas) and from user generated experimental data. The goal of brainrender is to facilitate the exploration and communication of neuroanatomical data by providing a user-friendly platform to create 3D renderings. BrainRender was developed by Federico Claudi when he was in Tiago Branco's lab. Development has now been taken over by the SWC's neuroinformatics facility, with which the AMF is tightly linked"
