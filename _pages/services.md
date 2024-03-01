@@ -32,6 +32,11 @@ However, we can assist with generating very small quantities of pilot data and c
 2. Start an account on the [PPMS Microscope Booking System](https://ppms.eu/ucl-swc/login/?pf=2). (Login id must be prefixed with "ad\" like this: "ad\tomo")
 3. Come and talk to us about your needs and we will train you as appropriate. 
 
+## Analysis
+We can help you analyse data in Python, MATLAB, Fiji, Napari, or R. 
+In addition, we have experience with packages such as Ilastik, and QuPath.  
+We can also help to make movies for talks using Imaris. 
+
 
 ## Where are we?
 The AMF is located within the SWC in basement level 2, next to the NRF.
