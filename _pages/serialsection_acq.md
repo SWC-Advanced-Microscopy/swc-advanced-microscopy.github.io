@@ -24,7 +24,7 @@ feature_row_stitchit:
     alt: "Stitching"
     title: "StitchIt: assembling tile scan data to stitched sections"
     excerpt: "Pre-processes data during acquisition, streams the last stitched section to a web page, initiates stitching automatically when acquisition completes. Includes tools for downsampling and generally batch-processing image stacks. Operations highly parallelized for speed."
-    url: "https://github.com/SainsburyWellcomeCentre/StitchIt"
+    url: "https://github.com/SWC-Advanced-Microscopy/StitchIt"
     btn_label: "Repo"
     btn_class: "btn--primary"
 
