@@ -6,7 +6,7 @@ excerpt: ""
 toc: false
 header:
   overlay_color: "#000"
-  overlay_image: /assets/images/acquisition/rgb_brain_banner.jpg
+  overlay_image: /assets/images/home/GCamp6s_brain.jpg
 ---
 
 

@@ -1,8 +1,7 @@
 ---
 permalink: /services/
 title: "Services"
-layout: single
-classes: wide
+layout: splash
 excerpt: "What we offer"
 toc: false
 header:
@@ -16,7 +15,7 @@ header:
 * General histology as a service: sectioning, mounting, IHC, RNAscope, H&E, etc
 * Serial section 2-photon imaging of whole organs
 * Tissue clearing and lightsheet microscopy
-* _In-vivo_ functional imaging: assistance, microscopy upgrades and maintenance
+* _In-vivo_ functional imaging: assistance, microscopy upgrades, and maintenance
 * Advice on data analysis and microscope hardware
 * Assistance with construction of custom equipment for any imaging-related project
 
@@ -25,7 +24,7 @@ Our staff has a wide experience base. e.g. Want to know about super-resolution? 
 ## Who can use the Facility?
 The AMF primarily caters for scientists within the SWC. 
 Since we also conduct a lot of internal technique development, we do not have the bandwidth to take on significant numbers of external samples.
-However, we can assist with generating very small quantities of pilot data and can also assist with technology transfer: helping external groups to build our tools.  
+However, we can assist with generating small quantities of pilot data and can also assist with technology transfer: helping external groups to build our tools.  
 
 ## Getting started
 1. Attend the Facility Induction and laser safety training. These take place on the first Tuesday of each month at 09:45. Just turn up: no need to book. We start promptly and if you are late you have to wait until the next session. 
