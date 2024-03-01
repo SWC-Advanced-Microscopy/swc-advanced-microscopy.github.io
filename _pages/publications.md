@@ -17,7 +17,7 @@ header:
 
 
 ## Collaborative Tools Publications That Include AMF
-* [Antibody stabilization for thermally accelerated deep immunostaining.](https://www.nature.com/articles/s41592-022-01569-1); Nature Methods. 022, BrainSaw, MesoSPIM
+* [Antibody stabilization for thermally accelerated deep immunostaining](https://www.nature.com/articles/s41592-022-01569-1); Nature Methods 2022, BrainSaw, MesoSPIM
 * [The mesoSPIM initiative: open-source light-sheet microscopes for imaging cleared tissue](https://www.nature.com/articles/s41592-019-0554-0); Nature Methods 2019
 
 
@@ -36,8 +36,8 @@ header:
 
 
 ## Publications From External Groups Using Our Tools
-* [Quantitative analysis of rabies virus-based synaptic connectivity tracing](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0278053#sec016) PLOS ONE 2023, from Ede Rancz's Lab, BrainSaw and StitichIt
-* [Dendritic Domain-Specific Sampling of Long-Range Axons Shapes Feedforward and Feedback Connectivity of L5 Neurons](https://pubmed.ncbi.nlm.nih.gov/35241493/). Journal of Neuroscience 2022, from Ede Rancz's Lab, BrainSaw and StitichIt
+* [Quantitative analysis of rabies virus-based synaptic connectivity tracing](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0278053#sec016); PLOS ONE 2023, from Ede Rancz's Lab, BrainSaw and StitichIt
+* [Dendritic Domain-Specific Sampling of Long-Range Axons Shapes Feedforward and Feedback Connectivity of L5 Neurons](https://pubmed.ncbi.nlm.nih.gov/35241493/); Journal of Neuroscience 2022, from Ede Rancz's Lab, BrainSaw and StitichIt
 * [Tissue compartmentalization enables Salmonella persistence during chemotherapy](https://pubmed.ncbi.nlm.nih.gov/34911764/); PNAS 2021, StitchIt
 * [Anatomically and functionally distinct thalamocortical inputs to primary and secondary mouse whisker somatosensory cortices](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7335197/); Nature Communications 2020, From Carl Petersen's Lab. 2020, BrainSaw clone. StitchIt
 * [Distinct Contributions of Whisker Sensory Cortex and Tongue-Jaw Motor Cortex in a Goal-Directed Sensorimotor Transformation](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6859494/); Neuron 2019 From Carl Petersen's Lab, BrainSaw clone. StitchIt
