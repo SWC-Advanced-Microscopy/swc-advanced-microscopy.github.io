@@ -10,6 +10,9 @@ header:
   overlay_image: /assets/images/home/GCamp6s_brain.jpg
 ---
 
+
+<span style="color:red">MY TEXT</span>
+
 ## Serial Section Imaging
 * [Zapit: Open Source Random-Access Photostimulation For Neuroscience](https://doi.org/10.1101/2024.02.12.579892), 2024, AMF, bioRxiv
 * [Standardised Measurements for Monitoring and Comparing Multiphoton Microscope Systems](https://www.biorxiv.org/content/10.1101/2024.01.23.576417v1), 2024, AMF, bioRxiv
