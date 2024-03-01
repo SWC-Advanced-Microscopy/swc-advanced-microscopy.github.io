@@ -19,6 +19,7 @@ header:
 
 
 ## Publications From SWC Groups Using The Facility 
+* [A cortico-collicular circuit for orienting to shelter during escape](https://www.nature.com/articles/s41586-022-05553-9), 2023, Margrie and Branco, Nature, BrainSaw
 * [A Brain-Wide Map of Neural Activity during Complex Behaviour](https://www.biorxiv.org/content/10.1101/2023.07.04.547681v2.full.pdf), 2023, SWC and IBL, bioRxiv, BrainSaw
 * [Functional gene delivery to and across brain vasculature of systemic AAVs with endothelial-specific tropism in rodents and broad tropism in primates](https://www.nature.com/articles/s41467-023-38582-7), 2023, Akrami + external collaborators, Nat. Comms., BrainSaw
 * [Accurate determination of marker location within whole-brain microscopy images](https://doi.org/10.1038/s41598-021-04676-9), 2022, Margrie, Sci. Rep., BrainSaw
@@ -33,9 +34,9 @@ header:
 
 
 ## Publications From External Groups Using Our Tools
+* [Quantitative analysis of rabies virus-based synaptic connectivity tracing](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0278053#sec016) PLOS ONE, from Ede Rancz's Lab, 2023, BrainSaw and StitichIt
+* [Dendritic Domain-Specific Sampling of Long-Range Axons Shapes Feedforward and Feedback Connectivity of L5 Neurons](https://pubmed.ncbi.nlm.nih.gov/35241493/). J. Neurosci., from Ede Rancz's Lab, 2022, BrainSaw and StitichIt
 * [Tissue compartmentalization enables Salmonella persistence during chemotherapy](https://pubmed.ncbi.nlm.nih.gov/34911764/), 2021, PNAS, StitchIt
 * [Anatomically and functionally distinct thalamocortical inputs to primary and secondary mouse whisker somatosensory cortices](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7335197/). Nature Comms., From Carl Petersen's Lab. 2020, BrainSaw clone. StitchIt
 * [Distinct Contributions of Whisker Sensory Cortex and Tongue-Jaw Motor Cortex in a Goal-Directed Sensorimotor Transformation](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6859494/). Neuron. From Carl Petersen's Lab. 2019, BrainSaw clone. StitchIt
 * [The logic of single-cell projections from visual cortex](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6585423/). Nature. TMF in Basel, 2018, StitchIt, ARA_tools, Lasagna
-* Whole brain input and output connectivity of layer 5 neuron subtypes in secondary visual cortex of the mouse. Program No. 397.18. San Diego, CA: Society for Neuroscience, Ye Z., Rancz E. A., 2018, SFN Poster, BrainSaw, StitchIt
-
