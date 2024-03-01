@@ -19,14 +19,14 @@ feature_row_01:
   - image_path: /assets/images/zapit/zapit_with_mouse_row.jpg
     alt: "Zapit"
     title: "Zapit"
-    excerpt: "Random-access photostimulation"
+    excerpt: "Random-access photo-stimulation of the mouse dorsal cortex for head-fixed behavioral work. "
     url: /zapit
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/home/masiv.jpg
-    title: "Visualisation"
+    title: "Software"
     excerpt: "Visualise full or downsampled stacks in MATLAB and Python."
-    url: /visualisation
+    url: /software
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
