@@ -32,7 +32,7 @@ feature_row_01:
 ---
 
 
-The Advanced Microscopy Facility (AMF) is the imaging core facility of the Sainsbury Wellcome Centre, UCL.
+The Advanced Microscopy Facility (AMF) is the imaging core facility of the [Sainsbury Wellcome Centre](https://www.sainsburywellcome.org/web/), UCL.
 The AMF runs the microscopes and pipelines through which all the Centre's microscopy samples are processed. 
 We are an agile facility that builds custom equipment based on the needs of the Centre and offer highly automated solutions to our scientists' research questions.
 
