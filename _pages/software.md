@@ -58,6 +58,5 @@ In addition to tools developed within the AMF, we collaborate with others to dev
 
 {% include feature_row id="feature_row_lasagna" type="left" %} 
 {% include feature_row id="feature_row_scanning" type="left" %} 
-{% include feature_row id="feature_row_brainrender" type="left" %}
 {% include feature_row id="feature_row_masiv"   type="left" %}
 
