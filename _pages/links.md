@@ -30,4 +30,4 @@ header:
 - [BrainGlobe](https://brainglobe.info/) - Rich suite of tools for analysing whole-brain imaging data. This toolkit is developed at the SWC with the help of international collaborators. 
 - [QuPath](https://qupath.github.io/) - Whole slide analysis
 - [ABBA](https://biop.github.io/ijp-imagetoatlas/registration.html) - Register brain slice images to the Allen Atlas.
-- 
+

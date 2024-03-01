@@ -29,7 +29,7 @@ feature_row_two:
   - image_path: /assets/images/people/igor_tatarnikov.png 
     alt: "Igor Tatarnikov"
     title: "Igor Tatarnikov"
-    excerpt: "Imaging data scientist (position joint with NIU](https://neuroinformatics.dev/)"
+    excerpt: "Imaging data scientist [position joint with NIU](https://neuroinformatics.dev/)"
   - image_path: /assets/images/people/profile_image_placeholder.png 
     alt: "Isabell Whiteley"
     title: "Isabell Whiteley"

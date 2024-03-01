@@ -11,9 +11,12 @@ header:
 
 
 ## AMF Publications
-* [Zapit: Open Source Random-Access Photostimulation For Neuroscience](https://doi.org/10.1101/2024.02.12.579892), 2024, AMF, bioRxiv
-* [Standardised Measurements for Monitoring and Comparing Multiphoton Microscope Systems](https://www.biorxiv.org/content/10.1101/2024.01.23.576417v1), 2024, AMF, bioRxiv
-* [Reproducibility of in-vivo electrophysiological measurements in mice](https://www.biorxiv.org/content/10.1101/2022.05.09.491042v4.full), 2023, SWC and IBL, bioRxiv, BrainSaw
+* [Zapit: Open Source Random-Access Photostimulation For Neuroscience](https://doi.org/10.1101/2024.02.12.579892), 2024, bioRxiv
+* [Standardised Measurements for Monitoring and Comparing Multiphoton Microscope Systems](https://www.biorxiv.org/content/10.1101/2024.01.23.576417v1), 2024, bioRxiv
+* [Reproducibility of in-vivo electrophysiological measurements in mice](https://www.biorxiv.org/content/10.1101/2022.05.09.491042v4.full), 2023, bioRxiv, in collaboration with IBL, BrainSaw
+
+
+## Collaborative Tools Publications That Include AMF
 * [Antibody stabilization for thermally accelerated deep immunostaining.](https://www.nature.com/articles/s41592-022-01569-1), 2022, Nat. Meth., BrainSaw, MesoSPIM
 * [The mesoSPIM initiative: open-source light-sheet microscopes for imaging cleared tissue](https://www.nature.com/articles/s41592-019-0554-0), 2019, AMF, Nature Methods, mesoSPIM
 
