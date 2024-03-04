@@ -1,6 +1,6 @@
 ---
 permalink: /tools/
-title: "Software Tools"
+title: "AMF Tools"
 layout: splash
 excerpt: ""
 toc: false
