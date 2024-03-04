@@ -6,7 +6,7 @@ excerpt: "What we offer"
 toc: false
 header:
   overlay_color: "#000"
-  overlay_image: /assets/images/home/GCamp6s_brain.jpg
+  overlay_image: /assets/images/home/services_header.jpg
 ---
 
 
