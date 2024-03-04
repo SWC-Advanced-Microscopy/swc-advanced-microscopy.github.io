@@ -6,7 +6,7 @@ excerpt: ""
 toc: false
 header:
   overlay_color: "#000"
-  overlay_image: /assets/images/home/links_neurons_banner.jpg
+  overlay_image: /assets/images/home/binos_banner.jpg
 ---
 
 
