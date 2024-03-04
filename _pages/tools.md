@@ -6,7 +6,7 @@ excerpt: ""
 toc: false
 header:
   overlay_color: "#000"
-  overlay_image: /assets/images/home/GCamp6s_brain.jpg
+  overlay_image: /assets/images/home/tools_header.jpg
   actions:
     - label: "AMF GitHub"
       url: "https://github.com/orgs/SWC-Advanced-Microscopy/repositories"
