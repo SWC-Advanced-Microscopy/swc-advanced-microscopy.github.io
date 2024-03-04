@@ -2,6 +2,8 @@
 main:
   - title: "Services"
     url: /services/
+  - title: "Tools"
+    url: /tools/
   - title: "People"
     url: /people/
   - title: "Publications"
