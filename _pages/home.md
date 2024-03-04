@@ -4,7 +4,7 @@ layout: splash
 permalink: /
 date: 2024-02-29
 header:
-  overlay_image: /assets/images/home/GCamp6s_brain.jpg
+  overlay_image: /assets/images/home/bw_home_neurons.jpg
 excerpt: "Advanced Microscopy at the Sainsbury Wellcome Centre"
 
 
