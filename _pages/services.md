@@ -11,13 +11,16 @@ header:
 
 
 ## We offer a range of services including:
-* Training and assistance on confocal and wide-field fluorescence microscopy
-* General histology as a service: sectioning, mounting, IHC, RNAscope, H&E, etc
-* Serial section 2-photon imaging of whole organs
-* Tissue clearing and lightsheet microscopy
-* _In-vivo_ functional imaging: assistance, microscopy upgrades, and maintenance
-* Advice on data analysis and microscope hardware
-* Assistance with construction of custom equipment for any imaging-related project
+* Training and assistance on confocal and wide-field fluorescence microscopy.
+* General histology as a service: sectioning, mounting, IHC, RNAscope, H&E, etc.
+* Automated slide-scanning.
+* Automated, high-throughput, serial section 2-photon imaging of whole organs.
+* Tissue clearing and lightsheet microscopy. Clearing technique development. 
+* _In-vivo_ functional imaging: assistance, microscopy upgrades, and maintenance.
+* Advice on data analysis and microscope hardware.
+* Assistance with construction of custom equipment for any imaging-related project.
+* Help with programming data-acquisition devices. 
+* Management assistance for microscopy-related projects that span multiple SWC core facilities.
 
 Our staff has a wide experience base. e.g. Want to know about super-resolution? We have staff with experience!
 
