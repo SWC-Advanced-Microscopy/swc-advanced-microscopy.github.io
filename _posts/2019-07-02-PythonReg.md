@@ -2,7 +2,7 @@
 title: "Python-based image registration"
 excerpt: "Fast Python-based image registration"
 header:
-  teaser: "/assets/images/home/GCamp6s_brain.jpg"
+teaser:
 categories:
   - Analysis
 tags: 
