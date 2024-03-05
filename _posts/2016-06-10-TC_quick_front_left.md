@@ -1,8 +1,6 @@
 ---
 title: "Quick front/left routine for TissueCyte"
 excerpt: "Protocol for quickly finding the front/left position when imaging brains on a TissueCyte"
-header:
-
 categories:
   - Serial-sectioning
 tags: 

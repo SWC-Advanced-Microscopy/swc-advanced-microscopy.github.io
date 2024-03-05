@@ -1,9 +1,6 @@
 ---
 title: "Stage alignment to imaging plane"
 excerpt: "How to ensure the imaging plane is aligned with the stage axes"
-author: robc
-header:
-
 categories:
   - Serial-sectioning
 tags: 

@@ -1,8 +1,6 @@
 ---
 title: "Measuring X/Y resolution"
 excerpt: "How to measure the FOV size and so derive the number of microns per pixel"
-header:
-
 categories:
   - Multi-photon
 tags: 

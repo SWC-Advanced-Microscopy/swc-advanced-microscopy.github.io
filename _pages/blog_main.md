@@ -2,7 +2,6 @@
 title: "AMF Blog"
 permalink: /blog/
 layout: posts
-header: "/assets/images/home/binos_banner.jpg"
 author_profile: false
 ---
 

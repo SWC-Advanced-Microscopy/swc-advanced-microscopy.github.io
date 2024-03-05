@@ -1,8 +1,7 @@
 ---
 title: "TissueCyte Beam Alignment: Primary Dichroic"
 excerpt: "How to align the excitation path dichroic on the TissueCyte"
-header:
-  teaser: "/assets/images/posts/SM2_filter_holder.png"
+teaser: "/assets/images/posts/SM2_filter_holder.png"
 categories:
   - Serial-sectioning
 tags: 

@@ -2,8 +2,7 @@
 title: "Imaging multiple samples at once"
 author: Rob Campbell
 excerpt: "BakingTray and StitchIt can now handle multiple samples at once"
-header:
-  teaser: "/assets/images/posts/twoBrains_teaser.jpg"
+teaser: "/assets/images/posts/twoBrains_teaser.jpg"
 categories:
   - Analysis
   - Serial-sectioning

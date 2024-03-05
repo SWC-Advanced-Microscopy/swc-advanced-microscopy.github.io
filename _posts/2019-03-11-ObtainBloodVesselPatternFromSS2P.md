@@ -1,8 +1,7 @@
 ---
 title: "Registering widefield functional imaging data to the Allen Atlas"
 excerpt: "Using blood vessel patterns to register in vivo data"
-header:
-  teaser: "/assets/images/posts/volume_view_vessels_teaser.jpg"
+teaser: "/assets/images/posts/volume_view_vessels_teaser.jpg"
 categories:
   - Analysis
 tags: 

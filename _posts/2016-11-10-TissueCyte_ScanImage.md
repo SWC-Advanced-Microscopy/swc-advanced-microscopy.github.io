@@ -1,9 +1,6 @@
 ---
 title: "ScanImage on the TissueCyte"
 excerpt: "How to run ScanImage on the TissueCyte"
-author: robc
-header:
-
 categories:
   - Serial-sectioning
 tags: 

@@ -1,7 +1,6 @@
 ---
 title: "Python-based image registration"
 excerpt: "Fast Python-based image registration"
-header:
 teaser:
 categories:
   - Analysis

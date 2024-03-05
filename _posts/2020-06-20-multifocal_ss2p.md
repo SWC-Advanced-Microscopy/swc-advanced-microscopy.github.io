@@ -1,8 +1,7 @@
 ---
 title: "Multi-focal serial-section 2-photon imaging"
 excerpt: "Super-fast serial section imaging by multiplexing"
-header:
-  teaser: "/assets/images/posts/chen_teaser_2020.jpg"
+teaser: "/assets/images/posts/chen_teaser_2020.jpg"
 categories:
   - Serial-sectioning
 tags: 

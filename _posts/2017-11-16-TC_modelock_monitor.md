@@ -1,9 +1,7 @@
 ---
 title: "Stopping the TissueCyte on laser modelock failure"
 excerpt: "Code and instructions for stopping the TissueCyte upon laser modelock failure"
-author: robc
-header:
-  teaser: "/assets/images/posts/laserWithBeam_teaser.jpg"
+teaser: "/assets/images/posts/laserWithBeam_teaser.jpg"
 categories:
   - Serial-sectioning
 tags: 

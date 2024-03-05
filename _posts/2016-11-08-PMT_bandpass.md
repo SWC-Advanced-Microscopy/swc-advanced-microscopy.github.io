@@ -1,8 +1,6 @@
 ---
 title: "Adding bandpass filters in front of the PMTs"
 excerpt: "How to add band pass filters on the TissueCyte"
-header:
-
 categories:
   - Serial-sectioning
 tags: 

@@ -1,8 +1,6 @@
 ---
 title: "Handy consumables"
 excerpt: "List of useful consumables"
-header:
-
 categories:
   - Serial-sectioning
 tags: 

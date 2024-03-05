@@ -1,8 +1,7 @@
 ---
 title: "Allen Reference Atlas"
 excerpt: "Creation of the Allen template brain and reference atlas"
-header:
-  teaser: "/assets/images/posts/allen_2020_teaser.jpg"
+teaser: "/assets/images/posts/allen_2020_teaser.jpg"
 categories:
   - Analysis
 tags: 
