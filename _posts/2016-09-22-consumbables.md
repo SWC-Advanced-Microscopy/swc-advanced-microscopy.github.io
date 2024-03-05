@@ -2,7 +2,7 @@
 title: "Handy consumables"
 excerpt: "List of useful consumables"
 header:
-  teaser: "/assets/images/home/GCamp6s_brain.jpg"
+
 categories:
   - Serial-sectioning
 tags: 

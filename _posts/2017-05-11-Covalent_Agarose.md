@@ -2,7 +2,7 @@
 title: "Covalent Agarose Cross-Linking Protocol"
 excerpt: "Our protocol for covalently cross-linking the brain to the agar"
 header:
-  teaser: "/assets/images/home/GCamp6s_brain.jpg"
+
 categories:
   - Serial-sectioning
 tags: 

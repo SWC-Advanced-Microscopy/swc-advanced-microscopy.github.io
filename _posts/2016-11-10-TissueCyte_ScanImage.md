@@ -3,7 +3,7 @@ title: "ScanImage on the TissueCyte"
 excerpt: "How to run ScanImage on the TissueCyte"
 author: robc
 header:
-  teaser: "/assets/images/home/GCamp6s_brain.jpg"
+
 categories:
   - Serial-sectioning
 tags: 

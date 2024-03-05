@@ -3,7 +3,7 @@ title: "Stage alignment to imaging plane"
 excerpt: "How to ensure the imaging plane is aligned with the stage axes"
 author: robc
 header:
-  teaser: "/assets/images/home/GCamp6s_brain.jpg"
+
 categories:
   - Serial-sectioning
 tags: 

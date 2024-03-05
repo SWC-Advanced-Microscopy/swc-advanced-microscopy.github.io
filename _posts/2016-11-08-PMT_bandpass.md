@@ -2,7 +2,7 @@
 title: "Adding bandpass filters in front of the PMTs"
 excerpt: "How to add band pass filters on the TissueCyte"
 header:
-  teaser: "/assets/images/home/GCamp6s_brain.jpg"
+
 categories:
   - Serial-sectioning
 tags: 
