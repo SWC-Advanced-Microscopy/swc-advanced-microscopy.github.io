@@ -45,3 +45,9 @@ header:
 - [Seeing is believing? A beginners' guide to practical pitfalls in image acquisition](https://rupress.org/jcb/article/172/1/9/52153/Seeing-is-believing-A-beginners-guide-to-practical), by Alison North
 - [Tutorial: guidance for quantitative confocal microscopy](https://www.nature.com/articles/s41596-020-0313-9), by James Jonkman, Claire Brown, Graham Wright, Kurt Anderson & Alison North 
 
+## Regular Suppliers
+- [COSYS Ltd.](https://www.cosys.org.uk/)
+- [Coherent](https://www.coherent.com/)
+- [Spectra-Physics](https://www.spectra-physics.com/
+- [MBF (Vidrio Technologies)](https://www.mbfbioscience.com/products/scanimage)
+- [Campden Instruments](https://campdeninstruments.com/)
