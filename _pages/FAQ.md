@@ -1,8 +1,8 @@
 ---
-permalink: /services/
-title: "Services"
+permalink: /faq/
+title: "FAQ"
 layout: splash
-excerpt: "What we offer"
+excerpt: ""
 toc: false
 header:
   overlay_color: "#000"
