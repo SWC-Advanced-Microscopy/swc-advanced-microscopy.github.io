@@ -1,7 +1,8 @@
 ---
 title: "On-line optical clearing method for whole-brain imaging in mice"
 excerpt: "On-line clearing during serial section imaging"
-teaser: "/assets/images/posts/Wu_EffectClearing_TEASER.jpg"
+header:
+  teaser: "/assets/images/posts/Wu_EffectClearing_TEASER.jpg"
 categories:
   - Serial-sectioning
 tags: 

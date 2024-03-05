@@ -1,7 +1,8 @@
 ---
 title: "Changing the dichroics on the TissueCyte"
 excerpt: "How to change the dichroics on the TissueCyte"
-teaser: "/assets/images/posts/SM2_filter_holder.png"
+header:
+  teaser: "/assets/images/posts/SM2_filter_holder.png"
 categories:
   - Serial-sectioning
 tags: 

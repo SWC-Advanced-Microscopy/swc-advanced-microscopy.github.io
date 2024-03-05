@@ -1,7 +1,8 @@
 ---
 title: "TissueCyte Beam Alignment: LCVR"
 excerpt: "Safely aligning the beam through the LCVR"
-teaser: "/assets/images/posts/SM2_filter_holder.png"
+header:
+  teaser: "/assets/images/posts/SM2_filter_holder.png"
 categories:
   - Serial-sectioning
 tags: 

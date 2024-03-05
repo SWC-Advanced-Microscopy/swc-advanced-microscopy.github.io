@@ -1,7 +1,8 @@
 ---
 title: "Embedding without covalent agarose bonding"
 excerpt: "How to cut thin sections without the covalent bonding protocol"
-teaser: "/assets/images/posts/roundedEdges_teaser.jpg"
+header:
+  teaser: "/assets/images/posts/roundedEdges_teaser.jpg"
 categories:
   - Serial-sectioning
 tags: 
