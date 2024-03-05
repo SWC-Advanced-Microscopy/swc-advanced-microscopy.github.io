@@ -48,6 +48,6 @@ header:
 ## Regular Suppliers
 - [COSYS Ltd.](https://www.cosys.org.uk/)
 - [Coherent](https://www.coherent.com/)
-- [Spectra-Physics](https://www.spectra-physics.com/
+- [Spectra-Physics](https://www.spectra-physics.com/)
 - [MBF (Vidrio Technologies)](https://www.mbfbioscience.com/products/scanimage)
 - [Campden Instruments](https://campdeninstruments.com/)
