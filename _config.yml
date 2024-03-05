@@ -149,7 +149,7 @@ footer:
       # url:
     - label: "Sainsbury Wellcome Centre"
       icon: "fab fa-fw fa-link"
-      url: "https://www.sainsburywellcome.org/web/"
+      #url: "https://www.sainsburywellcome.org/web/"
 
 
 # Reading Files
