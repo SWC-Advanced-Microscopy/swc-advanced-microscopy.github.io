@@ -4,6 +4,7 @@
 * `_pages` holds the main pages
 * Images on home page and main pages should have ratio 1:1.61
 * Banners should be about 2000 x 400 px
+* Blog teaser images appear as small icons along the bottom of other posts. They should be 4:1 aspect ratio.
 * The header links are in `_data/navigation.yml` Any side-navigation bars are also there. 
 * The YAML front matter of the pages is indentation sensitive. Sometimes pages don't display and generate a 404 error due to this. If there are errors, they will come up when you navigate to the page in GitHub's web-based file browser of the repo.
 

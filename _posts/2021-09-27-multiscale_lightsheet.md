@@ -1,8 +1,9 @@
 ---
 title: "Multi-Scale Light-Sheet Fluorescence Microscopy for Fast Whole Brain Imaging"
+author: Rob Campbell
 excerpt: "Combined serial-sectioning plus lightsheet imaging"
 header:
-teaser: "/assets/images/home/GCamp6s_brain.jpg"
+teaser: 
 categories:
     - Serial-sectioning
 tags: 
