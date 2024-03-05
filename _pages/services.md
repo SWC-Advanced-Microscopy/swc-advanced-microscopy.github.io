@@ -36,15 +36,14 @@ Our staff has broad experience. e.g. Want to know about super-resolution? We hav
 
 ## Available In-Vivo Imaging Technologies at SWC
 * Custom wide-field Ca++ imaging
-* Various 2-photon microscopes.
-* 3-photon microscopy
+* 2-photon and 3-photon microscopy
 * [Thorlabs MesoScope](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=10646)
 * [Mini2p](https://www.ntnu.edu/kavli/mini2p)
 * Adaptive optics
 
 
 ## Analysis
-We can help you analyse data in Python, MATLAB, Fiji, Napari, or R. 
-In addition, we have experience with packages such as Ilastik, and QuPath.  
-We can also help to make movies for talks using Imaris. 
+We can help you analyse data in Python, MATLAB, Fiji, [napari](https://napari.org/stable/), or R.
+We have experience with packages such as [Ilastik](https://www.ilastik.org/), [QuPath](https://qupath.github.io/), and, of course, the [BrainGlobe suite](brainglobe.info). 
+We can also help to make movies for talks using [Imaris](https://imaris.oxinst.com). 
 
