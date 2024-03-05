@@ -39,16 +39,6 @@ feature_row_masiv:
     btn_label: "Repo"
     btn_class: "btn--primary"
 
-feature_row_brainrender:
-  - image_path:  /assets/images/software/brain_render.jpg
-    alt: "brainrender"
-    title: "Visualisation: BrainRender"
-    excerpt: "BrainRender was developed by Federico Claudi when he was in Tiago Branco's lab. Development has now been taken over by the SWC's neuroinformatics facility, with which the AMF is tightly linked. This Python-based package handles visualization of three dimensional neuroanatomical from publicly available datasets (e.g. Allen Brain atlas) and from user generated experimental data. The goal of brainrender is to facilitate the exploration and communication of neuroanatomical data by providing a user-friendly platform to create 3D renderings."
-    url: "https://github.com/brainglobe/brainrender"
-    btn_label: "Repo"
-    btn_class: "btn--primary"
-
-
 feature_row_bakingtray:
   - image_path: "https://raw.githubusercontent.com/wiki/SainsburyWellcomeCentre/StitchIt/images/rgb_brain_example.jpg"
     url: "https://bakingtray.mouse.vision"

@@ -28,10 +28,24 @@ feature_row_stitchit:
     btn_label: "Repo"
     btn_class: "btn--primary"
 
+feature_row_brainglobe:
+  - image_path:  /assets/images/software/brain_render.jpg
+    alt: "brainrender"
+    title: "Analysis: BrainGlobe"
+    excerpt: "Our favoured option for analysis of serial section data is the BrainGlobe suite.
+             These Python-based tools were developed by researchers within the SWC and are now managed by a [dedicated team of software engineers](https://neuroinformatics.dev/). 
+             BrainGlobe comprises several software packages to access, analyze and visualize anatomical data. 
+             The packages are interoperable in order to streamline the process of going from raw data to publication-ready content."
+    url: "https://brainglobe.info/"
+    btn_label: "Repo"
+    btn_class: "btn--primary"
+
+
 ---
 
 {% include feature_row id="feature_row_bakingtray" type="left" %}
 {% include feature_row id="feature_row_stitchit"   type="left" %}
+{% include feature_row id="feature_row_brainglobe"   type="left" %}
 
 
 ## Open tools by others
