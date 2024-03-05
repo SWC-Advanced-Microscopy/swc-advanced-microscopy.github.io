@@ -4,7 +4,7 @@ excerpt: "Our protocol for covalently cross-linking the brain to the agar"
 header:
   teaser: "/assets/images/home/GCamp6s_brain.jpg"
 categories:
-  - Acquisition
+  - Serial-sectioning
 tags: 
   - Sample prep
 toc: false

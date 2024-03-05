@@ -4,7 +4,7 @@ excerpt: "Super-fast serial section imaging by multiplexing"
 header:
   teaser: "/assets/images/posts/chen_teaser_2020.jpg"
 categories:
-  - Acquisition
+  - Serial-sectioning
 tags: 
   - News
 toc: false

@@ -4,7 +4,7 @@ excerpt: "List of useful consumables"
 header:
   teaser: "/assets/images/home/GCamp6s_brain.jpg"
 categories:
-  - Acquisition
+  - Serial-sectioning
 tags: 
   - Hints & Tips
 toc: false

@@ -4,7 +4,7 @@ excerpt: "Combined serial-sectioning plus lightsheet imaging"
 header:
 teaser: "/assets/images/home/GCamp6s_brain.jpg"
 categories:
-  - Acquisition
+    - Serial-sectioning
 tags: 
   - News
 toc: false

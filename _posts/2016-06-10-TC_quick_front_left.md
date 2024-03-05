@@ -4,7 +4,7 @@ excerpt: "Protocol for quickly finding the front/left position when imaging brai
 header:
   teaser: "/assets/images/home/GCamp6s_brain.jpg"
 categories:
-  - Acquisition
+  - Serial-sectioning
 tags: 
   - TissueCyte
   - Hints & Tips

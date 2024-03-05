@@ -5,7 +5,7 @@ author: robc
 header:
   teaser: "/assets/images/home/GCamp6s_brain.jpg"
 categories:
-  - Acquisition
+  - Serial-sectioning
 tags: 
   - Hacks
   - ScanImage

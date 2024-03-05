@@ -5,7 +5,7 @@ author: robc
 header:
   teaser: "/assets/images/posts/MF_stage_with_adjustable_pillars_03.jpg"
 categories:
-  - Acquisition
+  - Serial-sectioning
 tags: 
   - Hacks
   - TissueCyte

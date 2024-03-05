@@ -4,11 +4,11 @@ excerpt: "Safely aligning the beam through the LCVR"
 header:
   teaser: "/assets/images/posts/SM2_filter_holder.png"
 categories:
-  - Acquisition
+  - Serial-sectioning
 tags: 
   - TissueCyte
   - Maintenance
-  - Alignment
+  - Hints & Tips
 toc: false
 ---
  

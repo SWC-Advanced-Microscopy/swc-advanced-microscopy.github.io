@@ -4,7 +4,7 @@ excerpt: "How to add band pass filters on the TissueCyte"
 header:
   teaser: "/assets/images/home/GCamp6s_brain.jpg"
 categories:
-  - Acquisition
+  - Serial-sectioning
 tags: 
   - Hacks
   - TissueCyte

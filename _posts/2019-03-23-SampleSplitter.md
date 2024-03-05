@@ -5,11 +5,12 @@ header:
   teaser: "/assets/images/posts/twoBrains_teaser.jpg"
 categories:
   - Analysis
-  - Acquisition
+  - Serial-sectioning
 tags: 
   - Hacks
   - News
   - Sample prep
+  - BrainSaw
 toc: false
 ---
  

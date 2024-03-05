@@ -4,7 +4,7 @@ excerpt: "How to measure the FOV size and so derive the number of microns per pi
 header:
   teaser: "/assets/images/home/GCamp6s_brain.jpg"
 categories:
-  - Acquisition
+  - Multi-photon
 tags: 
   - Maintenance
 toc: false

@@ -5,7 +5,7 @@ author: robc
 header:
   teaser: "/assets/images/posts/laserWithBeam_teaser.jpg"
 categories:
-  - Acquisition
+  - Serial-sectioning
 tags: 
   - Hacks
   - TissueCyte
@@ -21,5 +21,4 @@ I then wrote a little MATLAB GUI that periodically polls the laser over the seri
 
 The end result works fairly well: acquisition pauses when the pulses do. 
 The only down-side is that after a couple of minutes of being paused Orchestrator will enter a time-out state and you will have to forcibly shut it down then re-start the acquisition. 
-Still... could be worse. 
 [The MATLAB GUI is here]({{ site.baseurl}}/assets/code/posts/modelock_alerter.tar.gz) (see help in the code for instructions). 

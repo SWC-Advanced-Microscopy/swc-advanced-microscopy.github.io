@@ -4,7 +4,7 @@ excerpt: "On-line clearing during serial section imaging"
 header:
   teaser: "/assets/images/posts/Wu_EffectClearing_TEASER.jpg"
 categories:
-  - Acquisition
+  - Serial-sectioning
 tags: 
   - Sample prep
   - News

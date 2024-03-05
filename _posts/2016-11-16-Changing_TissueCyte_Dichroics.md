@@ -5,7 +5,7 @@ author: robc
 header:
   teaser: "/assets/images/posts/SM2_filter_holder.png"
 categories:
-  - Acquisition
+  - Serial-sectioning
 tags: 
   - Hacks
   - TissueCyte

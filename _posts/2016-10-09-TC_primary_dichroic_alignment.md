@@ -4,11 +4,11 @@ excerpt: "How to align the excitation path dichroic on the TissueCyte"
 header:
   teaser: "/assets/images/posts/SM2_filter_holder.png"
 categories:
-  - Acquisition
+  - Serial-sectioning
 tags: 
   - TissueCyte
   - Maintenance
-  - Alignment
+  - Hints & Tips
 toc: false
 ---
 

@@ -4,9 +4,10 @@ excerpt: "How to cut thin sections without the covalent bonding protocol"
 header:
   teaser: "/assets/images/posts/roundedEdges_teaser.jpg"
 categories:
-  - Acquisition
+  - Serial-sectioning
 tags: 
   - Sample prep
+  - BrainSaw
 toc: false
 ---
  
