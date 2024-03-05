@@ -262,6 +262,12 @@ body:hover .visually-hidden button {
     color: $lastfm-color;
   }
 
+  /* HACK -- ROB */
+  .fa-link,
+  {
+    color: $github-color;
+  }
+
   .fa-linkedin,
   .fa-linkedin-in {
     color: $linkedin-color;

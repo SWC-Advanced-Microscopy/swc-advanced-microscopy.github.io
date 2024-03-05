@@ -134,12 +134,12 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/swc_neuro"
+      url: ""
       # url:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
-    - label: "GitHub"
+    - label: "AMF GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/orgs/SWC-Advanced-Microscopy/repositories"
     - label: "GitLab"
