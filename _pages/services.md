@@ -26,6 +26,21 @@ header:
 
 Our staff has broad experience. e.g. Want to know about super-resolution? We have staff with experience!
 
+## Available Microscopes
+* "BrainSaw" serial-section 2-photon
+* MesoSPIM lightsheet
+* Leica SP8 confocal
+* Zeiss Axioscan -Slidescanner
+* Zeiss AxioZoom V16
+* Zeiss Imager Z2
+
+## Available In-Vivo Imaging Technologies at SWC
+* Custom wide-field Ca++ imaging
+* Various 2-photon microscopes.
+* 3-photon microscopy
+* [Thorlabs MesoScope](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=10646)
+* [Mini2p](https://www.ntnu.edu/kavli/mini2p)
+* Adaptive optics
 
 
 ## Analysis
