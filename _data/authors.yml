@@ -1,0 +1,13 @@
+# /_data/authors.yml
+
+Rob Campbell:
+  name        : "Rob Campbell"
+  bio         : "Facility Manager"
+  avatar      : "/assets/images/people/rob_campbell.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:rob.campbell@ucl.ac.uk"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/raacampbell"
