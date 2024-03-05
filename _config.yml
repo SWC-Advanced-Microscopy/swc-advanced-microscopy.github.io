@@ -148,7 +148,7 @@ footer:
       icon: "fab fa-fw fa-bitbucket"
       # url:
     - label: "Sainsbury Wellcome Centre"
-      icon: "fab fa-link"
+      icon: "fab fa-fw fa-link"
       url: "https://www.sainsburywellcome.org/web/"
 
 
