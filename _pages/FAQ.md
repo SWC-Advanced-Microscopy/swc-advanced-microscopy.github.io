@@ -10,8 +10,14 @@ header:
 ---
 
 
+
 ## Where is the Imaging Facility?
 The facility is located in the SWC on Level B2, immediately to the left as you come out of the lifts.
+
+### Getting started
+1. Attend the Facility Induction and laser safety training. These take place on the first Tuesday of each month at 09:45. Just turn up: no need to book. We start promptly and if you are late you have to wait until the next session. 
+2. Start an account on the [PPMS Microscope Booking System](https://ppms.eu/ucl-swc/login/?pf=2). (Login id must be prefixed with "ad\" like this: "ad\tomo")
+3. Come and talk to us about your needs and we will train you as appropriate. 
 
 ## Is there an induction?
 There is a facility intro along with the Laser Safety session on the **first Tuesday of each month starting at 09:45 sharp**. 
@@ -23,11 +29,6 @@ The session takes place in the Facility.
 We run a Laser Safety session and image facility intro on the **first Tuesday of each month starting at 09:45 sharp**. 
 If you are late you will miss it. 
 You do not need to book, just turn up to the Facility. 
-
-
-## How do I book/use the equipment?
-You must start an account on our [Microscope Booking System](https://wiki.ucl.ac.uk/display/SWC/Microscope+Booking), attend our monthly induction, and also be trained on the equipment you wish to use. 
-Contact us (ideally come down in person) to get trained.
 
 
 ## Do you take samples from external users?
