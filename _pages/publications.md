@@ -40,8 +40,12 @@ header:
 
 ## Publications From External Groups Using Our Tools
 * [Quantitative analysis of rabies virus-based synaptic connectivity tracing](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0278053#sec016); PLOS ONE 2023, from Ede Rancz's Lab, BrainSaw and StitichIt
+* [Learning-related congruent and incongruent changes of excitation and inhibition in distinct cortical areas](https://doi.org/10.1371/journal.pbio.3001667); PLoS Biol 2022, from Carl Petersen's Lab, BrainSaw and StitchIt
+* [Axonal and Dendritic Morphology of Excitatory Neurons in Layer 2/3 Mouse Barrel Cortex Imaged Through Whole-Brain Two-Photon Tomography and Registered to a Digital Brain Atlas](https://doi.org/10.3389/fnana.2021.791015); Frontiers in Neuroanatomy 2022, from Carl Petersen's Lab, BrainSaw and StitchIt 
 * [Dendritic Domain-Specific Sampling of Long-Range Axons Shapes Feedforward and Feedback Connectivity of L5 Neurons](https://pubmed.ncbi.nlm.nih.gov/35241493/); Journal of Neuroscience 2022, from Ede Rancz's Lab, BrainSaw and StitichIt
 * [Tissue compartmentalization enables Salmonella persistence during chemotherapy](https://pubmed.ncbi.nlm.nih.gov/34911764/); PNAS 2021, StitchIt
 * [Anatomically and functionally distinct thalamocortical inputs to primary and secondary mouse whisker somatosensory cortices](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7335197/); Nature Communications 2020, From Carl Petersen's Lab. 2020, BrainSaw clone. StitchIt
 * [Distinct Contributions of Whisker Sensory Cortex and Tongue-Jaw Motor Cortex in a Goal-Directed Sensorimotor Transformation](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6859494/); Neuron 2019 From Carl Petersen's Lab, BrainSaw clone. StitchIt
 * [The logic of single-cell projections from visual cortex](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6585423/); Nature 2018, TMF in Basel, StitchIt, ARA_tools, Lasagna
+
+
