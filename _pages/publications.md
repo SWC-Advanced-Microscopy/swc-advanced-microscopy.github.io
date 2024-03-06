@@ -34,6 +34,7 @@ header:
 * [Visual intracortical and transthalamic pathways carry distinct information to cortical areas](https://www.sciencedirect.com/science/article/pii/S089662732100283X?via%3Dihub); Neuron 2021, Hofer, SP8, BrainSaw
 * [Mesoscale cortical dynamics reflect the interaction of sensory evidence and temporal expectation during perceptual decision-making](https://www.sciencedirect.com/science/article/pii/S0896627321002014?via%3Dihub); Neuron 2021, Mrsic-Flogel, BrainSaw
 * [A Circuit for Integration of Head- and Visual-Motion Signals in Layer 6 of Mouse Primary Visual Cortex](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5896233/); Neuron 2018, Margrie, Leica SP8, TissueVision
+* [The logic of single-cell projections from visual cortex](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6585423/); Nature 2018, StitchIt, ARA_tools, Lasagna
 
 ## Publications From SWC Groups Acknowledging The Facility 
 * [Cortical feedback loops bind distributed representations of working memory](https://www.nature.com/articles/s41586-022-05014-3); Nature 2022, Mrsic-Flogel, multi-photon assistance
@@ -46,6 +47,5 @@ header:
 * [Tissue compartmentalization enables Salmonella persistence during chemotherapy](https://pubmed.ncbi.nlm.nih.gov/34911764/); PNAS 2021, StitchIt
 * [Anatomically and functionally distinct thalamocortical inputs to primary and secondary mouse whisker somatosensory cortices](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7335197/); Nature Communications 2020, From Carl Petersen's Lab. 2020, BrainSaw clone. StitchIt
 * [Distinct Contributions of Whisker Sensory Cortex and Tongue-Jaw Motor Cortex in a Goal-Directed Sensorimotor Transformation](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6859494/); Neuron 2019 From Carl Petersen's Lab, BrainSaw clone. StitchIt
-* [The logic of single-cell projections from visual cortex](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6585423/); Nature 2018, TMF in Basel, StitchIt, ARA_tools, Lasagna
 
 
