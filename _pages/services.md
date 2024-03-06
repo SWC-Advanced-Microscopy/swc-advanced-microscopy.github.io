@@ -26,21 +26,23 @@ header:
 
 Our staff has broad experience. e.g. Want to know about super-resolution? We have staff with experience!
 
-## Available Microscopes
-* ["BrainSaw" serial-section 2-photon](https://bakingtray.mouse.vision)
-* [MesoSPIM lightsheet](https://mesospim.org)
-* Leica SP8 confocal
-* Zeiss Axioscan -Slidescanner
-* Zeiss AxioZoom V16
-* Zeiss Imager Z2
 
-## Available In-Vivo Imaging Technologies at SWC
-* Custom wide-field Ca++ imaging
-* 2-photon and 3-photon microscopy
-* [Thorlabs MesoScope](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=10646)
-* [Mini2p](https://www.ntnu.edu/kavli/mini2p)
-* Adaptive optics
-* [Zapit](https://zapit.gitbook.io/user-guide/) optogenetic stimulation
+## Available imaging equipment At SWC
+
+| Within AMF | Across SWC|
+| -------- | ------- |
+| ["BrainSaw" serial-section 2-photon](https://bakingtray.mouse.vision) | Custom wide-field Ca<sup>++</sup> imaging |
+| [MesoSPIM lightsheet](https://mesospim.org) | 2-photon and 3-photon microscopy |
+| Leica SP8 confocal | [Thorlabs MesoScope](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=10646) |
+| Zeiss Axioscan -Slidescanner | [Mini2p](https://www.ntnu.edu/kavli/mini2p) |
+| Zeiss AxioZoom V16 | Adaptive optics |
+| Zeiss Imager Z2 | [Zapit](https://zapit.gitbook.io/user-guide/) optogenetic stimulation |
+
+
+## Available equipment at UCL
+Our researchers also have access to equipment elsewhere at UCL, in particular we have links with the [UCL Biosciences Imaging Facility
+](https://www.ucl.ac.uk/biosciences/research/research-facilities/ucl-biosciences-imaging-facility). 
+Equipment there includes spinning disk, high content screening, micro CT, and super resolution (SIM, PALM, STORM).
 
 
 ## Analysis
