@@ -27,8 +27,8 @@ header:
 Our staff has broad experience. e.g. Want to know about super-resolution? We have staff with experience!
 
 ## Available Microscopes
-* "BrainSaw" serial-section 2-photon
-* MesoSPIM lightsheet
+* ["BrainSaw" serial-section 2-photon](https://bakingtray.mouse.vision)
+* [MesoSPIM lightsheet](https://mesospim.org)
 * Leica SP8 confocal
 * Zeiss Axioscan -Slidescanner
 * Zeiss AxioZoom V16
@@ -40,6 +40,7 @@ Our staff has broad experience. e.g. Want to know about super-resolution? We hav
 * [Thorlabs MesoScope](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=10646)
 * [Mini2p](https://www.ntnu.edu/kavli/mini2p)
 * Adaptive optics
+* [Zapit](https://zapit.gitbook.io/user-guide/) optogenetic stimulation
 
 
 ## Analysis
