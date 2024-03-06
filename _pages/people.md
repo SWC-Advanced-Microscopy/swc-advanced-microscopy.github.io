@@ -13,27 +13,27 @@ feature_row_one:
     image_width: "200"
     alt: "Rob Campbell"
     title: "Rob Campbell"
-    excerpt: "Facility Manager"
+    excerpt: "Head of Advanced Microscopy Facility"
   - image_path: /assets/images/people/jessica_broni-tabi.png
     image_width: "200"
     alt: "Jessica Broni-Tabi"
     title: "Jessica Broni-Tabi"
-    excerpt: "Head of histology"
+    excerpt: "Histology Research Scientist"
   - image_path: /assets/images/people/peter_gordon.png
     image_width: "200"
     alt: "Peter Gordon"
     title: "Peter Gordon"
-    excerpt: "Microscopy wizard"
+    excerpt: "Microscopy Specialist"
 
 feature_row_two:
   - image_path: /assets/images/people/igor_tatarnikov.png 
     alt: "Igor Tatarnikov"
     title: "Igor Tatarnikov"
-    excerpt: "Imaging data scientist [position joint with NIU](https://neuroinformatics.dev/)"
+    excerpt: "Research Software Engineer [position joint with NIU](https://neuroinformatics.dev/)"
   - image_path: /assets/images/people/profile_image_placeholder.png 
     alt: "Isabell Whiteley"
     title: "Isabell Whiteley"
-    excerpt: "In-vivo microscopy specialist"
+    excerpt: "In Vivo Imaging Specialist"
 
 
 ---

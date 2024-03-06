@@ -2,7 +2,7 @@
 
 Rob Campbell:
   name        : "Rob Campbell"
-  bio         : "Facility Manager"
+  bio         : "Head of Advanced Microscopy Facility"
   avatar      : "/assets/images/people/rob_campbell.jpg"
   links:
     - label: "Email"
@@ -13,7 +13,7 @@ Rob Campbell:
       url: "https://github.com/raacampbell"
 Igor Tatarnikov:
   name        : "Igor Tatarnikov"
-  bio         : "Imaging data scientist"
+  bio         : "Research Software Engineer"
   avatar      : "/assets/images/people/igor_tatarnikov.png"
   links:
     - label: "Email"
@@ -24,7 +24,7 @@ Igor Tatarnikov:
       url: "https://github.com/IgorTatarnikov"
 Peter Gordon:
   name        : "Peter Gordon"
-  bio         : "Microscopy Wizard"
+  bio         : "Microscopy Specialist"
   avatar      : "/assets/images/people/peter_gordon.png"
   links:
     - label: "Email"
@@ -32,7 +32,7 @@ Peter Gordon:
       url: "mailto:peter.gordon@ucl.ac.uk"
 Isabell Whiteley:
   name        : "Isabell Whiteley"
-  bio         : "In-vivo Microscopy Specialist"
+  bio         : "In Vivo Imaging Specialist"
   avatar      : "/assets/images/people/profile_image_placeholder.png"
   links:
     - label: "Email"
@@ -40,7 +40,7 @@ Isabell Whiteley:
       url: "mailto:isabell.whiteley@ucl.ac.uk"
 Jessica Broni-Tabi:
   name        : "Jessica Broni-Tabi"
-  bio         : "Imaging Data Scientist "
+  bio         : "Histology Research Scientist"
   avatar      : "/assets/images/people/jessica_broni-tabi.png"
   links:
     - label: "Email"
