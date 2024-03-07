@@ -17,9 +17,9 @@ header:
 | ["BrainSaw" serial-section 2-photon](https://bakingtray.mouse.vision) | Custom wide-field Ca<sup>++</sup> imaging |
 | [MesoSPIM lightsheet](https://mesospim.org) | 2-photon and 3-photon microscopy |
 | Leica SP8 confocal | [Thorlabs MesoScope](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=10646) |
-| Zeiss Axioscan -Slidescanner | [Mini2p](https://www.ntnu.edu/kavli/mini2p) |
-| Zeiss AxioZoom V16 | Adaptive optics |
-| Zeiss Imager Z2 | [Zapit](https://zapit.gitbook.io/user-guide/) optogenetic stimulation |
+| [Zeiss Axioscan Slidescanner](https://www.zeiss.com/microscopy/en/products/imaging-systems/axioscan-for-biology.html) | [Mini2p](https://www.ntnu.edu/kavli/mini2p) |
+| [Zeiss AxioZoom V16](https://www.zeiss.com/microscopy/en/products/light-microscopes/stereo-and-zoom-microscopes/axio-zoom-v16-for-materials.html) | Adaptive optics |
+| [Zeiss Imager Z2](https://www.zeiss.com/microscopy/en/products/light-microscopes/widefield-microscopes/axio-imager-2-for-life-science-research.html) | [Zapit](https://zapit.gitbook.io/user-guide/) optogenetic stimulation |
 
 
 
@@ -35,7 +35,7 @@ Equipment there includes spinning disk, high content screening, micro CT, and su
 * Automated slide-scanning.
 * Automated, high-throughput, serial section 2-photon imaging of whole organs.
 * Tissue clearing and lightsheet microscopy. Clearing technique development. 
-* _In-vivo_ functional imaging: assistance, microscopy upgrades, and maintenance.
+* _In vivo_ functional imaging: assistance, microscopy upgrades, and maintenance.
 * Advice on data analysis and microscope hardware.
 * Assistance with construction of custom equipment for any imaging-related project.
 * Help with programming data-acquisition devices. 
