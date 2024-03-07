@@ -45,6 +45,7 @@ header:
 
 
 ## Publications From External Groups Using Our Tools
+* [A deep-learning strategy to identify cell types across species from high-density extracellular recordings](https://www.biorxiv.org/content/10.1101/2024.01.30.577845v1.full); bioRxiv 2024, BrainSaw system built at UCL. 
 * [Quantitative analysis of rabies virus-based synaptic connectivity tracing](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0278053#sec016); PLOS ONE 2023, from Ede Rancz's Lab, BrainSaw and StitichIt
 * [A fully automated home cage for long-term continuous phenotyping of mouse cognition and behavior](https://www.sciencedirect.com/science/article/pii/S2667237523001686?via%3Dihub#appsec2); Cell Reports Methods 2023, Julija Krupic and colleagues used BrainSaw at the AMF
 * [Learning-related congruent and incongruent changes of excitation and inhibition in distinct cortical areas](https://doi.org/10.1371/journal.pbio.3001667); PLoS Biol 2022, from Carl Petersen's Lab, BrainSaw and StitchIt
