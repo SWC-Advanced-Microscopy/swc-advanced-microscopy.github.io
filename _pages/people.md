@@ -30,7 +30,7 @@ feature_row_two:
     alt: "Igor Tatarnikov"
     title: "Igor Tatarnikov"
     excerpt: "Research Software Engineer [position joint with NIU](https://neuroinformatics.dev/)"
-  - image_path: /assets/images/people/isabell_whitely.png 
+  - image_path: /assets/images/people/isabell_whiteley.png 
     alt: "Isabell Whiteley"
     title: "Isabell Whiteley"
     excerpt: "In Vivo Imaging Specialist"
