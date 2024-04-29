@@ -1,6 +1,6 @@
 ---
-permalink: /tools/
-title: "AMF Tools"
+permalink: /equipment/
+title: "Equipment"
 layout: splash
 excerpt: ""
 toc: false

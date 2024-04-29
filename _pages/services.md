@@ -33,7 +33,7 @@ Equipment there includes spinning disk, high content screening, micro CT, and su
 * General histology as a service: sectioning, mounting, IHC, RNAscope, H&E, etc.
 * Automated slide-scanning.
 * Automated, high-throughput, serial section 2-photon imaging of whole organs.
-* Tissue clearing and lightsheet microscopy. Clearing technique development. 
+* Advice on tissue clearing and lightsheet microscopy. 
 * _In vivo_ functional imaging: assistance, microscopy upgrades, and maintenance.
 * Advice on data analysis and microscope hardware.
 * Assistance with construction of custom equipment for any imaging-related project.
