@@ -43,7 +43,6 @@ feature_row_bakingtray:
   - image_path: "https://raw.githubusercontent.com/wiki/SainsburyWellcomeCentre/StitchIt/images/rgb_brain_example.jpg"
     url: "https://bakingtray.mouse.vision"
     alt: "Acquisition of raw data"
-    title: "BakingTray: serial-section acquisition software"
     excerpt: "BakingTray is modular serial-section acquisition software for MATLAB. It can easily be modified to utilize any desired acquisition hardware (scanners, stages, etc). Images are currently acquired with ScanImage, but BakingTray can easily be extended to work with any acquisition system (e.g. a spinning-disk confocal or your own scanning software). BakingTray is more of a research platform for catalyzing developments in serial section imaging than a complete turn-key system."
     btn_label: "Repo"
     btn_class: "btn--primary"
