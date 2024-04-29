@@ -24,8 +24,7 @@ header:
 
 
 ## Available equipment at UCL
-Our researchers also have access to equipment elsewhere at UCL, in particular we have links with the [UCL Biosciences Imaging Facility
-](https://www.ucl.ac.uk/biosciences/research/research-facilities/ucl-biosciences-imaging-facility). 
+Our researchers also have access to equipment elsewhere at UCL, in particular we have links with the [UCL Biosciences Imaging Facility](https://www.ucl.ac.uk/biosciences/research/research-facilities/ucl-biosciences-imaging-facility). 
 Equipment there includes spinning disk, high content screening, micro CT, and super resolution (SIM, PALM, STORM).
 
 
