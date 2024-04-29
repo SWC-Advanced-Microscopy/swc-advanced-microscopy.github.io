@@ -71,6 +71,11 @@ feature_row_zapit:
 ---
 
 ## Acquisition Pipelines
+
+The technology is spread beyond the SWC in two ways. Firstly, we image samples for external collaborators: for example, over the last 5 years we have imaged about 1100 brains for the International Brain Laboratory. Secondly, I have helped external groups build their own serial section systems. To date, 8 systems have been built outside of the SWC, 3 more are currently under construction, and a further 6 are under discussion. A serial section 2-photon system represents a significant investment and so the fact that my system is being embraced by so many external collaborators speaks to its quality and ease of use. Microscopes built by external collaborators have so far resulted in 10 publications. 
+
+
+
 {% include feature_row id="feature_row_bakingtray" type="left" %}
 {% include feature_row id="feature_row_stitchit"   type="left" %}
 
