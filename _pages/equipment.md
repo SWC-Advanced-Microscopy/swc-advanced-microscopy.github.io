@@ -18,7 +18,12 @@ feature_row_brainsaw:
     url: "https://bakingtray.mouse.vision"
     alt: "BrainSaw"
     title: "BrainSaw: automated serial-sectioning"
-    excerpt: "We have three 'BrainSaw' automated serial section microscopes. Each microscope can accommodate up to 6 brains, which are sliced and imaged together. Applications include mapping electrode tracks, tracing bulk projections, and automated cell counting. The systems have up to four channels and can generally handle up to four fluorophores simultaneously."
+    excerpt: "We have three 'BrainSaw' automated serial section microscopes. Data are 
+      acquired using [ScanImage](https://www.mbfbioscience.com/products/scanimage) and 
+      [BakingTray](https://bakingtray.mouse.vision/). Each microscope can accommodate up to 6 
+      brains, which are sliced and imaged together. Applications include mapping electrode 
+      tracks, tracing bulk projections, and automated cell counting. 
+      The systems have up to four channels and can generally handle up to four fluorophores simultaneously."
     btn_label: "Repo"
     btn_class: "btn--primary"
 
@@ -67,13 +72,6 @@ feature_row_widefield:
 ---
 
 # Custom Equipment
-
-The AMF specialises in custom high throughput imaging using custom equipment. 
-
-The technology is spread beyond the SWC in two ways. Firstly, we image samples for external collaborators: for example, over the last 5 years we have imaged about 1100 brains for the International Brain Laboratory. Secondly, I have helped external groups build their own serial section systems. To date, 8 systems have been built outside of the SWC, 3 more are currently under construction, and a further 6 are under discussion. A serial section 2-photon system represents a significant investment and so the fact that my system is being embraced by so many external collaborators speaks to its quality and ease of use. Microscopes built by external collaborators have so far resulted in 10 publications. 
-
-
-
 {% include feature_row id="feature_row_brainsaw" type="left" %}
 {% include feature_row id="feature_row_mesospim"   type="left" %}
 
