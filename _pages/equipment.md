@@ -83,6 +83,11 @@ feature_row_widefield:
       These microscopes are ideal for imaging small numbers of slides interactively and have tile scanning ability. 
       We also have one [Zeiss Axiozoom](https://www.zeiss.com/microscopy/en/products/light-microscopes/stereo-and-zoom-microscopes/axio-zoom-v16-for-biology.html) for imaging larger fields of view. You can use this microscope for checking injection locations in whole brains, taking images of culture plates, etc. 
       These microscopes are located on the first floor. Please contact the AMF for an induction if you are unfamiliar with them. 
+
+
+      [AMF Zeiss Imager Details](https://github.com/SWC-Advanced-Microscopy/facility_webpage/wiki/Zeiss-Imager-Z2){: .btn .btn--primary}
+      [AMF Zeiss Axiozoom Details](https://github.com/SWC-Advanced-Microscopy/facility_webpage/wiki/Zeiss-AxioZoom){: .btn .btn--primary}
+
       "
 
 ---
