@@ -24,11 +24,8 @@ feature_row_brainsaw:
       tracks, tracing bulk projections, and automated cell counting. 
       The systems have up to four channels and can generally handle up to four fluorophores simultaneously.
 
-      * [Software User Guide](https://bakingtray.mouse.vision/users/user_guide){: .btn .btn--primary .btn--small}
+      * [Software User Guide](https://bakingtray.mouse.vision/users/user_guide){: .btn .btn--primary}
       "
-    url: ""
-    btn_label: ""
-    btn_class: ""
 
 feature_row_mesospim:
   - image_path:  /assets/images/serialsection/stitching.jpg
@@ -36,7 +33,7 @@ feature_row_mesospim:
     title: "MesoSPIM: whole-brain lightsheet imaging"
     excerpt: "Pre-processes data during acquisition, streams the last stitched section to a web page, initiates stitching automatically when acquisition completes. Includes tools for downsampling and generally batch-processing image stacks. Operations highly parallelized for speed.
 
-      * [Project website](https://mesospim.org){: .btn .btn--primary .btn--small}
+      * [Project website](https://mesospim.org){: .btn .btn--primary}
     "
     url: ""
     btn_label: ""
