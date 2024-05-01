@@ -41,36 +41,24 @@ feature_row_mesospim:
 
 feature_row_sp8:
   - image_path: https://www.leica-microsystems.com/fileadmin/global/products/Confocal/leica-sp8-mp-list.jpg
-
     alt: "Leica SP8 Confocal"
     title: "Leica SP8 Confocal"
-    excerpt: "This Python-based software was originally developed by Rob Campbell for a project with Tom Mrsic-Flogel's lab, but is now being used by the IBL consortium to trace electrode tracks. It provides linked orthogonal 2-D views for fast visualisation of downsampled image stacks. Allows overlays of multiple brains, multiple channels, traced neurites, or soma locations. Includes viewer for Allen Atlas and is extendable via plugins. Lasagna pre-dates napari, which we would recommend for new projects"
-    url: "https://github.com/SainsburyWellcomeCentre/lasagna"
-    btn_label: "Repo"
-    btn_class: "btn--primary"
+    excerpt: "Our Leica SP8 confocal has a white light laser with software-tunable excitation filter and three software-tunable PMT channels. Leica's software is easy to use and comes with a slide-scanning extension."
 
 feature_row_axioscan:
   - image_path: https://analyticalscience.wiley.com/do/10.1002/was.00020305/view-media-gallery/zeissaxioscan-13-4-2021-image1lr-1619004027613.jpg
-
     alt: "slide scanner"
     title: "Axioscan slide scanner"
-    excerpt: "This MATLAB software was written by Rob Campbell for teaching purposes. It runs galvo-based scanning microscopy using NI Hardware. The project includes three increasingly complicated versions of the same program. An equivalent Python project [can be found here](https://github.com/SWC-Advanced-Microscopy/SimplePyScanner).
-      This code can any scanning based microscope, from a simple transmission-based system to a 2-photon."
-    url: "https://github.com/SWC-Advanced-Microscopy/SimpleMScanner"
-    btn_label: "Repo"
-    btn_class: "btn--primary"
+    excerpt: "The Zeiss Axioscan slide scanner is a widefield microscope that accepts up to 100 slides and is able to image them largely automatically. We run this microscope alongside our histology service, but it can also be booked and used independently of this service."
 
 feature_row_widefield:
   - image_path: /assets/images/equipment/axio-imager-2_apotome-3_system.jpg
     alt: "widefield microscopes"
     title: "Widefield microscopes"
-    excerpt: "This MATLAB-based package was developed by Alex Brown in Troy Margrie's lab. MaSIV is a simple multi-resolution image viewer: it loads a small downsampled image stack into RAM but presents the user with full-res data as they zoom in. MaSIV is stable but can only display a single channel at once. It is extendable via plugins, some of which were written by AMF members."
-    url: "https://github.com/SainsburyWellcomeCentre/masiv"
-    btn_label: "Repo"
-    btn_class: "btn--primary"
-
-
-
+    excerpt: "We have two [Zeiss Imagers](https://www.zeiss.com/microscopy/en/products/light-microscopes/widefield-microscopes/axio-imager-2-for-life-science-research.html), equipped with [Apotomes](https://www.zeiss.com/microscopy/en/products/light-microscopes/widefield-microscopes/apotome-3.html) for optical sectioning. 
+      These microscopes are ideal for imaging small numbers of slides interactively. 
+      We also have one [Zeiss Axiozoom](https://www.zeiss.com/microscopy/en/products/light-microscopes/stereo-and-zoom-microscopes/axio-zoom-v16-for-biology.html) for imaging larger fields of view.
+      "
 
 ---
 
