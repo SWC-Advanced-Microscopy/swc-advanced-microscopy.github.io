@@ -67,11 +67,13 @@ feature_row_widefield:
     alt: "widefield microscopes"
     title: "Widefield microscopes"
     excerpt: "We have two [Zeiss Imagers](https://www.zeiss.com/microscopy/en/products/light-microscopes/widefield-microscopes/axio-imager-2-for-life-science-research.html), equipped with [Apotomes](https://www.zeiss.com/microscopy/en/products/light-microscopes/widefield-microscopes/apotome-3.html) for optical sectioning. 
-      These microscopes are ideal for imaging small numbers of slides interactively. 
-      We also have one [Zeiss Axiozoom](https://www.zeiss.com/microscopy/en/products/light-microscopes/stereo-and-zoom-microscopes/axio-zoom-v16-for-biology.html) for imaging larger fields of view.
+      These microscopes are ideal for imaging small numbers of slides interactively and have tile scanning ability. 
+      We also have one [Zeiss Axiozoom](https://www.zeiss.com/microscopy/en/products/light-microscopes/stereo-and-zoom-microscopes/axio-zoom-v16-for-biology.html) for imaging larger fields of view. You can use this microscope for checking injection locations in whole brains, taking images of culture plates, etc. 
+      These microscopes are located on the first floor. Please contact the AMF for an induction if you are unfamiliar with them. 
       "
 
 ---
+
 
 # Custom Equipment
 {% include feature_row id="feature_row_brainsaw" type="left" %}
