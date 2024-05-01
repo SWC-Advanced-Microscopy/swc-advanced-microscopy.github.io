@@ -22,7 +22,7 @@ feature_row_brainsaw:
       [BakingTray](https://bakingtray.mouse.vision/). Each microscope can accommodate up to 6 
       brains, which are sliced and imaged together. Applications include mapping electrode 
       tracks, tracing bulk projections, and automated cell counting. 
-      The systems have up to four channels and can generally handle up to four fluorophores simultaneously.
+      The systems have up to four channels and can generally handle up to three fluorophores simultaneously.
 
       * [Software User Guide](https://bakingtray.mouse.vision/users/user_guide){: .btn .btn--primary}
       "
@@ -33,7 +33,7 @@ feature_row_mesospim:
     title: "MesoSPIM: whole-brain lightsheet imaging"
     excerpt: "The MesoSPIM is a macroscope-based lightsheet microscope with axial sweeping
        of the beam waist, to allow for uniform resolution across large fields of view. 
-       Whole mouse brains easily fit inside the microscope, and at lower resolutions no tile 
+       Whole mouse brains easily fit inside the microscope. At lower resolutions no tile 
        scanning is required, making the microscope very fast. The system is compatible with
        any clearing technique. Users are responsible for clearing their own samples, but 
        we can provide protocols and advice.  
@@ -78,8 +78,16 @@ feature_row_widefield:
 {% include feature_row id="feature_row_mesospim"   type="left" %}
 
 
-## Commercial Systems
+# Commercial Systems
 {% include feature_row id="feature_row_sp8" type="left" %} 
 {% include feature_row id="feature_row_axioscan" type="left" %} 
 {% include feature_row id="feature_row_widefield"   type="left" %}
 
+
+# Functional Imaging
+The AMF helps manage *in vivo* multi-photon microscopes across the building. 
+Among other equipment, we manage a [Thorlabs MesoScope](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=10646), three 3-photon microscopes, and a [Mini2p](https://www.ntnu.edu/kavli/mini2p). 
+
+# Available equipment at UCL
+Our researchers also have access to equipment elsewhere at UCL, in particular we have links with the [UCL Biosciences Imaging Facility](https://www.ucl.ac.uk/biosciences/research/research-facilities/ucl-biosciences-imaging-facility). 
+Equipment there includes spinning disk, high content screening, micro CT, and super resolution (SIM, PALM, STORM).

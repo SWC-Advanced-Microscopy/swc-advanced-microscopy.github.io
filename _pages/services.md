@@ -10,23 +10,6 @@ header:
 ---
 
 
-## Available imaging equipment at SWC
-
-| Within AMF | Across SWC|
-| -------- | ------- |
-| ["BrainSaw" serial-section 2-photon](https://bakingtray.mouse.vision) | Custom wide-field Ca<sup>++</sup> imaging |
-| [MesoSPIM lightsheet](https://mesospim.org) | 2-photon and 3-photon microscopy |
-| Leica SP8 confocal | [Thorlabs MesoScope](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=10646) |
-| [Zeiss Axioscan Slidescanner](https://www.zeiss.com/microscopy/en/products/imaging-systems/axioscan-for-biology.html) | [Mini2p](https://www.ntnu.edu/kavli/mini2p) |
-| [Zeiss AxioZoom V16](https://www.zeiss.com/microscopy/en/products/light-microscopes/stereo-and-zoom-microscopes/axio-zoom-v16-for-materials.html) | Adaptive optics |
-| [Zeiss Imager Z2](https://www.zeiss.com/microscopy/en/products/light-microscopes/widefield-microscopes/axio-imager-2-for-life-science-research.html) | [Zapit](https://zapit.gitbook.io/user-guide/) optogenetic stimulation |
-
-
-
-## Available equipment at UCL
-Our researchers also have access to equipment elsewhere at UCL, in particular we have links with the [UCL Biosciences Imaging Facility](https://www.ucl.ac.uk/biosciences/research/research-facilities/ucl-biosciences-imaging-facility). 
-Equipment there includes spinning disk, high content screening, micro CT, and super resolution (SIM, PALM, STORM).
-
 
 ## We offer a range of services including:
 * Training and assistance on confocal and wide-field fluorescence microscopy.
