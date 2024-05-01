@@ -61,7 +61,7 @@ feature_row_axioscan:
     btn_class: "btn--primary"
 
 feature_row_widefield:
-  - image_path:  https://www.zeiss.com/content/dam/rms/reference-master/products/light/widefield/axio-imager-2-for-bio-life-science/axio-imager-2_apotome-3_system.jpg/_jcr_content/renditions/original.image_file.768.768.file/axio-imager-2_apotome-3_system.jpg
+  - image_path: /assets/images/equipment/axio-imager-2_apotome-3_system.jpg
     alt: "widefield microscopes"
     title: "Widefield microscopes"
     excerpt: "This MATLAB-based package was developed by Alex Brown in Troy Margrie's lab. MaSIV is a simple multi-resolution image viewer: it loads a small downsampled image stack into RAM but presents the user with full-res data as they zoom in. MaSIV is stable but can only display a single channel at once. It is extendable via plugins, some of which were written by AMF members."
