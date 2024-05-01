@@ -29,6 +29,6 @@ Our staff has broad experience. e.g. Want to know about super-resolution? We hav
 
 ## Analysis
 We can help you analyse data in Python, MATLAB, Fiji, [napari](https://napari.org/stable/), or R.
-We have experience with packages such as [Ilastik](https://www.ilastik.org/), [QuPath](https://qupath.github.io/), and, of course, the [BrainGlobe suite](brainglobe.info). 
+We have experience with packages such as [Ilastik](https://www.ilastik.org/), [QuPath](https://qupath.github.io/), and, of course, the [BrainGlobe suite](https://brainglobe.info/). 
 We can also help to make movies for talks using [Imaris](https://imaris.oxinst.com). 
 
