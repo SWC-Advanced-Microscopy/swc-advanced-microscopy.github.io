@@ -57,7 +57,8 @@ feature_row_axioscan:
   - image_path: https://analyticalscience.wiley.com/do/10.1002/was.00020305/view-media-gallery/zeissaxioscan-13-4-2021-image1lr-1619004027613.jpg
     alt: "slide scanner"
     title: "Axioscan slide scanner"
-    excerpt: "The Zeiss Axioscan slide scanner is a widefield microscope that accepts up to 100 slides and is able to image them largely automatically. We run this microscope alongside our histology service, but it can also be booked and used independently of this service.
+    excerpt: "This high-throughput widefield microscope accommodates up to 100 slides, which it images automatically after an interactive setup process. 
+    The system handles both fluorescence and conventional brightfield. We run this microscope alongside our histology service, but it can also be booked and used independently of this service. You must be trained to have access to this microscope. 
 
     * [Microscope Details](https://github.com/SWC-Advanced-Microscopy/facility_webpage/wiki/Zeiss-Axioscan%E2%80%90Slidescanner){: .btn .btn--primary}
     "
