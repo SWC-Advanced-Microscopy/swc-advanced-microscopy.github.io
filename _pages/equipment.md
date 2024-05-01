@@ -28,35 +28,35 @@ feature_row_brainsaw:
       "
 
 feature_row_mesospim:
-  - image_path:  /assets/images/serialsection/stitching.jpg
+  - image_path:  /assets/images/equipment/mesoSPIM_swc_1_lowres.jpg
     alt: "MesoSPIM"
     title: "MesoSPIM: whole-brain lightsheet imaging"
     excerpt: "Pre-processes data during acquisition, streams the last stitched section to a web page, initiates stitching automatically when acquisition completes. Includes tools for downsampling and generally batch-processing image stacks. Operations highly parallelized for speed.
 
       * [Project website](https://mesospim.org){: .btn .btn--primary}
     "
-    url: ""
-    btn_label: ""
-    btn_class: ""
+
 
 
 
 feature_row_sp8:
   - image_path: /assets/images/software/Lasagna.jpg
-    url: "https://github.com/SainsburyWellcomeCentre/lasagna"
+
     alt: "Leica SP8 Confocal"
     title: "Leica SP8 Confocal"
     excerpt: "This Python-based software was originally developed by Rob Campbell for a project with Tom Mrsic-Flogel's lab, but is now being used by the IBL consortium to trace electrode tracks. It provides linked orthogonal 2-D views for fast visualisation of downsampled image stacks. Allows overlays of multiple brains, multiple channels, traced neurites, or soma locations. Includes viewer for Allen Atlas and is extendable via plugins. Lasagna pre-dates napari, which we would recommend for new projects"
+    url: "https://github.com/SainsburyWellcomeCentre/lasagna"
     btn_label: "Repo"
     btn_class: "btn--primary"
 
 feature_row_axioscan:
   - image_path: /assets/images/software/simple_mscanner.jpg
-    url: "https://github.com/SWC-Advanced-Microscopy/SimpleMScanner"
+
     alt: "slide scanner"
     title: "Axioscan slide scanner"
     excerpt: "This MATLAB software was written by Rob Campbell for teaching purposes. It runs galvo-based scanning microscopy using NI Hardware. The project includes three increasingly complicated versions of the same program. An equivalent Python project [can be found here](https://github.com/SWC-Advanced-Microscopy/SimplePyScanner).
       This code can any scanning based microscope, from a simple transmission-based system to a 2-photon."
+    url: "https://github.com/SWC-Advanced-Microscopy/SimpleMScanner"
     btn_label: "Repo"
     btn_class: "btn--primary"
 
