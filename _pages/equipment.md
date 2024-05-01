@@ -43,13 +43,19 @@ feature_row_sp8:
   - image_path: https://www.leica-microsystems.com/fileadmin/global/products/Confocal/leica-sp8-mp-list.jpg
     alt: "Leica SP8 Confocal"
     title: "Leica SP8 Confocal"
-    excerpt: "Our Leica SP8 confocal has a white light laser with software-tunable excitation filter and three software-tunable PMT channels. Leica's software is easy to use and comes with a slide-scanning extension."
+    excerpt: "Our Leica SP8 confocal has a white light laser with software-tunable excitation filter and three software-tunable PMT channels. Leica's software is easy to use and comes with a slide-scanning extension.
+
+    * [Microscope Details](https://github.com/SWC-Advanced-Microscopy/facility_webpage/wiki/Leica-SP8-Confocal){: .btn .btn--primary}
+    "
 
 feature_row_axioscan:
   - image_path: https://analyticalscience.wiley.com/do/10.1002/was.00020305/view-media-gallery/zeissaxioscan-13-4-2021-image1lr-1619004027613.jpg
     alt: "slide scanner"
     title: "Axioscan slide scanner"
-    excerpt: "The Zeiss Axioscan slide scanner is a widefield microscope that accepts up to 100 slides and is able to image them largely automatically. We run this microscope alongside our histology service, but it can also be booked and used independently of this service."
+    excerpt: "The Zeiss Axioscan slide scanner is a widefield microscope that accepts up to 100 slides and is able to image them largely automatically. We run this microscope alongside our histology service, but it can also be booked and used independently of this service.
+
+    * [Microscope Details](https://github.com/SWC-Advanced-Microscopy/facility_webpage/wiki/Zeiss-Axioscan%E2%80%90Slidescanner){: .btn .btn--primary}
+    "
 
 feature_row_widefield:
   - image_path: /assets/images/equipment/axio-imager-2_apotome-3_system.jpg
