@@ -80,6 +80,6 @@ The technology is spread beyond the SWC in two ways. Firstly, we image samples f
 
 ## Commercial Systems
 {% include feature_row id="feature_row_sp8" type="left" %} 
-{% include feature_row id="feature_row_ax" type="left" %} 
+{% include feature_row id="feature_row_axioscan" type="left" %} 
 {% include feature_row id="feature_row_widefield"   type="left" %}
 
