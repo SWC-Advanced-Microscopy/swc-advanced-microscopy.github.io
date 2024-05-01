@@ -42,8 +42,10 @@ feature_row_mesospim:
     to long term projects rather than one-off imaging sessions. Users must be trained by 
     the AMF to have access to the microscope. 
 
-      * [Project website](https://mesospim.org){: .btn .btn--primary}
-      * [AMF system details](https://github.com/SWC-Advanced-Microscopy/facility_webpage/wiki/MesoSPIM-v5){: .btn .btn--primary}
+    
+    [Project website](https://mesospim.org){: .btn .btn--primary}
+    
+    [AMF system details](https://github.com/SWC-Advanced-Microscopy/facility_webpage/wiki/MesoSPIM-v5){: .btn .btn--primary}
     "
 
 
