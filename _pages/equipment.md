@@ -15,7 +15,6 @@ header:
 
 feature_row_brainsaw:
   - image_path: "https://raw.githubusercontent.com/wiki/SainsburyWellcomeCentre/StitchIt/images/rgb_brain_example.jpg"
-    url: "https://bakingtray.mouse.vision"
     alt: "BrainSaw"
     title: "BrainSaw: automated serial-sectioning"
     excerpt: "We have three 'BrainSaw' automated serial section microscopes. Data are 
@@ -25,7 +24,9 @@ feature_row_brainsaw:
       tracks, tracing bulk projections, and automated cell counting. 
       The systems have up to four channels and can generally handle up to four fluorophores simultaneously.
 
-      * [SEARCH](https://google.com){: .btn .btn--primary .btn--small}"
+      * [Software User Guide](https://bakingtray.mouse.vision/users/user_guide){: .btn .btn--primary .btn--small}
+      "
+    url: ""
     btn_label: ""
     btn_class: ""
 
@@ -33,10 +34,13 @@ feature_row_mesospim:
   - image_path:  /assets/images/serialsection/stitching.jpg
     alt: "MesoSPIM"
     title: "MesoSPIM: whole-brain lightsheet imaging"
-    excerpt: "Pre-processes data during acquisition, streams the last stitched section to a web page, initiates stitching automatically when acquisition completes. Includes tools for downsampling and generally batch-processing image stacks. Operations highly parallelized for speed."
-    url: "https://github.com/SWC-Advanced-Microscopy/StitchIt"
-    btn_label: "Repo"
-    btn_class: "btn--primary"
+    excerpt: "Pre-processes data during acquisition, streams the last stitched section to a web page, initiates stitching automatically when acquisition completes. Includes tools for downsampling and generally batch-processing image stacks. Operations highly parallelized for speed.
+
+      * [Project website](https://mesospim.org){: .btn .btn--primary .btn--small}
+    "
+    url: ""
+    btn_label: ""
+    btn_class: ""
 
 
 
