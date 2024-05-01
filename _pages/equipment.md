@@ -31,7 +31,12 @@ feature_row_mesospim:
   - image_path:  /assets/images/equipment/mesoSPIM_swc_1_lowres.jpg
     alt: "MesoSPIM"
     title: "MesoSPIM: whole-brain lightsheet imaging"
-    excerpt: "Pre-processes data during acquisition, streams the last stitched section to a web page, initiates stitching automatically when acquisition completes. Includes tools for downsampling and generally batch-processing image stacks. Operations highly parallelized for speed.
+    excerpt: "The MesoSPIM is a macroscope-based lightsheet microscope with axial sweeping
+       of the beam waist, to allow for uniform resolution across large fields of view. 
+       Whole mouse brains easily fit inside the microscope, and at lower resolutions no tile 
+       scanning is required, making the microscope very fast. The system is compatible with
+       any clearing technique. Users are responsible for clearing their own samples, but 
+       we can provide protocols and advice.  
 
       * [Project website](https://mesospim.org){: .btn .btn--primary}
     "
