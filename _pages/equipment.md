@@ -50,7 +50,7 @@ feature_row_sp8:
     btn_class: "btn--primary"
 
 feature_row_axioscan:
-  - image_path: /assets/images/software/simple_mscanner.jpg
+  - image_path: https://analyticalscience.wiley.com/do/10.1002/was.00020305/view-media-gallery/zeissaxioscan-13-4-2021-image1lr-1619004027613.jpg
 
     alt: "slide scanner"
     title: "Axioscan slide scanner"
