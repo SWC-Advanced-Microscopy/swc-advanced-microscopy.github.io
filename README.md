@@ -72,3 +72,6 @@ Additional sample posts are available under [posts archive][year-archive] on the
 For detailed instructions on how to configure, customize, add/migrate content, and more read the [theme's documentation](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/).
 
 
+# GitHub Wiki Tips
+* [Colored text](https://github.com/orgs/community/discussions/31570)
+* 
