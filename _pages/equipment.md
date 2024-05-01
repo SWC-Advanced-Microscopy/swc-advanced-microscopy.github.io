@@ -40,7 +40,7 @@ feature_row_mesospim:
 
 
 feature_row_sp8:
-  - image_path: /assets/images/software/Lasagna.jpg
+  - image_path: https://www.leica-microsystems.com/fileadmin/global/products/Confocal/leica-sp8-mp-list.jpg
 
     alt: "Leica SP8 Confocal"
     title: "Leica SP8 Confocal"
