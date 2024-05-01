@@ -27,7 +27,7 @@ feature_row_brainsaw:
     Users typically run their own samples. Several training sessions are needed due to the destructive 
     nature of the technique.
 
-      * [Software User Guide](https://bakingtray.mouse.vision/users/user_guide){: .btn .btn--primary}
+    [Software User Guide](https://bakingtray.mouse.vision/users/user_guide){: .btn .btn--primary}
       "
 
 feature_row_mesospim:
@@ -44,7 +44,6 @@ feature_row_mesospim:
 
     
     [Project website](https://mesospim.org){: .btn .btn--primary}
-    
     [AMF system details](https://github.com/SWC-Advanced-Microscopy/facility_webpage/wiki/MesoSPIM-v5){: .btn .btn--primary}
     "
 
@@ -62,7 +61,7 @@ feature_row_sp8:
     A white light laser with tunable excitation filter and three detectors (2x HyD and 1x PMT) with tunable emission filters 
     provide enormous flexibility. The microscope is located in the AMF and you must be trained to have access to it.
 
-    * [Microscope Details](https://github.com/SWC-Advanced-Microscopy/facility_webpage/wiki/Leica-SP8-Confocal){: .btn .btn--primary}
+    [AMF SP8 Details](https://github.com/SWC-Advanced-Microscopy/facility_webpage/wiki/Leica-SP8-Confocal){: .btn .btn--primary}
     "
 
 feature_row_axioscan:
@@ -72,7 +71,7 @@ feature_row_axioscan:
     excerpt: "This high-throughput widefield microscope accommodates up to 100 slides, which it images automatically after an interactive setup process. 
     The system handles both fluorescence and conventional brightfield. We run this microscope alongside our histology service, but it can also be booked and used independently. You must be trained to have access to this microscope. 
 
-    * [Microscope Details](https://github.com/SWC-Advanced-Microscopy/facility_webpage/wiki/Zeiss-Axioscan%E2%80%90Slidescanner){: .btn .btn--primary}
+    [AMF Axioscan Details](https://github.com/SWC-Advanced-Microscopy/facility_webpage/wiki/Zeiss-Axioscan%E2%80%90Slidescanner){: .btn .btn--primary}
     "
 
 feature_row_widefield:
