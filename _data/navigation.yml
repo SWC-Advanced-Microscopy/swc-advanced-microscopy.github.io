@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Equipment"
+    url: /equipment/
   - title: "Services"
     url: /services/
   - title: "FAQ"
