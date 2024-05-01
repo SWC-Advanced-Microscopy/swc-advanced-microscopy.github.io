@@ -48,7 +48,7 @@ feature_row_sp8:
   - image_path: https://www.leica-microsystems.com/fileadmin/global/products/Confocal/leica-sp8-mp-list.jpg
     alt: "Leica SP8 Confocal"
     title: "Leica SP8 Confocal"
-    excerpt: "Our Leica SP8 confocal has a white light laser with software-tunable excitation filter and three software-tunable PMT channels. Leica's software is easy to use and comes with a slide-scanning extension.
+    excerpt: "Our Leica SP8 confocal has a white light laser with software-tunable excitation filter and three software-tunable detectors (2x HyD and 1x PMT). Leica's software is easy to use and comes with a slide-scanning extension.
 
     * [Microscope Details](https://github.com/SWC-Advanced-Microscopy/facility_webpage/wiki/Leica-SP8-Confocal){: .btn .btn--primary}
     "
