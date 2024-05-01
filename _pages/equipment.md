@@ -43,7 +43,7 @@ feature_row_mesospim:
     the AMF to have access to the microscope. 
 
       * [Project website](https://mesospim.org){: .btn .btn--primary}
-      * [AMF system details](https://github.com/SWC-Advanced-Microscopy/facility_webpage/wiki/MesoSPIM-v5)
+      * [AMF system details](https://github.com/SWC-Advanced-Microscopy/facility_webpage/wiki/MesoSPIM-v5){: .btn .btn--primary}
     "
 
 
