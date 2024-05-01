@@ -17,12 +17,15 @@ feature_row_brainsaw:
   - image_path: "https://raw.githubusercontent.com/wiki/SainsburyWellcomeCentre/StitchIt/images/rgb_brain_example.jpg"
     alt: "BrainSaw"
     title: "BrainSaw: automated serial-sectioning"
-    excerpt: "We have three 'BrainSaw' automated serial section microscopes. Data are 
-      acquired using [ScanImage](https://www.mbfbioscience.com/products/scanimage) and 
-      [BakingTray](https://bakingtray.mouse.vision/). Each microscope can accommodate up to 6 
-      brains, which are sliced and imaged together. Applications include mapping electrode 
-      tracks, tracing bulk projections, and automated cell counting. 
-      The systems have up to four channels and can generally handle up to three fluorophores simultaneously.
+    excerpt: "We have three 'BrainSaw' automated serial section microscopes. 
+    These microscopes alternate between slicing the sample and tile-scanning the exposed surface of the block. 
+    Samples simply need conventional fixation and agar embedding. The approach is generally 
+    not compatible with antibody labelling, but slices can be retrieved for further processing.  
+    Each microscope can accommodate up to 6 brains at once and imaging is usually complete in under
+    24 hours. Applications include mapping electrode tracks, tracing bulk projections, and automated cell counting. 
+    The systems have up to four channels and can generally handle up to three fluorophores simultaneously.
+    Users typically run their own samples. Several training sessions are needed due to the destructive 
+    nature of the technique.
 
       * [Software User Guide](https://bakingtray.mouse.vision/users/user_guide){: .btn .btn--primary}
       "
