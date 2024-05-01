@@ -23,7 +23,8 @@ feature_row_brainsaw:
       [BakingTray](https://bakingtray.mouse.vision/). Each microscope can accommodate up to 6 
       brains, which are sliced and imaged together. Applications include mapping electrode 
       tracks, tracing bulk projections, and automated cell counting. 
-      The systems have up to four channels and can generally handle up to four fluorophores simultaneously."
+      The systems have up to four channels and can generally handle up to four fluorophores simultaneously.
+      [SEARCH](https://google.com){: .btn .btn--primary .btn--small}"
     btn_label: "Repo"
     btn_class: "btn--primary"
 
