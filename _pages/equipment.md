@@ -48,7 +48,12 @@ feature_row_sp8:
   - image_path: https://www.leica-microsystems.com/fileadmin/global/products/Confocal/leica-sp8-mp-list.jpg
     alt: "Leica SP8 Confocal"
     title: "Leica SP8 Confocal"
-    excerpt: "Our Leica SP8 confocal has a white light laser with software-tunable excitation filter and three software-tunable detectors (2x HyD and 1x PMT). Leica's software is easy to use and comes with a slide-scanning extension.
+    excerpt: "The Leica SP8 is the highest resolution microscope in the AMF. The thin optical sections produced 
+    by this confocal are ideal for imaging sub-cellular structures, such as axons and synapses. 
+    The microscope is also used for generating detailed images of cells, allowing their processes to be traced. 
+    The software has a slide-scanning feature, which allows even thick cleared slices to be imaged with ease. 
+    A white light laser with tunable excitation filter and three detectors (2x HyD and 1x PMT) with tunable emission filters 
+    provide enormous flexibility. The microscope is located in the AMF and you must be trained to have access to it.
 
     * [Microscope Details](https://github.com/SWC-Advanced-Microscopy/facility_webpage/wiki/Leica-SP8-Confocal){: .btn .btn--primary}
     "
@@ -58,7 +63,7 @@ feature_row_axioscan:
     alt: "slide scanner"
     title: "Axioscan slide scanner"
     excerpt: "This high-throughput widefield microscope accommodates up to 100 slides, which it images automatically after an interactive setup process. 
-    The system handles both fluorescence and conventional brightfield. We run this microscope alongside our histology service, but it can also be booked and used independently of this service. You must be trained to have access to this microscope. 
+    The system handles both fluorescence and conventional brightfield. We run this microscope alongside our histology service, but it can also be booked and used independently. You must be trained to have access to this microscope. 
 
     * [Microscope Details](https://github.com/SWC-Advanced-Microscopy/facility_webpage/wiki/Zeiss-Axioscan%E2%80%90Slidescanner){: .btn .btn--primary}
     "
