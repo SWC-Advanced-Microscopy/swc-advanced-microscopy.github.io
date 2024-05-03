@@ -18,8 +18,13 @@ header:
 3. Please discuss your imaging needs with us before starting the relevant experiments. This can avoid wasted time. 
 
 
-### Where is the Imaging Facility?
-The facility is located in the SWC on Level B2, immediately to the left as you come out of the lifts.
+### Where are we?
+The Facility is located in the SWC on Level B2, immediately to the left as you come out of the lifts.
+You need to be laser safety trained to have access to the Facility. 
+There is a door bell to the left of the door.
+
+### How to contact us?
+Contact us via Slack. Messages regarding equipment is sent only via Slack. Please make sure you join channels associated with equipment you use to receive relevant notifications. 
 
 
 ## Do you take samples from external users?

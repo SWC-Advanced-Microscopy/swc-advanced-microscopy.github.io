@@ -9,26 +9,26 @@ header:
   overlay_image: /assets/images/home/services_header.jpg
 ---
 
-
-
-## We offer a range of services including:
+# Microscopy Services 
 * Training and assistance on confocal and wide-field fluorescence microscopy.
-* General histology as a service: sectioning, mounting, IHC, RNAscope, H&E, etc.
-* Automated slide-scanning.
+* Automated slide-scanning. 
 * Automated, high-throughput, serial section 2-photon imaging of whole organs.
-* Advice on tissue clearing and lightsheet microscopy. 
 * _In vivo_ functional imaging: assistance, microscopy upgrades, and maintenance.
-* Advice on data analysis and microscope hardware.
+
+# Histology Services
+* General histology as a service: cryosectioning, vibratome sectioning, mounting, IHC, RNAscope, H&E, etc.
+* Optimizing new antibodies and protocols. Antigen retrieval.
+* Teaching/training for researchers in histological techniques.
+* Advice on tissue clearing and lightsheet microscopy. 
+
+
+
+# Technical Services
+* Advice on data analysis and microscope hardware. We can help you analyse data in Python, MATLAB, Fiji, [napari](https://napari.org/stable/), or R.
 * Assistance with construction of custom equipment for any imaging-related project.
 * Help with programming data-acquisition devices. 
 * Management assistance for microscopy-related projects that span multiple SWC core facilities.
 
-Our staff has broad experience. e.g. Want to know about super-resolution? We have staff with experience!
-
-
-
-## Analysis
-We can help you analyse data in Python, MATLAB, Fiji, [napari](https://napari.org/stable/), or R.
 We have experience with packages such as [Ilastik](https://www.ilastik.org/), [QuPath](https://qupath.github.io/), and, of course, the [BrainGlobe suite](https://brainglobe.info/). 
 We can also help to make movies for talks using [Imaris](https://imaris.oxinst.com). 
 
