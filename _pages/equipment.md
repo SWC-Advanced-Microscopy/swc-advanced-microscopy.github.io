@@ -28,6 +28,8 @@ feature_row_brainsaw:
     nature of the technique.
 
 
+  
+    [Getting started](https://github.com/SWC-Advanced-Microscopy/facility_webpage/wiki/Serial-Section-Imaging){: .btn .btn--primary}
     [Software User Guide](https://bakingtray.mouse.vision/users/user_guide){: .btn .btn--primary}
       "
 
