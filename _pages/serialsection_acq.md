@@ -1,6 +1,6 @@
 ---
 permalink: /ss_acquisition/
-title: "Image Acquisition and Stitching"
+title: "Serial Section Acquisition and Stitching"
 layout: splash
 excerpt: "Open tools for acquiring and stitching serial section data"
 toc: false
