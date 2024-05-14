@@ -15,7 +15,8 @@ header:
 ## Getting started
 1. Attend the **induction** and **laser safety training**. This take place on the **first Tuesday of each month at 09:45**. Just turn up at the Facility no need to book. **We start promptly** and if you are late you have to wait until the next session. 
 2. Start an account on the [PPMS Microscope Booking System](https://ppms.eu/ucl-swc/login/?pf=2). Use your SWC (not UCL) login details. If you do not have an SWC account, see SWC IT. The user name **must** by prefixed with `ad\` on the login page. e.g. like this: `ad\tomo`
-3. Please discuss your imaging needs with us before starting the relevant experiments. This can avoid wasted time. 
+3. Contact us via Slack: Peter for general microscopy; Jess for histo; Rob for BrainSaw; Isabell for _in vivo_ 2p. There are specific channels for most things, which you can join to receive notifications. 
+4. Please discuss your imaging needs with us before starting the relevant experiments. This can avoid wasted time. 
 
 
 ### Where are we?
