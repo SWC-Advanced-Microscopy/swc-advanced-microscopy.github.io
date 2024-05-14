@@ -20,8 +20,7 @@ header:
 * Optimizing new antibodies and protocols. Antigen retrieval.
 * Teaching/training for researchers in histological techniques.
 * Advice on tissue clearing and lightsheet microscopy. 
-
-
+* Training and use of our Bright Cryostat and Leica VT1200 vibratome. 
 
 # Technical Services
 * Advice on data analysis and microscope hardware. We can help you analyse data in Python, MATLAB, Fiji, [napari](https://napari.org/stable/), or R.
