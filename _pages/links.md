@@ -13,7 +13,6 @@ header:
 
 
 ## Visualisation Tools
-- [Napari](https://napari.org/) - Fast visualisation of big image data in Python
 - [Fiji](https://fiji.sc/) - You can use virtual stacks or the BigDataViewer to navigate large datasets
 - [Icy](http://icy.bioimageanalysis.org/) - Fiji alternative
 - [ClearVolume](https://imagej.net/ClearVolume) - Fiji plugin for making pretty transparent volumes.
@@ -28,11 +27,16 @@ header:
 
 ## Analysis Tools
 - [BrainGlobe](https://brainglobe.info/) - Rich suite of tools for analysing whole-brain imaging data. This toolkit is developed at the SWC with the help of international collaborators. 
+- [Napari](https://napari.org/) - Fast visualisation of big image data in Python. Napari really shines as a platform for building image analysis tools. 
 - [QuPath](https://qupath.github.io/) - Whole slide analysis
 - [ABBA](https://biop.github.io/ijp-imagetoatlas/registration.html) - Register brain slice images to the Allen Atlas.
+- [SHARCQ](https://www.eneuro.org/content/9/2/ENEURO.0483-21.2022) - Register slices to the Allen Atlas atlas and perform cell quantification. 
+- [SHARP-Track](https://github.com/cortex-lab/allenCCF) - Register sliced brains with probe tracks to Allen Atlas. Source contains a lot of hard-coded file paths. 
+- [HERBS](https://elifesciences.org/articles/83496) - Electrode track reconstruction from slices. 
 
 
 ## Useful stuff
+- [Analysis and visualisation tools from the IBL](https://www.internationalbrainlab.com/tools)
 - [Simple mouse and rat brain atlases](http://labs.gaidi.ca/mouse-brain-atlas/)
 - [Labrigger](https://labrigger.com/blog)
 
