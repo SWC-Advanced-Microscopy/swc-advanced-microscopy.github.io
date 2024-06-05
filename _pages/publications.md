@@ -23,7 +23,7 @@ header:
 
 ## Publications From SWC Groups Using The Facility 
 * [A cortico-collicular circuit for orienting to shelter during escape](https://www.nature.com/articles/s41586-022-05553-9); Nature 2023, Margrie and Branco, BrainSaw
-* [A subcortical switchboard for exploratory, exploitatory, and disengaged states](https://www.biorxiv.org/content/10.1101/2023.12.20.572654v1); bioRxiv 2022, Hofer, BrainSaw
+* [A subcortical switchboard for exploratory, exploitatory, and disengaged states](https://www.biorxiv.org/content/10.1101/2023.12.20.572654v1); bioRxiv 2023, Hofer, BrainSaw
 * [A Brain-Wide Map of Neural Activity during Complex Behaviour](https://www.biorxiv.org/content/10.1101/2023.07.04.547681v2.full.pdf); bioRxiv 2023, SWC and IBL, BrainSaw
 * [Functional gene delivery to and across brain vasculature of systemic AAVs with endothelial-specific tropism in rodents and broad tropism in primates](https://www.nature.com/articles/s41467-023-38582-7); Nature Communications 2023, Akrami + external collaborators, BrainSaw
 * [A primary sensory cortical interareal feedforward inhibitory circuit for tacto-visual integration](https://www.biorxiv.org/content/10.1101/2022.11.04.515161v1); bioRxiv 2022, Margrie, BrainSaw
