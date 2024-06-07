@@ -14,6 +14,11 @@ header:
 ---
 
 
-Zapit is point-based (scanner-based) optostimulator system for head-fixed mouse behavioral tasks. The software will run on a variety of hardware designs and experimental paradigms. A user-friendly MATLAB GUI handles creation of stimulus sets, scanner calibration, and alignment of stereotaxic coordinates to the sample. The experiment itself is run via a MATLAB API: using a small number of simple commands the user can initiate and stop optostimulation, and handle trial logging to disk. There is a Python wrapper for the MATLAB API and support for presenting stimuli in other programming languages. 
+Zapit is point-based (scanner-based) optostimulator system for head-fixed mouse behavioral tasks. 
+The system can photostimulate near-simultaneously up to 20 locations on the dorsal brain surface.
+The software will run on a variety of hardware designs and experimental paradigms. 
+A user-friendly MATLAB GUI handles creation of stimulus sets, scanner calibration, and alignment of stereotaxic coordinates to the sample. 
+The experiment itself is run via a MATLAB API: using a small number of simple commands the user can initiate and stop optostimulation, and handle trial logging to disk. There is a Python wrapper for the MATLAB API and support for presenting stimuli in other programming languages. 
 
-Zapit is a collaboration between the AMF and several SWC labs. Click [HERE](https://doi.org/10.1101/2024.02.12.579892) to read our pre-print. 
+Zapit is a collaboration between the AMF and several SWC labs. 
+We have a [bioRxiv pre-print](https://doi.org/10.1101/2024.02.12.579892) and the project is fully available on [GitHub](https://github.com/Zapit-Optostim). 
