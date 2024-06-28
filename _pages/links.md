@@ -38,9 +38,19 @@ header:
 ## Useful stuff
 - [Analysis and visualisation tools from the IBL](https://www.internationalbrainlab.com/tools)
 - [Simple mouse and rat brain atlases](http://labs.gaidi.ca/mouse-brain-atlas/)
+
+
+## Blogs
 - [Labrigger](https://labrigger.com/blog)
+- [Stephen Royle](https://quantixed.org/author/quantixed/)
 
 
+## Image analysis guides
+- [From microscope to figure by Stephen Royle](https://www.youtube.com/watch?v=yjK6Mb536Q4&ab_channel=AmericanSocietyforCellBiology)
+
+
+## Courses
+[microtutor](https://microtutor.globalbioimaging.org/)
 
 ## Image acquisition or analysis references
 - [The good, the bad and the ugly](https://www.nature.com/articles/447138a), by Helen Peason
