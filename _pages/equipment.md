@@ -26,10 +26,8 @@ feature_row_brainsaw:
     The systems have up to four channels and can generally handle up to three fluorophores simultaneously.
     Users typically run their own samples. Several training sessions are needed due to the destructive 
     nature of the technique.
-
-
   
-    [Getting started](https://github.com/SWC-Advanced-Microscopy/facility_webpage/wiki/Serial-Section-Imaging){: .btn .btn--primary}
+    [Getting started](serialSectionSWC){: .btn .btn--primary}
     [Software User Guide](https://bakingtray.mouse.vision/users/user_guide){: .btn .btn--primary}
       "
 
