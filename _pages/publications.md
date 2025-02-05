@@ -16,7 +16,7 @@ header:
 
 
 ## AMF Collaborative Work
-* [INSIHGT: An accessible multi-scale, multi-modal 3D spatial biology platform](https://www.biorxiv.org/content/10.1101/2024.05.24.595771v2); bioRxiv 2024, in collaboration with colleagues at The Chinese University of Hong Kong. 
+* [INSIHGT: An accessible multi-scale, multi-modal 3D spatial biology platform](https://www.nature.com/articles/s41467-024-55248-0); Nature Communications 2024, in collaboration with colleagues at The Chinese University of Hong Kong. 
 * [Cosmic kidney disease: an integrated pan-omic, physiological and morphological study into spaceflight-induced renal dysfunction](https://www.nature.com/articles/s41467-024-49212-1); Nature Communications 2024, in collaboration with Siew & Walsh (Department of Renal Medicine, UCL), Histology & Lightsheet
 * [Reproducibility of in-vivo electrophysiological measurements in mice](https://www.biorxiv.org/content/10.1101/2022.05.09.491042v4.full); bioRxiv 2023, in collaboration with IBL, BrainSaw
 * [Antibody stabilization for thermally accelerated deep immunostaining](https://www.nature.com/articles/s41592-022-01569-1); Nature Methods 2022, BrainSaw, MesoSPIM
