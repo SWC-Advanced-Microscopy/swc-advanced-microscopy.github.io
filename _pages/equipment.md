@@ -45,7 +45,7 @@ feature_row_mesospim:
 
     
     [Project website](https://mesospim.org){: .btn .btn--primary}
-    [AMF system details](https://github.com/SWC-Advanced-Microscopy/facility_webpage/wiki/MesoSPIM-v5){: .btn .btn--primary}
+    [AMF system details](hhttps://github.com/SWC-Advanced-Microscopy/swc-advanced-microscopy.github.io/wiki/MesoSPIM-v5){: .btn .btn--primary}
     "
 
 
