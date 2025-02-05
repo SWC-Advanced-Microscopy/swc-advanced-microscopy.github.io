@@ -28,7 +28,7 @@ There is a door bell to the left of the door.
 Contact us via Slack. Messages regarding equipment is sent only via Slack. Please make sure you join channels associated with equipment you use to receive relevant notifications. 
 
 ### How do I sign up for BrainSaw?
-The BrainSaw sign up details are [here on the wiki](https://github.com/SWC-Advanced-Microscopy/facility_webpage/wiki/Serial-Section-Imaging).
+The BrainSaw sign up details are [here](/serialSectionSWC).
 
 
 
@@ -36,7 +36,7 @@ The BrainSaw sign up details are [here on the wiki](https://github.com/SWC-Advan
 The AMF primarily caters for scientists within the SWC. 
 Since we also conduct a lot of internal technique development, we do not have the bandwidth to take on significant numbers of external samples.
 However:
-1. We can generate small quantities of pilot data.
+1. We may be able to generate small quantities of pilot data.
 2. We can assist with technology transfer: helping external groups to build our tools.  
 3. We are very open to collaborations with external groups or facilities. 
 
