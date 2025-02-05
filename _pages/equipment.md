@@ -27,6 +27,7 @@ feature_row_brainsaw:
     Users typically run their own samples. Several training sessions are needed due to the destructive 
     nature of the technique.
   
+  
     [Getting started](/serialSectionSWC){: .btn .btn--primary}
     [Software User Guide](https://bakingtray.mouse.vision/users/user_guide){: .btn .btn--primary}
       "
