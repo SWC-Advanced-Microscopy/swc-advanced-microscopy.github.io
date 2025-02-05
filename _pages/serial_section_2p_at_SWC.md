@@ -55,7 +55,7 @@ The serial section equipment in the facility are not yet associated with a metho
 
 A reasonable way to write the methods would be:
 
-"We imaged the brains using serial section ([Mayer 2008]](https://doi.org/10.1111/j.1365-2818.2008.02024.x)) two-photon ([Ragan 2012](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3297424/)) microscopy. Our microscope was controlled by ScanImage Basic (MBF Bioscience) using BakingTray, a custom software wrapper for setting up the imaging parameters ([DOI](https://zenodo.org/badge/latestdoi/96208671)). Images were assembled using StitchIt ([DOI](https://zenodo.org/badge/latestdoi/57851444))."
+"We imaged the brains using serial section ([Mayer 2008](https://doi.org/10.1111/j.1365-2818.2008.02024.x)) two-photon ([Ragan 2012](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3297424/)) microscopy. Our microscope was controlled by ScanImage Basic (MBF Bioscience) using BakingTray, a custom software wrapper for setting up the imaging parameters ([DOI](https://zenodo.org/badge/latestdoi/96208671)). Images were assembled using StitchIt ([DOI](https://zenodo.org/badge/latestdoi/57851444))."
 
 # More info
 * [Sample preparation notes and protocols](https://bakingtray.mouse.vision/users/sample_prep)
