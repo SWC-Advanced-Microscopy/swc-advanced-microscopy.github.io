@@ -21,7 +21,7 @@ If you are generating no more than about a brain a month or rarely have brains t
 Initial training on the serial section systems takes about 10 hours: typically there are 5 training sessions spread across 3 or 4 days. Each session takes about 90 minutes plus another hour or two to discuss data handling and pre-processing (compressing data, transferring to server, registering, etc). You will need a minimum of 5 brains for initial training but we can get through up to about a dozen or so if you have them. After these initial sessions you will book the equipment yourself and run samples under supervision until you feel confident to run independently.
 
 ## How to sign up
-1. Fill in the [training request form](https://docs.google.com/forms/d/1Xc7nAnFPY-WcHhVj3GPAydwgg4b32WIovKITfZiilkU/edit).
+1. Fill in the [training request form](https://docs.google.com/forms/d/e/1FAIpQLSdUBLLB-b4S4BXQfAwoMJ0mUcb4i6b8tUdyZ1WrXfB2b9VVww/viewform?usp=dialoghttps://docs.google.com/forms/d/1Xc7nAnFPY-WcHhVj3GPAydwgg4b32WI).
 2. If you've not done so already, start an account on the [PPMS booking system](https://swcmicroscopy.com/faq/). 
 
 
