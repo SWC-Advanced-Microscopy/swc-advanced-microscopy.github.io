@@ -9,7 +9,7 @@ header:
   overlay_image: /assets/images/home/GCamp6s_brain.jpg
 --- 
 
-In common with other microscopy facilities, the AMF follows the [Royal Microscopy Society publication guidelines](https://www.rms.org.uk/community/networks-affiliates/bioimaginguk-network/resources/imaging-facility-publication-guidelines.html). This means that:
+In common with many other microscopy facilities, the AMF follows the [Royal Microscopy Society publication guidelines](https://www.rms.org.uk/community/networks-affiliates/bioimaginguk-network/resources/imaging-facility-publication-guidelines.html). This means that:
 
 1. Publications must acknowledge the AMF (and named staff if appropriate) when a study uses equipment managed by the Facility.
 2. In cases where an AMF staff member has contributed significantly and/or provided non-routine services, they are to be added as co-authors. 
@@ -23,8 +23,8 @@ Examples of standard acknowledgement text:
 *  '_The authors thank John Smith and the SWC Advanced Microscopy Facility for assistance with light microscopy and protocol development._'
 
 ## Co-authorship
-If Facility scientists should be listed as co-authors if they contributed intellectually or contributed non-routine services or techniques.
-Routine work includes things like user training, microscope maintenance, standard histology, and simple raw data acquisition. Examples of non-routine work include:
+Facility scientists should be listed as co-authors if they contributed intellectually, or contributed non-routine services or techniques.
+_Routine_ work includes things like user training, microscope maintenance, standard histology, and simple raw data acquisition. Examples of _non-routine_ work include:
 
 * Extensive data analysis; in particular generating figures that appear in your publication or building analysis tools to generate those figures. 
 * Significant development or optimisation of protocols used in your study. e.g. Validating a new antibody does not count but spending a few weeks developing and documenting a bespoke clearing, labelling, and imaging pipeline does count.
