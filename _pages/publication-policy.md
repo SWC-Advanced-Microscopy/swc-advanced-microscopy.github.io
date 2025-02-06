@@ -1,5 +1,5 @@
 ---
-permalink: /publicationPolicy/
+permalink: /publication-policy/
 title: "Facility Publication Policy"
 layout: splash
 excerpt: ""

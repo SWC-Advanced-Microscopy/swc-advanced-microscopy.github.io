@@ -42,4 +42,4 @@ We have three serial section systems:
 
 
 # Citing
-Please see our [publication policy](/publicationPolicy) for how to cite the serial section microscopes.
+Please see our [publication policy](/publication-policy) for how to cite the serial section microscopes.
