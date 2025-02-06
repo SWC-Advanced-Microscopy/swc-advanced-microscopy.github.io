@@ -31,6 +31,9 @@ Contact us via Slack. Messages regarding equipment is sent only via Slack. Pleas
 The BrainSaw sign up details are [here](/serialSectionSWC).
 
 
+## Citing and acknowledging the facility
+We adopt the [Royal Microscopy Society publication guidelines](https://www.rms.org.uk/community/networks-affiliates/bioimaginguk-network/resources/imaging-facility-publication-guidelines.html): the Facility should be properly acknowledged in published work to which it contributed and, when appropriate, Facility staff should be listed as co-authors. Please see our [full publication policy](/publicationPolicy) before submitting a manuscript.
+
 
 ## Do you take samples from external users?
 The AMF primarily caters for scientists within the SWC. 

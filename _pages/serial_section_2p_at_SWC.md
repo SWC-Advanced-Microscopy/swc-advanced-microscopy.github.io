@@ -42,12 +42,4 @@ We have three serial section systems:
 
 
 # Citing
-The serial section equipment in the facility are not yet associated with a methods paper. You can cite using DOIs for the software repositories:
-
-* **BakingTray acquisition software**: [GitHub link](https://github.com/SWC-Advanced-Microscopy/BakingTray), [DOI](https://zenodo.org/badge/latestdoi/96208671)
-* **StitchIt image assembly**: [GitHub link](https://github.com/SWC-Advanced-Microscopy/StitchIt), [DOI](https://zenodo.org/badge/latestdoi/57851444)
-
-A reasonable way to write the methods would be:
-
-"We imaged the brains using serial section ([Mayer 2008](https://doi.org/10.1111/j.1365-2818.2008.02024.x)) two-photon ([Ragan 2012](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3297424/)) microscopy. Our microscope was controlled by ScanImage Basic (MBF Bioscience) using BakingTray, a custom software wrapper for setting up the imaging parameters ([DOI](https://zenodo.org/badge/latestdoi/96208671)). Images were assembled using StitchIt ([DOI](https://zenodo.org/badge/latestdoi/57851444))."
-
+Please see our [publication policy](/publicationPolicy) for how to cite the serial section microscopes.
