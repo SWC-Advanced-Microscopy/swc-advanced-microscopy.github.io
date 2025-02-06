@@ -18,12 +18,12 @@ header:
 ## AMF Collaborative Work
 * [INSIHGT: An accessible multi-scale, multi-modal 3D spatial biology platform](https://www.nature.com/articles/s41467-024-55248-0); Nature Communications 2024, in collaboration with colleagues at The Chinese University of Hong Kong. 
 * [Cosmic kidney disease: an integrated pan-omic, physiological and morphological study into spaceflight-induced renal dysfunction](https://www.nature.com/articles/s41467-024-49212-1); Nature Communications 2024, in collaboration with Siew & Walsh (Department of Renal Medicine, UCL), Histology & Lightsheet
-* [Reproducibility of in-vivo electrophysiological measurements in mice](https://www.biorxiv.org/content/10.1101/2022.05.09.491042v4.full); bioRxiv 2023, in collaboration with IBL, BrainSaw
+* [Reproducibility of in-vivo electrophysiological measurements in mice](https://elifesciences.org/reviewed-preprints/100840); eLife 2024, in collaboration with IBL, BrainSaw
 * [Antibody stabilization for thermally accelerated deep immunostaining](https://www.nature.com/articles/s41592-022-01569-1); Nature Methods 2022, BrainSaw, MesoSPIM
 * [The mesoSPIM initiative: open-source light-sheet microscopes for imaging cleared tissue](https://www.nature.com/articles/s41592-019-0554-0); Nature Methods 2019
 
 
-## Publications From SWC Groups Using The Facility 
+## Publications From SWC Groups Using The Facility
 * [A cortico-collicular circuit for orienting to shelter during escape](https://www.nature.com/articles/s41586-022-05553-9); Nature 2023, Margrie and Branco, BrainSaw
 * [A subcortical switchboard for exploratory, exploitatory, and disengaged states](https://www.biorxiv.org/content/10.1101/2023.12.20.572654v1); bioRxiv 2023, Hofer, BrainSaw
 * [A Brain-Wide Map of Neural Activity during Complex Behaviour](https://www.biorxiv.org/content/10.1101/2023.07.04.547681v2.full.pdf); bioRxiv 2023, SWC and IBL, BrainSaw
@@ -42,7 +42,7 @@ header:
 * [The logic of single-cell projections from visual cortex](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6585423/); Nature 2018, StitchIt, ARA_tools, Lasagna
 
 
-## Publications From SWC Groups Acknowledging The Facility 
+## Publications From SWC Groups Acknowledging The Facility
 * [Cortical feedback loops bind distributed representations of working memory](https://www.nature.com/articles/s41586-022-05014-3); Nature 2022, Mrsic-Flogel, multi-photon assistance
 
 
