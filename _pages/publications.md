@@ -18,10 +18,10 @@ AMF staff contributed in a "co-first author" capacity in these papers.
 
 ## AMF "Middle Author" Publications
 AMF staff contributed in a "middle author" capacity in these papers.
-* [INSIHGT: An accessible multi-scale, multi-modal 3D spatial biology platform](https://www.nature.com/articles/s41467-024-55248-0); Nature Communications 2024, in collaboration with colleagues at The Chinese University of Hong Kong. 
+* [INSIHGT: An accessible multi-scale, multi-modal 3D spatial biology platform](https://www.nature.com/articles/s41467-024-55248-0); Nature Communications 2024, in collaboration with colleagues at The Chinese University of Hong Kong, BrainSaw
 * [Cosmic kidney disease: an integrated pan-omic, physiological and morphological study into spaceflight-induced renal dysfunction](https://www.nature.com/articles/s41467-024-49212-1); Nature Communications 2024, in collaboration with Siew & Walsh (Department of Renal Medicine, UCL), Histology & Lightsheet
 * [Reproducibility of in-vivo electrophysiological measurements in mice](https://elifesciences.org/reviewed-preprints/100840); eLife 2024, in collaboration with IBL, BrainSaw
-* [Antibody stabilization for thermally accelerated deep immunostaining](https://www.nature.com/articles/s41592-022-01569-1); Nature Methods 2022, BrainSaw, MesoSPIM
+* [Antibody stabilization for thermally accelerated deep immunostaining](https://www.nature.com/articles/s41592-022-01569-1); Nature Methods 2022, in collaboration with colleagues at The Chinese University of Hong Kong, BrainSaw, MesoSPIM
 * [The mesoSPIM initiative: open-source light-sheet microscopes for imaging cleared tissue](https://www.nature.com/articles/s41592-019-0554-0); Nature Methods 2019
 
 
