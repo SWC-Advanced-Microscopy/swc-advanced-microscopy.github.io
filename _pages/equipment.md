@@ -46,7 +46,7 @@ feature_row_mesospim:
 
     
     [Project website](https://mesospim.org){: .btn .btn--primary}
-    [AMF system details](hhttps://github.com/SWC-Advanced-Microscopy/swc-advanced-microscopy.github.io/wiki/MesoSPIM-v5){: .btn .btn--primary}
+    [AMF system details](https://github.com/SWC-Advanced-Microscopy/swc-advanced-microscopy.github.io/wiki/MesoSPIM-v5){: .btn .btn--primary}
     "
 
 
@@ -62,7 +62,7 @@ feature_row_sp8:
     provide enormous flexibility. The microscope is located in the AMF and you must be trained to have access to it.
 
 
-    [AMF SP8 Details](https://github.com/SWC-Advanced-Microscopy/facility_webpage/wiki/Leica-SP8-Confocal){: .btn .btn--primary}
+    [AMF SP8 Details](https://github.com/SWC-Advanced-Microscopy/swc-advanced-microscopy.github.io/wiki/Leica-SP8-Confocal){: .btn .btn--primary}
     "
 
 feature_row_axioscan:
@@ -73,7 +73,7 @@ feature_row_axioscan:
     The system handles both fluorescence and conventional brightfield. We run this microscope alongside our histology service, but it can also be booked and used independently. You must be trained to have access to this microscope. 
 
 
-    [AMF Axioscan Details](https://github.com/SWC-Advanced-Microscopy/facility_webpage/wiki/Zeiss-Axioscan%E2%80%90Slidescanner){: .btn .btn--primary}
+    [AMF Axioscan Details](https://github.com/SWC-Advanced-Microscopy/swc-advanced-microscopy.github.io/wiki/Zeiss-Axioscan%E2%80%90Slidescanner){: .btn .btn--primary}
     "
 
 feature_row_widefield:
@@ -86,8 +86,8 @@ feature_row_widefield:
       These microscopes are located on the first floor. Please contact the AMF for an induction if you are unfamiliar with them. 
 
 
-      [AMF Zeiss Imager Details](https://github.com/SWC-Advanced-Microscopy/facility_webpage/wiki/Zeiss-Imager-Z2){: .btn .btn--primary}
-      [AMF Zeiss Axiozoom Details](https://github.com/SWC-Advanced-Microscopy/facility_webpage/wiki/Zeiss-AxioZoom){: .btn .btn--primary}
+      [AMF Zeiss Imager Details](https://github.com/SWC-Advanced-Microscopy/swc-advanced-microscopy.github.io/wiki/Zeiss-Imager-Z2){: .btn .btn--primary}
+      [AMF Zeiss Axiozoom Details](https://github.com/SWC-Advanced-Microscopy/swc-advanced-microscopy.github.io/wiki/Zeiss-AxioZoom){: .btn .btn--primary}
 
       "
 
