@@ -16,12 +16,14 @@ header:
 * Lightsheet microscopy.
 * _In vivo_ functional imaging: assistance, microscopy upgrades, and maintenance.
 
+
 # Histology Services
 * General histology as a service: cryosectioning, vibratome sectioning, mounting, IHC, RNAscope, H&E, etc.
 * Optimizing new antibodies and protocols. Antigen retrieval.
 * Teaching/training of histological techniques.
 * Advice on tissue clearing and lightsheet microscopy. 
 * Training and use of our Bright Cryostat and Leica VT1200 vibratome. 
+
 
 # Technical Services
 * Advice on data analysis and microscope hardware. We can help you analyse data in Python, MATLAB, Fiji, [napari](https://napari.org/stable/), or R.
@@ -30,8 +32,8 @@ header:
 * Management assistance for microscopy-related projects that span multiple SWC core facilities.
 * Advice, maintenance, and troubleshooting of multi-photon microscopes throughout the Centre.  
 
+
 # Analysis
 We have experience with packages such as [Ilastik](https://www.ilastik.org/), [QuPath](https://qupath.github.io/), and, of course, the [BrainGlobe suite](https://brainglobe.info/). 
 We can also help to make movies for talks using [Imaris](https://imaris.oxinst.com). 
 
-# Teaching
