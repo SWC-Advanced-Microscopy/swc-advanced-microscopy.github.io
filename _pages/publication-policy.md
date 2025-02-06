@@ -14,7 +14,7 @@ In common with many other microscopy facilities, the AMF follows the [Royal Micr
 1. Publications must acknowledge the AMF (and named staff if appropriate) when a study uses equipment managed by the Facility.
 2. In cases where an AMF staff member has contributed significantly and/or provided non-routine services, they are to be added as co-authors. 
 
-Furthermore, we strongly encourage authors to let us proofread your methods section. Imaging methods are [often very poorly reported (eLife)](https://elifesciences.org/articles/55133) in publications. Work coming from the SWC should continue to buck this trend. 
+We strongly encourage authors to send us manuscripts before publication so we can proofread the relevant methods and descriptions. Imaging methods are [often very poorly reported (eLife)](https://elifesciences.org/articles/55133) in publications. Work coming from the SWC should continue to buck this trend. 
 
 
 ## Standard acknowledgement
