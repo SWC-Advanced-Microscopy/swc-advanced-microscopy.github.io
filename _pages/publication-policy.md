@@ -7,7 +7,7 @@ toc: false
 header:
   overlay_color: "#000"
   overlay_image: /assets/images/home/GCamp6s_brain.jpg
- 
+--- 
 
 In common with other microscopy facilities, the AMF follows the [Royal Microscopy Society publication guidelines](https://www.rms.org.uk/community/networks-affiliates/bioimaginguk-network/resources/imaging-facility-publication-guidelines.html). This means that:
 
