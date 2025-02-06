@@ -28,7 +28,10 @@ header:
 * Assistance with construction of custom equipment for any imaging-related project.
 * Help with programming data-acquisition devices. 
 * Management assistance for microscopy-related projects that span multiple SWC core facilities.
+* Advice, maintenance, and troubleshooting of multi-photon microscopes throughout the Centre.  
 
+# Analysis
 We have experience with packages such as [Ilastik](https://www.ilastik.org/), [QuPath](https://qupath.github.io/), and, of course, the [BrainGlobe suite](https://brainglobe.info/). 
 We can also help to make movies for talks using [Imaris](https://imaris.oxinst.com). 
 
+# Teaching
