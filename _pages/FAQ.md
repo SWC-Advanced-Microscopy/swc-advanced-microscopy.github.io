@@ -39,7 +39,7 @@ The Facility should be properly acknowledged in published work to which it contr
 The AMF primarily caters for scientists within the SWC. 
 Since we also conduct a lot of internal technique development, we unfortunately do not have the bandwidth to take on significant numbers of external samples.
 However:
-1. We _may_ be able to generate small quantities of pilot data.
+1. We _may_ be able to generate small quantities of pilot data. Charges apply. 
 2. We can assist with technology transfer: helping external groups to build our tools.  
 3. We are very open to collaborations with external groups or facilities, especially where knowledge transfer takes place.
 
