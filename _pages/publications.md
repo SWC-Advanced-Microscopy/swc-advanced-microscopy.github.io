@@ -23,12 +23,13 @@ header:
 * [The mesoSPIM initiative: open-source light-sheet microscopes for imaging cleared tissue](https://www.nature.com/articles/s41592-019-0554-0); Nature Methods 2019
 
 
-## Publications From SWC Groups Using The Facility
+## Publications From SWC Groups Using Our Equipment or Services
 * [Overwriting an instinct: Visual cortex instructs learning to suppress fear responses](https://www.science.org/doi/10.1126/science.adr2247); Science 2025, Hofer, BrainSaw, histology, and RNAScope
+* [A Brain-Wide Map of Neural Activity during Complex Behaviour](https://www.biorxiv.org/content/10.1101/2023.07.04.547681v2.full.pdf); bioRxiv 2024, SWC and IBL, BrainSaw
 * [A cortico-collicular circuit for orienting to shelter during escape](https://www.nature.com/articles/s41586-022-05553-9); Nature 2023, Margrie and Branco, BrainSaw
 * [A subcortical switchboard for exploratory, exploitatory, and disengaged states](https://www.biorxiv.org/content/10.1101/2023.12.20.572654v1); bioRxiv 2023, Hofer, BrainSaw
-* [A Brain-Wide Map of Neural Activity during Complex Behaviour](https://www.biorxiv.org/content/10.1101/2023.07.04.547681v2.full.pdf); bioRxiv 2023, SWC and IBL, BrainSaw
 * [Functional gene delivery to and across brain vasculature of systemic AAVs with endothelial-specific tropism in rodents and broad tropism in primates](https://www.nature.com/articles/s41467-023-38582-7); Nature Communications 2023, Akrami + external collaborators, BrainSaw
+* [Cortical feedback loops bind distributed representations of working memory](https://www.nature.com/articles/s41586-022-05014-3); Nature 2022, Mrsic-Flogel, assistance with multi-photon microscopy
 * [A primary sensory cortical interareal feedforward inhibitory circuit for tacto-visual integration](https://www.biorxiv.org/content/10.1101/2022.11.04.515161v1); bioRxiv 2022, Margrie, BrainSaw
 * [Representation of ethological events by basolateral amygdala neurons](https://www.sciencedirect.com/science/article/pii/S2211124722006982#cebib0010); Cell Reports 2022, O'Keefe, BrainSaw
 * [Independent response modulation of visual cortical neurons by attentional and behavioral states](https://www.cell.com/neuron/fulltext/S0896-6273(22)00803-0#secsectitle0065); Neuron 2022, Mrsic-Flogel, Histology (RNAscope) and multi-photon assistance
@@ -36,15 +37,11 @@ header:
 * [A deep learning algorithm for 3D cell detection in whole mouse brain image datasets](https://doi.org/10.1371/journal.pcbi.1009074); PLOS Comp Bio 2021, Margrie, BrainSaw, TissueVision
 * [The retrosplenial cortex combines internal and external cues to encode head velocity during navigation](http://dx.doi.org/10.1016/j.neuron.2021.10.031); Neuron 2021, Margrie, BrainsSaw
 * [Flexible inhibitory control of visually-evoked defensive behavior by the ventral lateral geniculate nucleus](https://www.sciencedirect.com/science/article/pii/S0896627321006577); Neuron 2021, Hofer and Branco, BrainsSaw
-* [Excitatory and inhibitory L2/3 neurons in mouse primary visual cortex are balanced in their input connectivity](https://www.biorxiv.org/content/10.1101/2020.04.21.053504v1); bioRxiv 2020, Margrie, TissueVision
 * [Visual intracortical and transthalamic pathways carry distinct information to cortical areas](https://www.sciencedirect.com/science/article/pii/S089662732100283X?via%3Dihub); Neuron 2021, Hofer, SP8, BrainSaw
 * [Mesoscale cortical dynamics reflect the interaction of sensory evidence and temporal expectation during perceptual decision-making](https://www.sciencedirect.com/science/article/pii/S0896627321002014?via%3Dihub); Neuron 2021, Mrsic-Flogel, BrainSaw
 * [A Circuit for Integration of Head- and Visual-Motion Signals in Layer 6 of Mouse Primary Visual Cortex](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5896233/); Neuron 2018, Margrie, Leica SP8, TissueVision
 * [The logic of single-cell projections from visual cortex](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6585423/); Nature 2018, StitchIt, ARA_tools, Lasagna
 
-
-## Publications From SWC Groups Acknowledging The Facility
-* [Cortical feedback loops bind distributed representations of working memory](https://www.nature.com/articles/s41586-022-05014-3); Nature 2022, Mrsic-Flogel, multi-photon assistance
 
 
 ## Publications From External Groups Using Our Tools
