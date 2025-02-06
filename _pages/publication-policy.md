@@ -27,8 +27,8 @@ Facility scientists should be listed as co-authors if they contributed intellect
 _Routine_ work includes things like user training, microscope maintenance, standard histology, and simple raw data acquisition. Examples of _non-routine_ work include:
 
 * Extensive data analysis; in particular generating figures that appear in your publication or building analysis tools to generate those figures. 
-* Significant development or optimisation of protocols used in your study. e.g. Validating a new antibody does not count but spending a few weeks developing and documenting a bespoke clearing, labelling, and imaging pipeline does count.
-* Building and validating a significant modification to your in vivo imaging pipeline. e.g. Adding a new filter to your rig does not count but helping you construct and validate temporal focusing over 6 months does count.   
+* Significant development or optimisation of protocols used in your study. e.g. Validating a new antibody does not count but spending extended time developing and documenting a bespoke clearing, labelling, and imaging pipeline for a novel application does count.
+* Building and validating a significant modification to your in vivo imaging pipeline. e.g. Adding a new filter to your rig does not count but helping you construct and validate temporal focusing does count.   
 * Building significant new equipment. e.g. 3D printing a new sample holder does not count but helping you build a rig for optically tracking mouse toe movements does count.
 
 
