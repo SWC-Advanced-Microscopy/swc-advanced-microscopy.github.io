@@ -37,7 +37,7 @@ The Facility should be properly acknowledged in published work to which it contr
 
 ## Do you take samples from external users?
 The AMF primarily caters for scientists within the SWC. 
-Since we also conduct a lot of internal technique development, we do not have the bandwidth to take on significant numbers of external samples.
+Since we also conduct a lot of internal technique development, we unfortunately do not have the bandwidth to take on significant numbers of external samples.
 However:
 1. We _may_ be able to generate small quantities of pilot data.
 2. We can assist with technology transfer: helping external groups to build our tools.  
@@ -53,5 +53,5 @@ We also strongly suggest you adhere to the following guidelines:
 * Store data in your group's shared directory rather than in your own personal user folder. Data kept in your user folder are only visible to you. 
 * Include your initials in the file names of your images, acquisitions (e.g. brainsaw acquisitions), or in the lowest level folder that holds the images. This helps trace who produced what. 
 * Store images in a sensible directory structure. e.g. `./margrie/projects/MVF_2023_ThreePhotonValidation/BrainSaw`
-* Data on the server are backed up to tape. Renaming the folder housing the data or moving the data to a new location **will spawn a new backup**. i.e. If you have a folder with 200 TB of data and you move it or rename it, you will spawn a duplicate 200 TB backup. Try to settle on a suitable folder structure in advance in order to minimize the creation of redundant backups. 
-* For the above reason, avoid routinely placing data in "temporary" locations on the server before moving it on to a final location. 
+* Data on the server are backed up to tape. Renaming the folder housing the data or moving the data to a new location **will spawn a new backup**. i.e. If you have a folder with 200 TB of data and you move it or rename it, you will spawn a duplicate 200 TB backup. Try to settle on a suitable folder structure in advance to minimize the creation of redundant backups. 
+* For the above reason, avoid routinely placing data in "temporary" locations on the server before moving them on to a final location. 
