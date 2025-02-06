@@ -12,7 +12,7 @@ header:
 
 ## AMF Publications
 * [Zapit: Open Source Random-Access Photostimulation For Neuroscience](https://doi.org/10.1101/2024.02.12.579892); bioRxiv 2024
-* [Standardised Measurements for Monitoring and Comparing Multiphoton Microscope Systems](https://www.biorxiv.org/content/10.1101/2024.01.23.576417v1); bioRxiv 2024
+* [Standardised Measurements for Monitoring and Comparing Multiphoton Microscope Systems](https://www.biorxiv.org/content/10.1101/2024.01.23.576417v1); Nature Protocols (IN PRESS)
 
 
 ## AMF Collaborative Work
