@@ -10,12 +10,14 @@ header:
 ---
 
 
-## AMF Publications
+## AMF "First Author" Publications
+AMF staff contributed in a "co-first author" capacity in these papers.
 * [Zapit: Open Source Random-Access Photostimulation For Neuroscience](https://doi.org/10.1101/2024.02.12.579892); bioRxiv 2024
 * [Standardised Measurements for Monitoring and Comparing Multiphoton Microscope Systems](https://www.biorxiv.org/content/10.1101/2024.01.23.576417v1); Nature Protocols (IN PRESS)
 
 
-## AMF Collaborative Work
+## AMF "Middle Author" Publications
+AMF staff contributed in a "middle author" capacity in these papers.
 * [INSIHGT: An accessible multi-scale, multi-modal 3D spatial biology platform](https://www.nature.com/articles/s41467-024-55248-0); Nature Communications 2024, in collaboration with colleagues at The Chinese University of Hong Kong. 
 * [Cosmic kidney disease: an integrated pan-omic, physiological and morphological study into spaceflight-induced renal dysfunction](https://www.nature.com/articles/s41467-024-49212-1); Nature Communications 2024, in collaboration with Siew & Walsh (Department of Renal Medicine, UCL), Histology & Lightsheet
 * [Reproducibility of in-vivo electrophysiological measurements in mice](https://elifesciences.org/reviewed-preprints/100840); eLife 2024, in collaboration with IBL, BrainSaw
