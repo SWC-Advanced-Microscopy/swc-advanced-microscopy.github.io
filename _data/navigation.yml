@@ -4,8 +4,6 @@ main:
     url: /equipment/
   - title: "Services"
     url: /services/
-  - title: "FAQ"
-    url: /faq/
   - title: "Tools"
     url: /tools/
   - title: "People"
@@ -14,6 +12,8 @@ main:
     url: /blog/
   - title: "Publications"
     url: /publications/
+  - title: "FAQ"
+    url: /faq/
   - title: "Links"
     url: /links/
 

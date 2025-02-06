@@ -13,12 +13,13 @@ header:
 * Training and assistance on confocal and wide-field fluorescence microscopy.
 * Automated slide-scanning. 
 * Automated, high-throughput, serial section 2-photon imaging of whole organs.
+* Lightsheet microscopy.
 * _In vivo_ functional imaging: assistance, microscopy upgrades, and maintenance.
 
 # Histology Services
 * General histology as a service: cryosectioning, vibratome sectioning, mounting, IHC, RNAscope, H&E, etc.
 * Optimizing new antibodies and protocols. Antigen retrieval.
-* Teaching/training for researchers in histological techniques.
+* Teaching/training of histological techniques.
 * Advice on tissue clearing and lightsheet microscopy. 
 * Training and use of our Bright Cryostat and Leica VT1200 vibratome. 
 
