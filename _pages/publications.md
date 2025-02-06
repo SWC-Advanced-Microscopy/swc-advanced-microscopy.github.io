@@ -24,6 +24,7 @@ header:
 
 
 ## Publications From SWC Groups Using The Facility
+* [Overwriting an instinct: Visual cortex instructs learning to suppress fear responses](https://www.science.org/doi/10.1126/science.adr2247); Science 2025, Hofer, BrainSaw, histology, and RNAScope
 * [A cortico-collicular circuit for orienting to shelter during escape](https://www.nature.com/articles/s41586-022-05553-9); Nature 2023, Margrie and Branco, BrainSaw
 * [A subcortical switchboard for exploratory, exploitatory, and disengaged states](https://www.biorxiv.org/content/10.1101/2023.12.20.572654v1); bioRxiv 2023, Hofer, BrainSaw
 * [A Brain-Wide Map of Neural Activity during Complex Behaviour](https://www.biorxiv.org/content/10.1101/2023.07.04.547681v2.full.pdf); bioRxiv 2023, SWC and IBL, BrainSaw
