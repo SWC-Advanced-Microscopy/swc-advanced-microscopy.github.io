@@ -47,8 +47,8 @@ AMF staff contributed in a "middle author" capacity in these papers.
 
 
 ## Publications From External Groups Using Our Tools
-* [An adaptable, reusable, and light implant for chronic Neuropixels probes](https://www.biorxiv.org/content/10.1101/2023.08.03.551752v2.full); bioRxiv 2024, BrainSaw and StitchIt
-* [A deep-learning strategy to identify cell types across species from high-density extracellular recordings](https://www.biorxiv.org/content/10.1101/2024.01.30.577845v1.full); bioRxiv 2024, BrainSaw system built at UCL. 
+* [An adaptable, reusable, and light implant for chronic Neuropixels probes](https://www.biorxiv.org/content/10.1101/2023.08.03.551752v4); bioRxiv 2024, BrainSaw and StitchIt
+* [A deep-learning strategy to identify cell types across species from high-density extracellular recordings](https://www.biorxiv.org/content/10.1101/2024.01.30.577845v2); bioRxiv 2024, BrainSaw system built at UCL. 
 * [Behavioral origin of sound-evoked activity in mouse visual cortex](https://www.nature.com/articles/s41593-022-01227-x); Nature Neuroscience 2023, from Harris and Carandini, BrainSaw and StitchIt
 * [Quantitative analysis of rabies virus-based synaptic connectivity tracing](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0278053#sec016); PLOS ONE 2023, from Ede Rancz's Lab, BrainSaw and StitichIt
 * [A fully automated home cage for long-term continuous phenotyping of mouse cognition and behavior](https://www.sciencedirect.com/science/article/pii/S2667237523001686?via%3Dihub#appsec2); Cell Reports Methods 2023, Julija Krupic and colleagues used BrainSaw at the AMF
@@ -56,6 +56,6 @@ AMF staff contributed in a "middle author" capacity in these papers.
 * [Axonal and Dendritic Morphology of Excitatory Neurons in Layer 2/3 Mouse Barrel Cortex Imaged Through Whole-Brain Two-Photon Tomography and Registered to a Digital Brain Atlas](https://doi.org/10.3389/fnana.2021.791015); Frontiers in Neuroanatomy 2022, from Carl Petersen's Lab, BrainSaw and StitchIt 
 * [Dendritic Domain-Specific Sampling of Long-Range Axons Shapes Feedforward and Feedback Connectivity of L5 Neurons](https://pubmed.ncbi.nlm.nih.gov/35241493/); Journal of Neuroscience 2022, from Ede Rancz's Lab, BrainSaw and StitichIt
 * [Tissue compartmentalization enables Salmonella persistence during chemotherapy](https://pubmed.ncbi.nlm.nih.gov/34911764/); PNAS 2021, StitchIt
-* [Anatomically and functionally distinct thalamocortical inputs to primary and secondary mouse whisker somatosensory cortices](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7335197/); Nature Communications 2020, From Carl Petersen's Lab. 2020, BrainSaw clone. StitchIt
-* [Distinct Contributions of Whisker Sensory Cortex and Tongue-Jaw Motor Cortex in a Goal-Directed Sensorimotor Transformation](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6859494/); Neuron 2019 From Carl Petersen's Lab, BrainSaw clone. StitchIt
+* [Anatomically and functionally distinct thalamocortical inputs to primary and secondary mouse whisker somatosensory cortices](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7335197/); Nature Communications 2020, From Carl Petersen's Lab. 2020, BrainSaw and StitchIt
+* [Distinct Contributions of Whisker Sensory Cortex and Tongue-Jaw Motor Cortex in a Goal-Directed Sensorimotor Transformation](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6859494/); Neuron 2019 From Carl Petersen's Lab, BrainSaw and StitchIt
 
