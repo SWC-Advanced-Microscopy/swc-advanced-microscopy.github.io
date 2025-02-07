@@ -43,3 +43,9 @@ We have three serial section systems:
 
 # Citing
 Please see our [publication policy](/publication-policy) for how to cite the serial section microscopes.
+
+
+# Documentation
+* [Running syncAndCrunch](https://liveuclac.sharepoint.com/sites/SWC.Laboratory/SitePages/SWC-Running-syncAndCrunch-112331871.aspx)
+* [BakingTray user guide](https://bakingtray.mouse.vision/users/user_guide)
+* [Linux CLI intro at StitchIt docs page](https://stitchit.mouse.vision/further-reading/useful-linux-commands)
