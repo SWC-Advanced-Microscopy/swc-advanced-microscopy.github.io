@@ -26,6 +26,7 @@ AMF staff contributed in a "middle author" capacity in these papers.
 
 
 ## Publications From SWC Groups Using Our Equipment or Services
+* [Combined transcriptomic, connectivity, and activity profiling of the medial amygdala using highly amplified multiplexed in situ hybridization (hamFISH)](https://elifesciences.org/reviewed-preprints/105388); eLife 2025, Isogai, BrainSaw
 * [Motor and vestibular signals in the visual cortex permit the separation of self versus externally generated visual motion](https://www.cell.com/cell/fulltext/S0092-8674(25)00101-1); Cell 2025, Clopath & Margrie, BrainSaw
 * [Overwriting an instinct: Visual cortex instructs learning to suppress fear responses](https://www.science.org/doi/10.1126/science.adr2247); Science 2025, Hofer, BrainSaw, histology, and RNAScope
 * [A Brain-Wide Map of Neural Activity during Complex Behaviour](https://www.biorxiv.org/content/10.1101/2023.07.04.547681v2.full.pdf); bioRxiv 2024, SWC and IBL, BrainSaw
