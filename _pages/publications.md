@@ -26,12 +26,12 @@ AMF staff contributed in a "middle author" capacity in these papers.
 
 
 ## Publications From SWC Groups Using Our Equipment or Services
+* [A subcortical switchboard for perseverative, exploratory and disengaged states](https://www.nature.com/articles/s41586-025-08672-1); Nature 2025, Hofer, BrainSaw
 * [Combined transcriptomic, connectivity, and activity profiling of the medial amygdala using highly amplified multiplexed in situ hybridization (hamFISH)](https://elifesciences.org/reviewed-preprints/105388); eLife 2025, Isogai, BrainSaw
 * [Motor and vestibular signals in the visual cortex permit the separation of self versus externally generated visual motion](https://www.cell.com/cell/fulltext/S0092-8674(25)00101-1); Cell 2025, Clopath & Margrie, BrainSaw
 * [Overwriting an instinct: Visual cortex instructs learning to suppress fear responses](https://www.science.org/doi/10.1126/science.adr2247); Science 2025, Hofer, BrainSaw, histology, and RNAScope
 * [A Brain-Wide Map of Neural Activity during Complex Behaviour](https://www.biorxiv.org/content/10.1101/2023.07.04.547681v2.full.pdf); bioRxiv 2024, SWC and IBL, BrainSaw
 * [A cortico-collicular circuit for orienting to shelter during escape](https://www.nature.com/articles/s41586-022-05553-9); Nature 2023, Margrie and Branco, BrainSaw
-* [A subcortical switchboard for exploratory, exploitatory, and disengaged states](https://www.biorxiv.org/content/10.1101/2023.12.20.572654v1); bioRxiv 2023, Hofer, BrainSaw
 * [Functional gene delivery to and across brain vasculature of systemic AAVs with endothelial-specific tropism in rodents and broad tropism in primates](https://www.nature.com/articles/s41467-023-38582-7); Nature Communications 2023, Akrami + external collaborators, BrainSaw
 * [Cortical feedback loops bind distributed representations of working memory](https://www.nature.com/articles/s41586-022-05014-3); Nature 2022, Mrsic-Flogel, assistance with multi-photon microscopy
 * [A primary sensory cortical interareal feedforward inhibitory circuit for tacto-visual integration](https://www.biorxiv.org/content/10.1101/2022.11.04.515161v1); bioRxiv 2022, Margrie, BrainSaw
