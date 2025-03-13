@@ -23,7 +23,7 @@ feature_row_one:
     image_width: "200"
     alt: "Peter Gordon"
     title: "Peter Gordon"
-    excerpt: "Microscopy Specialist"
+    excerpt: "Senior Microscopy Specialist"
 
 feature_row_two:
   - image_path: /assets/images/people/igor_tatarnikov.png 
