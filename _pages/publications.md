@@ -27,7 +27,7 @@ AMF staff contributed in a "middle author" capacity in these papers.
 
 
 ## Publications From SWC Groups Using Our Equipment or Services
-* [Mapping the magnetoreceptive brain: A 3D digital atlas of the migratory bird Eurasian blackcap (Sylvia atricapilla)](https://www.biorxiv.org/content/10.1101/2025.03.04.641293v1); Biorxiv 2025, Weiler, BrainSaw
+* [Mapping the magnetoreceptive brain: A 3D digital atlas of the migratory bird Eurasian blackcap (Sylvia atricapilla)](https://www.biorxiv.org/content/10.1101/2025.03.04.641293v1); bioRxiv 2025, Weiler, BrainSaw
 * [A subcortical switchboard for perseverative, exploratory and disengaged states](https://www.nature.com/articles/s41586-025-08672-1); Nature 2025, Hofer, BrainSaw
 * [Combined transcriptomic, connectivity, and activity profiling of the medial amygdala using highly amplified multiplexed in situ hybridization (hamFISH)](https://elifesciences.org/reviewed-preprints/105388); eLife 2025, Isogai, BrainSaw
 * [Motor and vestibular signals in the visual cortex permit the separation of self versus externally generated visual motion](https://www.cell.com/cell/fulltext/S0092-8674(25)00101-1); Cell 2025, Clopath & Margrie, BrainSaw
