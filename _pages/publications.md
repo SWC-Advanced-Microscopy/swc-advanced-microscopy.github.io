@@ -27,6 +27,7 @@ AMF staff contributed in a "middle author" capacity in these papers.
 
 
 ## Publications From SWC Groups Using Our Equipment or Services
+* [Dopaminergic action prediction errors serve as a value-free teaching signal](https://www.nature.com/articles/s41586-025-09008-9); Nature 2025, Stephenson-Jones/Clopath/Margrie, BrainSaw, AxioScan, Histology
 * [Layer 6 corticocortical neurons are a major route for intra and interhemispheric feedback](https://elifesciences.org/articles/100478); Elife 2025, Margrie, BrainSaw, SP8
 * [Mapping the magnetoreceptive brain: A 3D digital atlas of the migratory bird Eurasian blackcap (Sylvia atricapilla)](https://www.biorxiv.org/content/10.1101/2025.03.04.641293v1); bioRxiv 2025, Weiler, BrainSaw
 * [A subcortical switchboard for perseverative, exploratory and disengaged states](https://www.nature.com/articles/s41586-025-08672-1); Nature 2025, Hofer, BrainSaw
@@ -34,7 +35,7 @@ AMF staff contributed in a "middle author" capacity in these papers.
 * [Motor and vestibular signals in the visual cortex permit the separation of self versus externally generated visual motion](https://www.cell.com/cell/fulltext/S0092-8674(25)00101-1); Cell 2025, Clopath & Margrie, BrainSaw
 * [Overwriting an instinct: Visual cortex instructs learning to suppress fear responses](https://www.science.org/doi/10.1126/science.adr2247); Science 2025, Hofer, BrainSaw, histology, and RNAScope
 * [A Brain-Wide Map of Neural Activity during Complex Behaviour](https://www.biorxiv.org/content/10.1101/2023.07.04.547681v2.full.pdf); bioRxiv 2024, SWC and IBL, BrainSaw
-* [A cortico-collicular circuit for orienting to shelter during escape](https://www.nature.com/articles/s41586-022-05553-9); Nature 2023, Margrie and Branco, BrainSaw
+* [A cortico-collicular circuit for orienting to shelter during escape](https://www.nature.com/articles/s41586-022-05553-9); Nature 2023, Margrie/Branco, BrainSaw
 * [Functional gene delivery to and across brain vasculature of systemic AAVs with endothelial-specific tropism in rodents and broad tropism in primates](https://www.nature.com/articles/s41467-023-38582-7); Nature Communications 2023, Akrami + external collaborators, BrainSaw
 * [Cortical feedback loops bind distributed representations of working memory](https://www.nature.com/articles/s41586-022-05014-3); Nature 2022, Mrsic-Flogel, assistance with multi-photon microscopy
 * [A primary sensory cortical interareal feedforward inhibitory circuit for tacto-visual integration](https://www.biorxiv.org/content/10.1101/2022.11.04.515161v1); bioRxiv 2022, Margrie, BrainSaw
@@ -43,7 +44,7 @@ AMF staff contributed in a "middle author" capacity in these papers.
 * [Accurate determination of marker location within whole-brain microscopy images](https://doi.org/10.1038/s41598-021-04676-9); Scientific Reports 2022, Margrie, BrainSaw
 * [A deep learning algorithm for 3D cell detection in whole mouse brain image datasets](https://doi.org/10.1371/journal.pcbi.1009074); PLOS Comp Bio 2021, Margrie, BrainSaw, TissueVision
 * [The retrosplenial cortex combines internal and external cues to encode head velocity during navigation](http://dx.doi.org/10.1016/j.neuron.2021.10.031); Neuron 2021, Margrie, BrainsSaw
-* [Flexible inhibitory control of visually-evoked defensive behavior by the ventral lateral geniculate nucleus](https://www.sciencedirect.com/science/article/pii/S0896627321006577); Neuron 2021, Hofer and Branco, BrainsSaw
+* [Flexible inhibitory control of visually-evoked defensive behavior by the ventral lateral geniculate nucleus](https://www.sciencedirect.com/science/article/pii/S0896627321006577); Neuron 2021, Hofer/Branco, BrainsSaw
 * [Visual intracortical and transthalamic pathways carry distinct information to cortical areas](https://www.sciencedirect.com/science/article/pii/S089662732100283X?via%3Dihub); Neuron 2021, Hofer, SP8, BrainSaw
 * [Mesoscale cortical dynamics reflect the interaction of sensory evidence and temporal expectation during perceptual decision-making](https://www.sciencedirect.com/science/article/pii/S0896627321002014?via%3Dihub); Neuron 2021, Mrsic-Flogel, BrainSaw
 * [A Circuit for Integration of Head- and Visual-Motion Signals in Layer 6 of Mouse Primary Visual Cortex](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5896233/); Neuron 2018, Margrie, Leica SP8, TissueVision
