@@ -66,7 +66,7 @@ feature_row_sp8:
     "
 
 feature_row_axioscan:
-  - image_path: https://analyticalscience.wiley.com/do/10.1002/was.00020305/view-media-gallery/zeissaxioscan-13-4-2021-image1lr-1619004027613.jpg
+  - image_path: /assets/images/equipment/axioscan-7-with-viluma7-stage.jpg
     alt: "slide scanner"
     title: "Axioscan slide scanner"
     excerpt: "This high-throughput widefield microscope accommodates up to 100 slides, which it images automatically after an interactive setup process. 
