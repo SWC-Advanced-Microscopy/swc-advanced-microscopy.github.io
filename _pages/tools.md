@@ -69,7 +69,7 @@ feature_row_zapit:
     btn_class: "btn--primary"
 
 feature_row_blanking:
-  - image_path:  /assets/images/zapit/monitor_blanking_PCB.png
+  - image_path:  /assets/images/monitor_blanking_PCB.png
     alt: "Monitor blanking"
     title: "Monitor blanking for in-vivo multi-photon imaging"
     excerpt: "In systems neuroscience research it is common to present visual stimuli to animals whilst monitoring neural activity using functional calcium imaging. Neurons are typically imaged with a multi-photon microscope that uses highly sensitive photo-multiplier tubes (PMTs) to detect light emitted from the brain and allow an image to reconstructed on a computer. The PMT signal from the brain is easily drowned out by light from the screens presenting the visual stimuli, and in extreme conditions this can even damage the PMTs. One solution to this is to synchronise illumination of the screen to epochs when the PMT is not collecting light from the sample. The SWC FabLab and Mrsic-Flogel lab collaborated with the AMF to make a custom electronics controller to modulate the monitor backlight with digital pulses. This allows experimenters to 'blank' the monitor illumination during the so-called 'turn-around' periods of the multi-photon microscope. This effectively allows simultaneous imaging and visual stimulation without interference."
