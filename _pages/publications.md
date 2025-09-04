@@ -43,8 +43,8 @@ AMF staff contributed in a "middle author" capacity in these papers.
 * [Independent response modulation of visual cortical neurons by attentional and behavioral states](https://www.cell.com/neuron/fulltext/S0896-6273(22)00803-0#secsectitle0065); Neuron 2022, Mrsic-Flogel, Histology (RNAscope) and multi-photon assistance
 * [Accurate determination of marker location within whole-brain microscopy images](https://doi.org/10.1038/s41598-021-04676-9); Scientific Reports 2022, Margrie, BrainSaw
 * [A deep learning algorithm for 3D cell detection in whole mouse brain image datasets](https://doi.org/10.1371/journal.pcbi.1009074); PLOS Comp Bio 2021, Margrie, BrainSaw, TissueVision
-* [The retrosplenial cortex combines internal and external cues to encode head velocity during navigation](http://dx.doi.org/10.1016/j.neuron.2021.10.031); Neuron 2021, Margrie, BrainsSaw
-* [Flexible inhibitory control of visually-evoked defensive behavior by the ventral lateral geniculate nucleus](https://www.sciencedirect.com/science/article/pii/S0896627321006577); Neuron 2021, Hofer/Branco, BrainsSaw
+* [The retrosplenial cortex combines internal and external cues to encode head velocity during navigation](http://dx.doi.org/10.1016/j.neuron.2021.10.031); Neuron 2021, Margrie, BrainSaw
+* [Flexible inhibitory control of visually-evoked defensive behavior by the ventral lateral geniculate nucleus](https://www.sciencedirect.com/science/article/pii/S0896627321006577); Neuron 2021, Hofer/Branco, BrainSaw
 * [Visual intracortical and transthalamic pathways carry distinct information to cortical areas](https://www.sciencedirect.com/science/article/pii/S089662732100283X?via%3Dihub); Neuron 2021, Hofer, SP8, BrainSaw
 * [Mesoscale cortical dynamics reflect the interaction of sensory evidence and temporal expectation during perceptual decision-making](https://www.sciencedirect.com/science/article/pii/S0896627321002014?via%3Dihub); Neuron 2021, Mrsic-Flogel, BrainSaw
 * [A Circuit for Integration of Head- and Visual-Motion Signals in Layer 6 of Mouse Primary Visual Cortex](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5896233/); Neuron 2018, Margrie, Leica SP8, TissueVision
