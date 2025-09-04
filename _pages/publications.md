@@ -27,7 +27,7 @@ AMF staff contributed in a "middle author" capacity in these papers.
 
 
 ## Publications From SWC Groups Using Our Equipment or Services
-* [A Brain-Wide Map of Neural Activity during Complex Behaviour](https://www.biorxiv.org/content/10.1101/2023.07.04.547681v2.full.pdf); Nature 2025, SWC and IBL, BrainSaw
+* [A Brain-Wide Map of Neural Activity during Complex Behaviour](https://pubmed.ncbi.nlm.nih.gov/40903598); Nature 2025, SWC and IBL, BrainSaw
 * [Dopaminergic action prediction errors serve as a value-free teaching signal](https://www.nature.com/articles/s41586-025-09008-9); Nature 2025, Stephenson-Jones/Clopath/Margrie, BrainSaw, AxioScan, Histology
 * [Layer 6 corticocortical neurons are a major route for intra and interhemispheric feedback](https://elifesciences.org/articles/100478); Elife 2025, Margrie, BrainSaw, SP8
 * [Mapping the magnetoreceptive brain: A 3D digital atlas of the migratory bird Eurasian blackcap (Sylvia atricapilla)](https://www.biorxiv.org/content/10.1101/2025.03.04.641293v1); bioRxiv 2025, Weiler, BrainSaw
