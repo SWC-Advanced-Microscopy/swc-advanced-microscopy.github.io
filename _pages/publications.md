@@ -53,6 +53,7 @@ AMF staff contributed in a "middle author" capacity in these papers.
 
 
 ## Publications From External Groups Using Our Tools
+* [Barcoded Rabies In Situ Connectomics for high-throughput reconstruction of neural circuits](https://www.biorxiv.org/content/10.1101/2025.07.16.665048v1.full); bioRxiv 2025, BrainSaw and StitchIt
 * [An adaptable, reusable, and light implant for chronic Neuropixels probes](https://www.biorxiv.org/content/10.1101/2023.08.03.551752v4); bioRxiv 2024, BrainSaw and StitchIt
 * [A deep-learning strategy to identify cell types across species from high-density extracellular recordings](https://www.biorxiv.org/content/10.1101/2024.01.30.577845v2); bioRxiv 2024, BrainSaw system built at UCL. 
 * [Behavioral origin of sound-evoked activity in mouse visual cortex](https://www.nature.com/articles/s41593-022-01227-x); Nature Neuroscience 2023, from Harris and Carandini, BrainSaw and StitchIt
