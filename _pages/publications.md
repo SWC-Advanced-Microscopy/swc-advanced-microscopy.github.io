@@ -19,9 +19,9 @@ AMF staff contributed in a "co-first author" capacity in these papers.
 
 ## AMF "Middle Author" Publications
 AMF staff contributed in a "middle author" capacity in these papers.
+* [Reproducibility of in-vivo electrophysiological measurements in mice](https://elifesciences.org/reviewed-preprints/100840); eLife 2025, in collaboration with IBL, BrainSaw
 * [INSIHGT: An accessible multi-scale, multi-modal 3D spatial biology platform](https://www.nature.com/articles/s41467-024-55248-0); Nature Communications 2024, in collaboration with colleagues at The Chinese University of Hong Kong, BrainSaw
 * [Cosmic kidney disease: an integrated pan-omic, physiological and morphological study into spaceflight-induced renal dysfunction](https://www.nature.com/articles/s41467-024-49212-1); Nature Communications 2024, in collaboration with Siew & Walsh (Department of Renal Medicine, UCL), Histology & Lightsheet
-* [Reproducibility of in-vivo electrophysiological measurements in mice](https://elifesciences.org/reviewed-preprints/100840); eLife 2024, in collaboration with IBL, BrainSaw
 * [Antibody stabilization for thermally accelerated deep immunostaining](https://www.nature.com/articles/s41592-022-01569-1); Nature Methods 2022, in collaboration with colleagues at The Chinese University of Hong Kong, BrainSaw, MesoSPIM
 * [The mesoSPIM initiative: open-source light-sheet microscopes for imaging cleared tissue](https://www.nature.com/articles/s41592-019-0554-0); Nature Methods 2019
 
@@ -35,10 +35,10 @@ AMF staff contributed in a "middle author" capacity in these papers.
 * [Combined transcriptomic, connectivity, and activity profiling of the medial amygdala using highly amplified multiplexed in situ hybridization (hamFISH)](https://elifesciences.org/reviewed-preprints/105388); eLife 2025, Isogai, BrainSaw
 * [Motor and vestibular signals in the visual cortex permit the separation of self versus externally generated visual motion](https://www.cell.com/cell/fulltext/S0092-8674(25)00101-1); Cell 2025, Clopath & Margrie, BrainSaw
 * [Overwriting an instinct: Visual cortex instructs learning to suppress fear responses](https://www.science.org/doi/10.1126/science.adr2247); Science 2025, Hofer, BrainSaw, histology, and RNAScope
+* [A primary sensory cortical interareal feedforward inhibitory circuit for tacto-visual integration](https://www.nature.com/articles/s41467-024-47459-2); Nature Comms 2024, Margrie/Teichert, BrainSaw
 * [A cortico-collicular circuit for orienting to shelter during escape](https://www.nature.com/articles/s41586-022-05553-9); Nature 2023, Margrie/Branco, BrainSaw
 * [Functional gene delivery to and across brain vasculature of systemic AAVs with endothelial-specific tropism in rodents and broad tropism in primates](https://www.nature.com/articles/s41467-023-38582-7); Nature Communications 2023, Akrami + external collaborators, BrainSaw
 * [Cortical feedback loops bind distributed representations of working memory](https://www.nature.com/articles/s41586-022-05014-3); Nature 2022, Mrsic-Flogel, assistance with multi-photon microscopy
-* [A primary sensory cortical interareal feedforward inhibitory circuit for tacto-visual integration](https://www.biorxiv.org/content/10.1101/2022.11.04.515161v1); bioRxiv 2022, Margrie, BrainSaw
 * [Representation of ethological events by basolateral amygdala neurons](https://www.sciencedirect.com/science/article/pii/S2211124722006982); Cell Reports 2022, O'Keefe, BrainSaw
 * [Independent response modulation of visual cortical neurons by attentional and behavioral states](https://www.cell.com/neuron/fulltext/S0896-6273(22)00803-0#secsectitle0065); Neuron 2022, Mrsic-Flogel, Histology (RNAscope) and multi-photon assistance
 * [Accurate determination of marker location within whole-brain microscopy images](https://doi.org/10.1038/s41598-021-04676-9); Scientific Reports 2022, Margrie, BrainSaw
@@ -54,8 +54,7 @@ AMF staff contributed in a "middle author" capacity in these papers.
 
 ## Publications From External Groups Using Our Tools
 * [Barcoded Rabies In Situ Connectomics for high-throughput reconstruction of neural circuits](https://www.biorxiv.org/content/10.1101/2025.07.16.665048v1.full); bioRxiv 2025, BrainSaw and StitchIt
-* [An adaptable, reusable, and light implant for chronic Neuropixels probes](https://www.biorxiv.org/content/10.1101/2023.08.03.551752v4); bioRxiv 2024, BrainSaw and StitchIt
-* [A deep-learning strategy to identify cell types across species from high-density extracellular recordings](https://www.biorxiv.org/content/10.1101/2024.01.30.577845v2); bioRxiv 2024, BrainSaw system built at UCL. 
+* [A deep-learning strategy to identify cell types across species from high-density extracellular recordings](https://www.cell.com/cell/abstract/S0092-8674(25)00110-2); Cell 2025, BrainSaw system built at UCL. 
 * [Behavioral origin of sound-evoked activity in mouse visual cortex](https://www.nature.com/articles/s41593-022-01227-x); Nature Neuroscience 2023, from Harris and Carandini, BrainSaw and StitchIt
 * [Quantitative analysis of rabies virus-based synaptic connectivity tracing](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0278053#sec016); PLOS ONE 2023, from Ede Rancz's Lab, BrainSaw and StitichIt
 * [A fully automated home cage for long-term continuous phenotyping of mouse cognition and behavior](https://www.sciencedirect.com/science/article/pii/S2667237523001686?via%3Dihub#appsec2); Cell Reports Methods 2023, Julija Krupic and colleagues used BrainSaw at the AMF
