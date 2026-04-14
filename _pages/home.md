@@ -38,8 +38,6 @@ We focus on high-throughput, automated, solutions that are customised for the ne
 We design, build, upgrade, and repair a variety of custom equipment throughout the SWC.
 Our tools are designed in the open and used by researchers worldwide. 
 
-**[We are currently hiring for a research software engineer to build an analysis pipeline for spatial transcriptomics.](https://www.ucl.ac.uk/work-at-ucl/search-ucl-jobs/details?jobId=42595&jobTitle=Senior+Research+Software+Engineer+%28Omics%29)**
-
 ### Learn more about some of our tools:
 
     {% include feature_row id="feature_row_01"      %}
