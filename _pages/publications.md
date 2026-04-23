@@ -27,10 +27,10 @@ AMF staff contributed in a "middle author" capacity in these papers.
 
 
 ## Publications From SWC Groups Using Our Equipment or Services
+* [An open-source three-dimensional digital brain atlas of a migratory bird, the Eurasian blackcap](https://www.cell.com/current-biology/fulltext/S0960-9822(26)00323-4); Current Biology 2026, Weiler, BrainSaw
 * [A Brain-Wide Map of Neural Activity during Complex Behaviour](https://pubmed.ncbi.nlm.nih.gov/40903598); Nature 2025, SWC and IBL, BrainSaw
 * [Dopaminergic action prediction errors serve as a value-free teaching signal](https://www.nature.com/articles/s41586-025-09008-9); Nature 2025, Stephenson-Jones/Clopath/Margrie, BrainSaw, AxioScan, Histology
 * [Layer 6 corticocortical neurons are a major route for intra and interhemispheric feedback](https://elifesciences.org/articles/100478); Elife 2025, Margrie, BrainSaw, SP8
-* [Mapping the magnetoreceptive brain: A 3D digital atlas of the migratory bird Eurasian blackcap (Sylvia atricapilla)](https://www.biorxiv.org/content/10.1101/2025.03.04.641293v1); bioRxiv 2025, Weiler, BrainSaw
 * [A subcortical switchboard for perseverative, exploratory and disengaged states](https://www.nature.com/articles/s41586-025-08672-1); Nature 2025, Hofer, BrainSaw
 * [Combined transcriptomic, connectivity, and activity profiling of the medial amygdala using highly amplified multiplexed in situ hybridization (hamFISH)](https://elifesciences.org/reviewed-preprints/105388); eLife 2025, Isogai, BrainSaw
 * [Motor and vestibular signals in the visual cortex permit the separation of self versus externally generated visual motion](https://www.cell.com/cell/fulltext/S0092-8674(25)00101-1); Cell 2025, Clopath & Margrie, BrainSaw
