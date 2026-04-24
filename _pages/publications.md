@@ -19,6 +19,7 @@ AMF staff contributed in a "co-first author" capacity in these papers.
 
 ## AMF "Middle Author" Publications
 AMF staff contributed in a "middle author" capacity in these papers.
+* [An open-source three-dimensional digital brain atlas of a migratory bird, the Eurasian blackcap](https://www.cell.com/current-biology/fulltext/S0960-9822(26)00323-4); Current Biology 2026, Weiler, BrainSaw
 * [Reproducibility of in-vivo electrophysiological measurements in mice](https://elifesciences.org/reviewed-preprints/100840); eLife 2025, in collaboration with IBL, BrainSaw
 * [INSIHGT: An accessible multi-scale, multi-modal 3D spatial biology platform](https://www.nature.com/articles/s41467-024-55248-0); Nature Communications 2024, in collaboration with colleagues at The Chinese University of Hong Kong, BrainSaw
 * [Cosmic kidney disease: an integrated pan-omic, physiological and morphological study into spaceflight-induced renal dysfunction](https://www.nature.com/articles/s41467-024-49212-1); Nature Communications 2024, in collaboration with Siew & Walsh (Department of Renal Medicine, UCL), Histology & Lightsheet
@@ -27,7 +28,6 @@ AMF staff contributed in a "middle author" capacity in these papers.
 
 
 ## Publications From SWC Groups Using Our Equipment or Services
-* [An open-source three-dimensional digital brain atlas of a migratory bird, the Eurasian blackcap](https://www.cell.com/current-biology/fulltext/S0960-9822(26)00323-4); Current Biology 2026, Weiler, BrainSaw
 * [A Brain-Wide Map of Neural Activity during Complex Behaviour](https://pubmed.ncbi.nlm.nih.gov/40903598); Nature 2025, SWC and IBL, BrainSaw
 * [Dopaminergic action prediction errors serve as a value-free teaching signal](https://www.nature.com/articles/s41586-025-09008-9); Nature 2025, Stephenson-Jones/Clopath/Margrie, BrainSaw, AxioScan, Histology
 * [Layer 6 corticocortical neurons are a major route for intra and interhemispheric feedback](https://elifesciences.org/articles/100478); Elife 2025, Margrie, BrainSaw, SP8
