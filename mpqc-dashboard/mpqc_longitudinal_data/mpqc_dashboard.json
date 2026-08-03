@@ -1,0 +1,65 @@
+{
+  "system": {
+    "microscope": "NeuroVision",
+    "roomNumber": "B277",
+    "objective": { "name": "Nikon 16x NA 0.8", "serialNumber": "NONE" },
+    "PMTs": [
+      { "id": "PMT_1", "model": null,                "channelName": null,           "bandPassFilter": null },
+      { "id": "PMT_2", "model": "Hamamatsu R10699",  "channelName": "Chan 2 Red",   "bandPassFilter": "ET570lp" },
+      { "id": "PMT_3", "model": "Hamamatsu R10699",  "channelName": "Chan 3 Green", "bandPassFilter": "ET525/50m" },
+      { "id": "PMT_4", "model": "Hamamatsu R10699",  "channelName": "Chan 4 Blue",  "bandPassFilter": "FF01-450/70" }
+    ],
+    "imagingLaser": { "model": "Spectra Physics Mai Tai eHP DS", "serialNumber": "20239" },
+    "QC": { "sourceIDs": ["Red_2024Q2", "Green_2024Q2", "Blue_2024Q2", "White_2024Q2"] }
+  },
+  "metrics": {
+    "electricalNoise": {
+      "label": "Electrical Noise",
+      "variable_names": ["date", "PMT1", "PMT2"],
+      "data": [
+        ["2026-01-29T16:45:00", 9.765458, 1.675033],
+        ["2026-02-11T16:54:45", 9.68022,  1.677896],
+        ["2026-02-16T11:29:37", 7.319364, 1.677812],
+        ["2026-03-12T11:19:37", 12.319364, 3.677812],
+        ["2026-03-22T11:19:37", 10.319364, 3.97812],
+        ["2026-04-02T11:19:37", 9.319364, 3.17812]
+
+      ]
+    },
+    "photonsPerPixel": {
+      "label": "Photons Per Pixel",
+      "units": "photons/pixel",
+      "variable_names": ["date", "lowPower_3mW", "highPower_40to55mW"],
+      "data": [
+        ["2026-02-02T11:25:39", -0.5335, null  ],
+        ["2026-02-02T11:30:05",  1.7347, null  ],
+        ["2026-02-11T16:06:21",  null,   3.4644],
+        ["2026-02-11T16:20:51",  null,   4.3613],
+        ["2026-02-16T11:47:21",  null,   0.3652]
+      ]
+    },
+    "laserPower": {
+      "label": "Laser Power",
+      "variable_names": ["date", "maxPower_mW", "percentAt100mW"],
+      "data": [
+        ["2026-01-08T16:14:50", 226.450, 57.309],
+        ["2026-01-08T16:17:17", 225.346, 57.313],
+        ["2026-01-29T16:58:26", 223.911, 57.375],
+        ["2026-02-10T14:33:25", 235.372, 41.440],
+        ["2026-02-16T16:35:07", 230.797, 42.730],
+        ["2026-02-19T16:35:07", 220.797, 38.730],
+        ["2026-03-06T16:35:07", 240.797, 32.730],
+        ["2026-04-01T16:35:07", 223.797, 41.730]
+      ]
+    },
+    "standardLight": {
+      "label": "Standard Light Source",
+      "variable_names": ["date", "ch1", "ch2", "ch3", "ch4"],
+      "data": [
+        ["2025-02-24T10:43:16",  16.206, -13.494, -23.592, -39.015],
+        ["2025-02-24T11:55:40",  11.296,   3.045,  -6.759,   5.246],
+        ["2025-02-24T12:48:15",  -1.989,   6.734,   5.767,   0.0  ]
+      ]
+    }
+  }
+}
