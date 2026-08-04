@@ -1,196 +1,89 @@
-<!DOCTYPE html>
+---
+layout: default
+permalink: /mpqc-dashboard/
+title: "MPQC Longitudinal Dashboard"
+excerpt: "Multiphoton quality-control metrics over time"
+extra_css: /assets/css/mpqc-dashboard.css
+page_class: mpqc-dashboard-page
+---
 
-<html lang="en">
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="description" content="MPQC Longitudinal Dashboard">
-    <meta name="author" content="Rob Campbell">
+<div class="mpqc-controls">
+  <button onclick="document.getElementById('file-input').click()">Load JSON&hellip;</button>
+  <input id="file-input" type="file" accept=".json" style="display:none"
+         onchange="handleUpload(event, panels)">
+  <span id="loaded-filename">mpqc_dashboard.json</span>
+</div>
 
-    <link rel="stylesheet" href="mpqc_style.css" />
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<div class="mpqc-grid">
 
-    <style>
-        body {
-            background: #f0f2f5;
-        }
+  <div class="mpqc-card">
+    <div id="panel-power" class="mpqc-panel"></div>
+  </div>
 
-        header {
-            background: #1a3a5c;
-            color: white;
-            padding: 18px 30px;
-            border-radius: 8px;
-            margin-bottom: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
+  <div class="mpqc-card">
+    <div id="panel-photons" class="mpqc-panel"></div>
+  </div>
 
-        header h1 {
-            margin: 0;
-            font-size: 1.4em;
-            letter-spacing: 0.04em;
-        }
+  <div class="mpqc-card">
+    <div id="panel-noise" class="mpqc-panel"></div>
+  </div>
 
-        header a {
-            color: #a8d0f5;
-            font-size: 0.85em;
-        }
+  <div class="mpqc-card">
+    <div id="panel-light" class="mpqc-panel"></div>
+  </div>
 
-        .controls {
-            margin-bottom: 16px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            flex-wrap: wrap;
-        }
+</div>
 
-        .controls button {
-            background: #1a3a5c;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            padding: 7px 16px;
-            cursor: pointer;
-            font-size: 0.9em;
-        }
+<p class="mpqc-footer-note">MPQC Dashboard &mdash; data from <code>mpqc_longitudinal_data/mpqc_dashboard.json</code></p>
 
-        .controls button:hover {
-            background: #2a5a8c;
-        }
+<script src="js/json_basic.js"></script>
+<script type="text/javascript">
 
-        .controls .divider {
-            width: 1px;
-            height: 28px;
-            background: #ccc;
-            margin: 0 4px;
-        }
-
-        #loaded-filename {
-            font-size: 0.85em;
-            color: #555;
-            font-style: italic;
-        }
-
-        .grid {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-            align-items: center;
-        }
-
-        .card {
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-            padding: 12px;
-            aspect-ratio: 297 / 210;
-            max-width: 1250px;
-        }
-
-        .panel {
-            width: 100%;
-            height: 100%;
-        }
-
-        footer {
-            margin-top: 24px;
-            font-size: 0.8em;
-            color: #888;
-            text-align: center;
-        }
-    </style>
-</head>
-
-<body>
-
-    <header>
-        <h1>MPQC Longitudinal Dashboard</h1>
-    </header>
-
-    <div class="controls">
-        <button onclick="setAllVisible(true)">Show All</button>
-        <button onclick="setAllVisible(false)">Hide All</button>
-        <div class="divider"></div>
-        <button onclick="document.getElementById('file-input').click()">Load JSON&hellip;</button>
-        <input id="file-input" type="file" accept=".json" style="display:none"
-               onchange="handleUpload(event, panels)">
-        <span id="loaded-filename">mpqc_dashboard.json</span>
-    </div>
-
-    <div class="grid">
-
-        <div class="card">
-            <div id="panel-power" class="panel"></div>
-        </div>
-
-        <div class="card">
-            <div id="panel-photons" class="panel"></div>
-        </div>
-
-        <div class="card">
-            <div id="panel-noise" class="panel"></div>
-        </div>
-
-        <div class="card">
-            <div id="panel-light" class="panel"></div>
-        </div>
-
-    </div>
-
-    <footer>MPQC Dashboard &mdash; data from <code>mpqc_longitudinal_data/mpqc_dashboard.json</code></footer>
+  const panels = [
+    {
+      metricKey: 'laserPower',
+      divId:     'panel-power',
+      title:     'Laser Power',
+      yLabel:    'mW / %',
+      // Keyed by the series name in the file. Only laserPower has a fixed schema,
+      // so it is the only panel that can safely rename its series here.
+      names:     {maxPower_mW: 'Max Power (mW)', percentAt100mW: 'Percent at 100 mW'},
+      colors:    ['rgb(31, 119, 180)', 'rgb(255, 127, 14)'],
+    },
+    {
+      metricKey: 'photonsPerPixel',
+      divId:     'panel-photons',
+      title:     'Photons per Pixel',
+      yLabel:    'Photons / px',
+      // Series are named for the power ranges actually imaged, so they come from
+      // the file. There may be any number of them.
+      colors:    ['rgb(44, 160, 44)', 'rgb(214, 39, 40)'],
+    },
+    {
+      metricKey: 'electricalNoise',
+      divId:     'panel-noise',
+      title:     'Electrical Noise',
+      yLabel:    'Noise (a.u.)',
+      // Series are named for the PMTs this system reads out, so they come from the
+      // file. A microscope may save any subset of its four channels.
+      colors:    ['rgb(148, 103, 189)', 'rgb(140, 86, 75)', 'rgb(188, 189, 34)', 'rgb(23, 190, 207)'],
+    },
+    {
+      metricKey: 'standardLight',
+      divId:     'panel-light',
+      title:     'Standard Light Source',
+      yLabel:    'Value',
+      // As for electrical noise, the channels come from the file
+      colors:    ['rgb(227, 119, 194)', 'rgb(127, 127, 127)', 'rgb(188, 189, 34)', 'rgb(23, 190, 207)'],
+    },
+  ];
 
 
-    <script src="js/json_basic.js"></script>
-    <script type="text/javascript">
+  fetch('mpqc_longitudinal_data/mpqc_dashboard.json')
+    .then(r => r.json())
+    .then(json => loadAndRender(json, panels))
+    .catch(err => console.error('Failed to load dashboard JSON:', err));
 
-      const panels = [
-        {
-          metricKey: 'laserPower',
-          divId:     'panel-power',
-          title:     'Laser Power',
-          yLabel:    'mW / %',
-          // Keyed by the series name in the file. Only laserPower has a fixed schema,
-          // so it is the only panel that can safely rename its series here.
-          names:     {maxPower_mW: 'Max Power (mW)', percentAt100mW: 'Percent at 100 mW'},
-          colors:    ['rgb(31, 119, 180)', 'rgb(255, 127, 14)'],
-        },
-        {
-          metricKey: 'photonsPerPixel',
-          divId:     'panel-photons',
-          title:     'Photons per Pixel',
-          yLabel:    'Photons / px',
-          // Series are named for the power ranges actually imaged, so they come from
-          // the file. There may be any number of them.
-          colors:    ['rgb(44, 160, 44)', 'rgb(214, 39, 40)'],
-        },
-        {
-          metricKey: 'electricalNoise',
-          divId:     'panel-noise',
-          title:     'Electrical Noise',
-          yLabel:    'Noise (a.u.)',
-          // Series are named for the PMTs this system reads out, so they come from the
-          // file. A microscope may save any subset of its four channels.
-          colors:    ['rgb(148, 103, 189)', 'rgb(140, 86, 75)', 'rgb(188, 189, 34)', 'rgb(23, 190, 207)'],
-        },
-        {
-          metricKey: 'standardLight',
-          divId:     'panel-light',
-          title:     'Standard Light Source',
-          yLabel:    'Value',
-          // As for electrical noise, the channels come from the file
-          colors:    ['rgb(227, 119, 194)', 'rgb(127, 127, 127)', 'rgb(188, 189, 34)', 'rgb(23, 190, 207)'],
-        },
-      ];
-
-
-      fetch('mpqc_longitudinal_data/mpqc_dashboard.json')
-        .then(r => r.json())
-        .then(json => loadAndRender(json, panels))
-        .catch(err => console.error('Failed to load dashboard JSON:', err));
-
-    </script>
-
-</body>
-
-</html>
+</script>

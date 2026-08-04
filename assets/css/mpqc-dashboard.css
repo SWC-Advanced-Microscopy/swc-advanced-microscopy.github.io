@@ -1,0 +1,65 @@
+/* MPQC dashboard — extends main.css, reuses its custom properties so this
+   stays in sync with the rest of the site automatically. */
+
+/* Narrower than the site default (--content-max-width, main.css) — this
+   page only holds a single column of charts, so the site-wide reading
+   width is wider than it needs. Scoped to this page only. */
+.mpqc-dashboard-page .page__content-wrap {
+  max-width: 46rem;
+}
+
+.mpqc-controls {
+  margin: 0 0 1.5em;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  flex-wrap: wrap;
+}
+
+.mpqc-controls button {
+  background: var(--color-accent);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius);
+  padding: 0.5em 1.1em;
+  cursor: pointer;
+  font-size: 0.9em;
+  font-weight: 600;
+  font-family: var(--font-body);
+}
+.mpqc-controls button:hover { background: var(--color-accent-hover); }
+
+#loaded-filename {
+  font-size: 0.85em;
+  color: var(--color-text-dim);
+  font-style: italic;
+}
+
+.mpqc-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  align-items: center;
+  margin: 0 0 1.5em;
+}
+
+.mpqc-card {
+  background: var(--color-bg-alt);
+  border-radius: var(--radius);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  padding: 0.75em;
+  aspect-ratio: 297 / 210;
+  max-width: 1250px;
+  width: 100%;
+}
+
+.mpqc-panel {
+  width: 100%;
+  height: 100%;
+}
+
+.mpqc-footer-note {
+  font-size: 0.85em;
+  color: var(--color-text-dim);
+  text-align: center;
+}

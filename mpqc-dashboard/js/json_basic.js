@@ -18,7 +18,7 @@ function hasMetricData(metric) {
 function setPanelVisible(divId, visible) {
     const div = document.getElementById(divId);
     if (!div) return;
-    const container = div.closest('.card') || div;
+    const container = div.closest('.mpqc-card') || div;
     container.style.display = visible ? '' : 'none';
 }
 
@@ -52,9 +52,18 @@ function buildTracesFromMetric(metric, panel) {
 }
 
 
+// Mirrors the --color-text / --color-text-dim / --color-border custom properties
+// in assets/css/main.css. Plotly renders to canvas/SVG, so it can't read CSS
+// variables directly — keep these in sync by hand if the palette changes.
+const MPQC_TEXT_COLOR = '#e8e8e8';
+const MPQC_TEXT_DIM_COLOR = '#b7bbc2';
+const MPQC_BORDER_COLOR = '#51555d';
+const MPQC_GRID_COLOR = '#3a3f48';
+
 function renderPanel(divId, traces, title, yLabel) {
     const layout = {
-        title: { text: title, font: { size: 14 } },
+        title: { text: title, font: { size: 14, color: MPQC_TEXT_COLOR } },
+        font: { color: MPQC_TEXT_COLOR },
         xaxis: {
             type: 'category',
             tickangle: -35,
@@ -62,32 +71,26 @@ function renderPanel(divId, traces, title, yLabel) {
             showline: true,
             mirror: true,
             showgrid: false,
+            linecolor: MPQC_BORDER_COLOR,
+            tickfont: { color: MPQC_TEXT_DIM_COLOR },
         },
         yaxis: {
             title: { text: yLabel },
             ticks: 'outside',
             showline: true,
             mirror: true,
-            gridcolor: '#e8e8e8',
+            gridcolor: MPQC_GRID_COLOR,
+            linecolor: MPQC_BORDER_COLOR,
+            tickfont: { color: MPQC_TEXT_DIM_COLOR },
         },
         showlegend: true,
-        legend: { orientation: 'h', y: -0.3 },
-        plot_bgcolor: '#fafafa',
-        paper_bgcolor: '#ffffff',
+        legend: { orientation: 'h', y: -0.3, font: { color: MPQC_TEXT_COLOR } },
+        plot_bgcolor: 'transparent',
+        paper_bgcolor: 'transparent',
         margin: { t: 45, b: 100, l: 60, r: 20 },
     };
 
     Plotly.newPlot(divId, traces, layout, { responsive: true });
-}
-
-
-function setAllVisible(visible) {
-    document.querySelectorAll('.panel').forEach(div => {
-        const n = div.data ? div.data.length : 0;
-        for (let i = 0; i < n; i++) {
-            Plotly.restyle(div.id, 'visible', visible ? true : 'legendonly', [i]);
-        }
-    });
 }
 
 

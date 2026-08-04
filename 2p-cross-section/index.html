@@ -1,0 +1,131 @@
+---
+layout: default
+permalink: /2p-cross-section/
+title: "Two-Photon Cross Sections"
+excerpt: "Two-photon absorption cross-sections of commonly used dyes"
+extra_css: /assets/css/2p-cross-section.css
+page_class: xsection-page
+---
+
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+<div class="xsection-card">
+  <div id="chart" class="xsection-panel"></div>
+</div>
+
+<div class="xsection-controls">
+  <button onclick="showAllTraces()">Show all</button>
+  <button onclick="removeAllTraces()">Hide all</button>
+  <button onclick="enableAlexa()">Alexa dyes only</button>
+  <button onclick="enableZipfel()">Zipfel data only</button>
+  <button onclick="enableDrobizhev()">Drobizhev data only</button>
+</div>
+
+<p>
+  These curves show the two-photon absorption cross-sections of commonly used dyes.
+  The units are Goeppert-Mayers (GM), named after Maria Goeppert-Mayer, the discoverer
+  of the two-photon effect. You can toggle individual curves by clicking on their
+  entries in the legend.
+</p>
+
+<p>
+  Data come from the <a href="http://www.drbio.cornell.edu/cross_sections.html">Zipfel Lab</a>
+  and from papers by Mikhail Drobizhev, who kindly provided CSV files. In general the data
+  from Zipfel yield larger GM values than those from Drobizhev. Likely this is due to
+  preparation differences. Care must be taken in comparing across datasets, so the origin of
+  each curve is indicated by an initial: for example "eGFP (Z)" comes from the Zipfel lab
+  and "eGFP (D)" is from Drobizhev.
+</p>
+
+<p>
+  The code underlying this page
+  <a href="https://github.com/SWC-Advanced-Microscopy/2p_crosssection_viewer">can be found here</a>.
+  The curves are stored in named sub-directories so their origin is clear.
+</p>
+
+<h2>Using the data</h2>
+
+<p>
+  Note that the tunable Ti:Sapphire lasers commonly used for multi-photon microscopy produce
+  most of their power around 800 nm. Typically power output at 1050 nm drops to about 15% of
+  that at 800 nm.
+</p>
+
+<h2>Emission spectra</h2>
+
+<ul>
+  <li><a href="https://www.chroma.com/spectra-viewer?fluorochromes=27215%2C10392%2C27065&amp;parts=26208%2C25306%2C24198%2C25704">eBFP2, eGFP, tdTomato. With emission filters</a></li>
+  <li><a href="https://www.chroma.com/spectra-viewer?fluorochromes=27215%2C10392%2C27060%2C27065&amp;parts=26208%2C25306%2C24198%2C25704">eBFP2, eGFP, tdTomato, mCherry. With emission filters</a></li>
+</ul>
+
+<h2>References</h2>
+
+<ul>
+  <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4772972/?report=reader">Drobizhev, 2011</a></li>
+</ul>
+
+<script src="js/functions.js"></script>
+<script type="text/javascript">
+
+  // Files to read, their names, and colors. "source" groups a curve with the lab it
+  // came from and drives the filter buttons, so the buttons cannot drift out of step
+  // with this list the way hardcoded trace indices would.
+  const files = [
+    { filename: 'data/zipfel/Alexa488.csv', name: 'AF488 (Z)', marker: 'circle', color: 'rgb(49,130,189)', source: 'zipfel' },
+    { filename: 'data/zipfel/Alexa568.csv', name: 'AF568 (Z)', marker: 'circle', color: 'rgb(255,127,14)', source: 'zipfel' },
+    { filename: 'data/zipfel/Alexa594.csv', name: 'AF594 (Z)', marker: 'circle', color: 'rgb(255,127,14)', source: 'zipfel' },
+    { filename: 'data/zipfel/eGFP.csv', name: 'eGFP (Z)', marker: 'circle', color: 'rgb(44,160,44)', source: 'zipfel' },
+    { filename: 'data/zipfel/YFP.csv', name: 'YFP (Z)', marker: 'circle', color: 'rgb(230,220,10)', source: 'zipfel' },
+    { filename: 'data/zipfel/dsRed.csv', name: 'dsRED (Z)', marker: 'circle', color: 'rgb(200,20,44)', source: 'zipfel' },
+    { filename: 'data/drobizhev/EBFP2_0_w.csv', name: 'eBFP (D)', marker: 'square', color: 'rgb(70,90,240)', source: 'drobizhev' },
+    { filename: 'data/drobizhev/EGFP_average_w.csv', name: 'eGFP (D)', marker: 'square', color: 'rgb(44,160,44)', source: 'drobizhev' },
+    { filename: 'data/drobizhev/ECFP_w.csv', name: 'eCFP (D)', marker: 'square', color: 'rgb(10,190,194)', source: 'drobizhev' },
+    { filename: 'data/drobizhev/citrine_w.csv', name: 'citrine (D)', marker: 'square', color: 'rgb(0,190,44)', source: 'drobizhev' },
+    { filename: 'data/drobizhev/tdTomato_w.csv', name: 'tdTomato (D)', marker: 'square', color: 'rgb(200,50,44)', source: 'drobizhev' },
+    { filename: 'data/drobizhev/mCherry_w.csv', name: 'mCherry (D)', marker: 'square', color: 'rgb(255,192,203)', source: 'drobizhev' },
+  ];
+
+  const layout = {
+    // The page already carries an <h1>, so the plot itself is left untitled.
+    font: { color: XS_TEXT_COLOR },
+    xaxis: {
+      title: { text: 'Wavelength (nm)' },
+      mirror: true,
+      showline: true,
+      range: [750, 1110],
+      tickangle: -45,
+      ticks: 'outside',
+      gridcolor: XS_GRID_COLOR,
+      linecolor: XS_BORDER_COLOR,
+      tickfont: { color: XS_TEXT_DIM_COLOR },
+    },
+    yaxis: {
+      title: { text: 'GM' },
+      mirror: true,
+      showline: true,
+      range: [0, 250],
+      ticks: 'outside',
+      gridcolor: XS_GRID_COLOR,
+      linecolor: XS_BORDER_COLOR,
+      tickfont: { color: XS_TEXT_DIM_COLOR },
+    },
+    showlegend: true,
+    legend: { font: { color: XS_TEXT_COLOR } },
+    plot_bgcolor: 'transparent',
+    paper_bgcolor: 'transparent',
+    margin: { t: 20, b: 70, l: 60, r: 20 },
+  };
+
+  // Read in the data using the dictionary above and build a new structure holding the
+  // data from all files
+  const DATA = readAllFilesIntoStructure(files);
+
+  Promise.all(DATA)
+    .then(traces => {
+      Plotly.newPlot('chart', traces, layout, { responsive: true });
+    })
+    .catch(error => {
+      console.error('Error reading data:', error);
+    });
+
+</script>

@@ -1,0 +1,22 @@
+<header class="masthead">
+  <div class="masthead__inner-wrap">
+    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle menu">
+      <span></span>
+    </label>
+
+    <nav class="site-nav">
+      <ul>
+        <li><a href="{{ '/equipment/' | relative_url }}">Equipment</a></li>
+        <li><a href="{{ '/services/' | relative_url }}">Services</a></li>
+        <li><a href="{{ '/tools/' | relative_url }}">Tools</a></li>
+        <li><a href="{{ '/people/' | relative_url }}">People</a></li>
+        <li><a href="{{ '/publications/' | relative_url }}">Publications</a></li>
+        <li><a href="{{ '/faq/' | relative_url }}">FAQ</a></li>
+        <li><a href="{{ '/links/' | relative_url }}">Links</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>

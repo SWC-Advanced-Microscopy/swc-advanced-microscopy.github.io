@@ -1,0 +1,41 @@
+---
+layout: default
+permalink: /ss_acquisition/
+title: "Serial Section Acquisition and Stitching"
+excerpt: "Open tools for acquiring and stitching serial section data"
+header_image: /assets/images/serialsection/rgb_brain_banner.jpg
+header_overlay: 0.3
+---
+
+<div class="feature-row">
+  <img src="https://raw.githubusercontent.com/wiki/SainsburyWellcomeCentre/StitchIt/images/rgb_brain_example.jpg" alt="Acquisition of raw data">
+  <div class="feature-row__body">
+    <h3>BakingTray: serial-section acquisition software</h3>
+    <p>BakingTray is modular serial-section acquisition software for MATLAB. It can easily be modified to utilize any desired acquisition hardware (scanners, stages, etc). Images are currently acquired with ScanImage, but BakingTray can easily be extended to work with any acquisition system (e.g. a spinning-disk confocal or your own scanning software). BakingTray is more of a research platform for catalyzing developments in serial section imaging than a complete turn-key system.</p>
+    <a class="btn" href="https://bakingtray.mouse.vision">Repo</a>
+  </div>
+</div>
+
+<div class="feature-row">
+  <img src="{{ '/assets/images/serialsection/stitching.jpg' | relative_url }}" alt="Stitching">
+  <div class="feature-row__body">
+    <h3>StitchIt: assembling tile scan data to stitched sections</h3>
+    <p>Pre-processes data during acquisition, streams the last stitched section to a web page, initiates stitching automatically when acquisition completes. Includes tools for downsampling and generally batch-processing image stacks. Operations highly parallelized for speed.</p>
+    <a class="btn" href="https://github.com/SWC-Advanced-Microscopy/StitchIt">Repo</a>
+  </div>
+</div>
+
+<div class="feature-row">
+  <img src="{{ '/assets/images/software/brain_render.jpg' | relative_url }}" alt="brainrender">
+  <div class="feature-row__body">
+    <h3>Analysis: BrainGlobe</h3>
+    <p>Our favoured option for analysis of serial section data is the BrainGlobe suite. These Python-based tools were developed by researchers within the SWC and are now managed by a <a href="https://neuroinformatics.dev/">dedicated team of software engineers</a>. BrainGlobe comprises several software packages to access, analyze and visualize anatomical data. The packages are interoperable in order to streamline the process of going from raw data to publication-ready content.</p>
+    <a class="btn" href="https://brainglobe.info/">Repo</a>
+  </div>
+</div>
+
+<h2>Open tools by others</h2>
+<ul>
+  <li><a href="https://elifesciences.org/articles/10566">TeraVoxel resonant-scanning serial section 2p</a> and <a href="https://github.com/TeravoxelTwoPhotonTomography">GitHub page</a>. See also <a href="https://github.com/MouseLightPipeline">MouseLight</a> and paper by <a href="https://www.sciencedirect.com/science/article/pii/S0092867419308426?via%3Dihub">Winnubst, et al. (2019)</a>.</li>
+  <li><a href="https://www.nature.com/articles/s41596-019-0148-4">FAST serial section spinning disk confocal</a></li>
+</ul>

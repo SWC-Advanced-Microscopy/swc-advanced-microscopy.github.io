@@ -1,41 +1,51 @@
----
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description }}">
 
-<!doctype html>
-<!--
-  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
-  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
-  Free for personal and commercial use under the MIT license
-  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
--->
-<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/favicon/apple-touch-icon.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicon/favicon-32x32.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicon/favicon-16x16.png' | relative_url }}">
+  <link rel="manifest" href="{{ '/assets/favicon/site.webmanifest' | relative_url }}">
 
-  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
-    {% include_cached skip-links.html %}
-    {% include_cached masthead.html %}
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  {% if page.extra_css %}
+  <link rel="stylesheet" href="{{ page.extra_css | relative_url }}">
+  {% endif %}
+</head>
+<body>
 
-    <div class="initial-content">
-      {{ content }}
-    </div>
+  {% include nav.html %}
 
-    {% if site.search == true %}
-      <div class="search-content">
-        {% include_cached search/search_form.html %}
+  <main class="page{% if page.header_image %} page--has-header{% endif %}{% if page.page_class %} {{ page.page_class }}{% endif %}">
+    {% if page.header_image %}
+    <div class="page__header" style="background-image: linear-gradient(rgba(0,0,0,{{ page.header_overlay | default: 0.35 }}), rgba(0,0,0,{{ page.header_overlay | default: 0.10 }})), url('{{ page.header_image | relative_url }}');">
+      <div class="page__header-inner">
+        <h1>{{ page.title }}</h1>
+        {% if page.excerpt %}<p class="page__excerpt">{{ page.excerpt }}</p>{% endif %}
+        {% if page.header_actions %}
+        <div class="page__header-actions">
+          {% for action in page.header_actions %}
+          <a class="btn" href="{{ action.url }}">{{ action.label }}</a>
+          {% endfor %}
+        </div>
+        {% endif %}
       </div>
+    </div>
     {% endif %}
 
-    <div id="footer" class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include_cached footer.html %}
-      </footer>
+    <div class="page__content-wrap">
+      {% unless page.header_image %}
+      <h1 class="page__title">{{ page.title }}</h1>
+      {% endunless %}
+      {{ content }}
     </div>
+  </main>
 
-    {% include scripts.html %}
+  {% include footer.html %}
 
-  </body>
+</body>
 </html>

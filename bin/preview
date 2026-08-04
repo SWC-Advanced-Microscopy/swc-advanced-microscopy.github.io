@@ -1,0 +1,70 @@
+#!/usr/bin/env bash
+# Local preview server with live-reload. Run this, then edit pages/CSS —
+# the browser refreshes automatically on save. No GitHub push needed.
+#
+# Serves at http://localhost:4000/ (baseurl forced to "" so it matches
+# what you'll get after the baseurl is reset for the live-repo merge).
+#
+# Output is built OUTSIDE this Dropbox-synced folder on purpose: writing
+# _site/.jekyll-cache inside Dropbox causes Dropbox's own sync activity to
+# look like file changes, which retriggers the watcher, which rebuilds,
+# which Dropbox notices again — an endless reload loop.
+set -euo pipefail
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+BUILD_DIR="$HOME/.cache/site-rebuild-preview"
+
+# Where the jekyll gem lands differs per machine: a --user-install gem dir on
+# one, a conda env on another. Search the usual spots rather than hardcoding
+# one path. First hit wins; set JEKYLL in the environment to override.
+JEKYLL="${JEKYLL:-}"
+if [ -z "$JEKYLL" ]; then
+  for candidate in \
+    "$(command -v jekyll || true)" \
+    "$HOME"/.local/share/gem/ruby/*/bin/jekyll \
+    "$HOME"/.gem/ruby/*/bin/jekyll \
+    "$HOME"/opt/anaconda3/envs/jekyll/share/rubygems/bin/jekyll \
+    /opt/anaconda3/envs/jekyll/share/rubygems/bin/jekyll
+  do
+    if [ -n "$candidate" ] && [ -x "$candidate" ]; then
+      JEKYLL="$candidate"
+      break
+    fi
+  done
+fi
+
+if [ -z "$JEKYLL" ] || [ ! -x "$JEKYLL" ]; then
+  cat >&2 <<'EOF'
+jekyll not found. Jekyll 4 needs ruby >= 3, and macOS only ships ruby 2.6, so
+install a newer ruby first. With conda:
+
+  conda create -n jekyll -c conda-forge ruby clang_osx-arm64 clangxx_osx-arm64
+  conda activate jekyll
+  gem install jekyll --no-document
+
+(the two clang packages are needed to build jekyll's native gems). Then re-run
+this script — it finds that env on its own, no activation needed.
+EOF
+  exit 1
+fi
+
+# Run jekyll under the ruby it was installed for, not whatever "ruby" the PATH
+# happens to point at (on macOS that is the system ruby 2.6, too old for
+# Jekyll 4). The gem wrapper names its interpreter in a trailing shebang.
+RUBY="$(grep -m1 -E '^#!.*/ruby$' "$JEKYLL" | sed 's/^#!//' || true)"
+if [ -z "$RUBY" ] || [ ! -x "$RUBY" ]; then
+  RUBY="ruby"
+fi
+
+# The gem wrapper sits in <gem home>/bin, and ruby needs GEM_HOME pointing there
+# to load the gem itself. Setting it here means the conda env does not have to be
+# activated first (conda's own activate script does the same thing).
+export GEM_HOME="$(dirname "$(dirname "$JEKYLL")")"
+
+mkdir -p "$BUILD_DIR"
+
+exec "$RUBY" -r"$DIR/taint_shim.rb" "$JEKYLL" serve \
+  --source "$DIR/.." \
+  --destination "$BUILD_DIR" \
+  --baseurl "" \
+  --livereload \
+  --open-url

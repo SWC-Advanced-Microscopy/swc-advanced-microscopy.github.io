@@ -1,0 +1,50 @@
+/* Two-photon cross-section viewer — extends main.css, reuses its custom
+   properties so this stays in sync with the rest of the site automatically. */
+
+/* Narrower than the site default (--content-max-width, main.css) — this page is
+   a single chart above a column of text, so the site-wide width is wider than it
+   needs. Scoped to this page only. */
+.xsection-page .page__content-wrap {
+  max-width: 62rem;
+}
+
+.xsection-card {
+  background: var(--color-bg-alt);
+  border-radius: var(--radius);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  padding: 0.75em;
+  aspect-ratio: 297 / 210;
+  width: 100%;
+  margin: 0 0 1.25em;
+}
+
+.xsection-panel {
+  width: 100%;
+  height: 100%;
+}
+
+.xsection-controls {
+  margin: 0 0 2em;
+  display: flex;
+  gap: 0.5em;
+  flex-wrap: wrap;
+}
+
+.xsection-controls button {
+  background: var(--color-accent);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius);
+  padding: 0.5em 1.1em;
+  cursor: pointer;
+  font-size: 0.9em;
+  font-weight: 600;
+  font-family: var(--font-body);
+}
+.xsection-controls button:hover { background: var(--color-accent-hover); }
+
+/* The chart needs more vertical room than a 297:210 box gives it once the
+   viewport is narrow, or the legend crowds out the traces. */
+@media (max-width: 42em) {
+  .xsection-card { aspect-ratio: 3 / 4; }
+}
