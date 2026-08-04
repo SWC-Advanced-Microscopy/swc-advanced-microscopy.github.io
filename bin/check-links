@@ -1,0 +1,97 @@
+#!/usr/bin/env python3
+"""Check every external link in the site's HTML pages actually resolves.
+
+Scans all .html files in the repo (skipping build output and this bin/
+folder), pulls out http(s) links from href/src attributes, and does a GET
+on each one. Prints only the ones that fail, with the file(s) they were
+found in, so you can go fix them by hand.
+
+biorxiv.org and elifesciences.org links are skipped — they're known to
+time out or block non-browser clients and aren't worth the false alarms.
+publications.html is skipped entirely — its journal article links block
+anything that isn't a real browser.
+"""
+import concurrent.futures
+import pathlib
+import re
+import subprocess
+import sys
+
+REPO_ROOT = pathlib.Path(__file__).resolve().parent.parent
+SKIP_DIRS = {"_site", ".jekyll-cache", ".git", "bin"}
+SKIP_FILES = {"publications.html"}
+SKIP_DOMAINS = ("biorxiv.org", "elifesciences.org", "sciencedirect.com", "rupress.org")
+TIMEOUT_SECS = 20
+MAX_WORKERS = 12
+USER_AGENT = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+)
+
+LINK_RE = re.compile(r'(?:href|src)="(https?://[^"]+)"', re.IGNORECASE)
+
+
+def find_html_files():
+    for path in REPO_ROOT.rglob("*.html"):
+        if SKIP_DIRS & set(path.relative_to(REPO_ROOT).parts):
+            continue
+        if path.name in SKIP_FILES:
+            continue
+        yield path
+
+
+def collect_links():
+    links = {}  # url -> set of relative file paths it was found in
+    for path in find_html_files():
+        text = path.read_text(encoding="utf-8", errors="ignore")
+        rel = str(path.relative_to(REPO_ROOT))
+        for url in LINK_RE.findall(text):
+            if any(domain in url for domain in SKIP_DOMAINS):
+                continue
+            links.setdefault(url, set()).add(rel)
+    return links
+
+
+def check_url(url):
+    try:
+        result = subprocess.run(
+            [
+                "curl", "-s", "-o", "/dev/null", "-w", "%{http_code}",
+                "-L", "--max-redirs", "10",
+                "--max-time", str(TIMEOUT_SECS),
+                "-A", USER_AGENT,
+                url,
+            ],
+            capture_output=True, text=True, timeout=TIMEOUT_SECS + 5,
+        )
+        code = result.stdout.strip()
+    except subprocess.TimeoutExpired:
+        code = "TIMEOUT"
+
+    ok = code.isdigit() and 200 <= int(code) < 400
+    return url, code, ok
+
+
+def main():
+    links = collect_links()
+    print(f"Checking {len(links)} unique external links...", file=sys.stderr)
+
+    failures = []
+    with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
+        for url, code, ok in pool.map(check_url, links):
+            if not ok:
+                failures.append((url, code))
+
+    if not failures:
+        print("All links resolved.")
+        return
+
+    print(f"\n{len(failures)} link(s) failed to resolve:\n")
+    for url, code in sorted(failures):
+        files = ", ".join(sorted(links[url]))
+        print(f"[{code}] {url}")
+        print(f"    found in: {files}")
+
+
+if __name__ == "__main__":
+    main()
