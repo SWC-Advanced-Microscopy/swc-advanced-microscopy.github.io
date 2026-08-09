@@ -1,0 +1,114 @@
+---
+layout: default
+permalink: /publications_json/
+title: "Publications (JSON prototype)"
+excerpt: "What we've done"
+header_image: /assets/images/home/bw_neurons.jpg
+---
+
+<p><em>Prototype: this page is rendered from <code>/assets/data/publications.json</code> instead of hand-written HTML. Filter buttons below are a first proof that the data can drive interaction, not a finished design.</em></p>
+
+<div id="pub-filters" class="pub-filters">
+  <button type="button" class="pub-filter-btn is-active" data-platform="all">All</button>
+</div>
+
+<div id="pub-sections">Loading publications&hellip;</div>
+
+<style>
+  .pub-filters { display: flex; flex-wrap: wrap; gap: 0.5em; margin: 1.5em 0; }
+  .pub-filter-btn {
+    font: inherit;
+    padding: 0.4em 0.9em;
+    border: 1px solid var(--color-border, #ccc);
+    border-radius: 999px;
+    background: transparent;
+    cursor: pointer;
+  }
+  .pub-filter-btn.is-active {
+    background: var(--color-accent, #2a5db0);
+    border-color: var(--color-accent, #2a5db0);
+    color: #fff;
+  }
+  .pub-list { padding-left: 1.25em; }
+  .pub-list li { margin-bottom: 0.9em; }
+  .pub-meta { display: block; font-size: 0.9em; opacity: 0.75; }
+  .pub-hidden { display: none; }
+</style>
+
+<script>
+async function initPublications() {
+  const wrap = document.getElementById('pub-sections');
+  const filterBar = document.getElementById('pub-filters');
+
+  let data;
+  try {
+    const res = await fetch('{{ "/assets/data/publications.json" | relative_url }}');
+    data = (await res.json()).publications;
+  } catch (err) {
+    wrap.textContent = 'Could not load publication data.';
+    return;
+  }
+
+  const sections = [
+    { title: 'AMF "First Author" Publications', intro: 'AMF staff contributed in a "co-first author" capacity in these papers.', match: p => p.amf_authorship === 'first' },
+    { title: 'AMF "Middle Author" Publications', intro: 'AMF staff contributed in a "middle author" capacity in these papers.', match: p => p.amf_authorship === 'middle' },
+    { title: 'Publications From SWC Groups Using Our Equipment or Services', intro: '', match: p => p.amf_authorship === 'none' && p.affiliation === 'swc' },
+    { title: 'Publications From External Groups Using Our Tools', intro: '', match: p => p.amf_authorship === 'none' && p.affiliation === 'external' }
+  ];
+
+  const platforms = [...new Set(data.flatMap(p => p.platforms))].sort();
+  platforms.forEach(platform => {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'pub-filter-btn';
+    btn.dataset.platform = platform;
+    btn.textContent = platform;
+    filterBar.appendChild(btn);
+  });
+
+  function metaLine(p) {
+    const bits = [];
+    if (p.pi.length) bits.push(p.pi.join(', '));
+    const tags = [...p.equipment, ...p.software_tools, ...p.techniques];
+    if (tags.length) bits.push(tags.join(', '));
+    if (p.external_institution) bits.push(p.external_institution);
+    return bits.join(' — ');
+  }
+
+  wrap.innerHTML = sections.map(section => {
+    const pubs = data.filter(section.match);
+    if (!pubs.length) return '';
+    const items = pubs.map(p => `
+      <li data-platforms="${p.platforms.join('|')}">
+        <a href="${p.url}">${p.title}</a>; ${p.journal} ${p.year}
+        ${metaLine(p) ? `<span class="pub-meta">${metaLine(p)}</span>` : ''}
+      </li>`).join('');
+    return `<h2>${section.title}</h2>${section.intro ? `<p>${section.intro}</p>` : ''}<ul class="pub-list">${items}</ul>`;
+  }).join('');
+
+  filterBar.addEventListener('click', e => {
+    const btn = e.target.closest('.pub-filter-btn');
+    if (!btn) return;
+    filterBar.querySelectorAll('.pub-filter-btn').forEach(b => b.classList.remove('is-active'));
+    btn.classList.add('is-active');
+
+    const platform = btn.dataset.platform;
+    document.querySelectorAll('#pub-sections li').forEach(li => {
+      const show = platform === 'all' || li.dataset.platforms.split('|').includes(platform);
+      li.classList.toggle('pub-hidden', !show);
+    });
+    // Hide whole sections (h2 + intro p) when every item in them is filtered out
+    document.querySelectorAll('#pub-sections h2').forEach(h2 => {
+      let list = h2.nextElementSibling;
+      let intro = null;
+      if (list && list.matches('p')) { intro = list; list = list.nextElementSibling; }
+      const anyVisible = list && [...list.children].some(li => !li.classList.contains('pub-hidden'));
+      h2.classList.toggle('pub-hidden', !anyVisible);
+      if (intro) intro.classList.toggle('pub-hidden', !anyVisible);
+      if (list) list.classList.toggle('pub-hidden', !anyVisible);
+    });
+  });
+}
+
+initPublications();
+</script>
