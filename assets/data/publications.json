@@ -336,7 +336,7 @@
       "pi": ["Akrami"],
       "platforms": ["Whole-brain imaging"],
       "equipment": ["BrainSaw"],
-      "software_tools": [],
+      "software_tools": ["BakingTray","StitchIt"],
       "techniques": [],
       "instrument_location": "AMF",
       "external_institution": null,
@@ -425,7 +425,7 @@
       "affiliation": "swc",
       "pi": ["Margrie"],
       "platforms": ["Whole-brain imaging"],
-      "equipment": ["BrainSaw", "TissueVision"],
+      "equipment": ["BrainSaw", "TissueCyte"],
       "software_tools": ["BakingTray","StitchIt"],
       "techniques": [],
       "instrument_location": "AMF",
@@ -501,7 +501,7 @@
       "software_tools": ["BakingTray","StitchIt"],
       "techniques": [],
       "instrument_location": "AMF",
-      "external_institution": null,
+      "external_institution": "University of Zurich",
       "notes": ""
     },
     {
@@ -515,7 +515,7 @@
       "affiliation": "swc",
       "pi": ["Margrie"],
       "platforms": ["Whole-brain imaging"],
-      "equipment": ["Leica SP8", "TissueVision"],
+      "equipment": ["Leica SP8", "TissueCyte"],
       "software_tools": [],
       "techniques": [],
       "instrument_location": "AMF",
@@ -533,11 +533,11 @@
       "affiliation": "swc",
       "pi": [],
       "platforms": ["Whole-brain imaging"],
-      "equipment": [],
+      "equipment": ["TissueCyte"],
       "software_tools": ["MaSIV","StitchIt", "ARAtools", "Lasagna"],
       "techniques": [],
-      "instrument_location": "AMF",
-      "external_institution": null,
+      "instrument_location": "Biozentrum, University of Basel",
+      "external_institution": "Biozentrum, University of Basel",
       "notes": ""
     },
     {
@@ -572,7 +572,7 @@
       "equipment": ["BrainSaw"],
       "software_tools": ["BakingTray","StitchIt"],
       "techniques": [],
-      "instrument_location": "UCL",
+      "instrument_location": "UCL, Clark",
       "external_institution": "UCL",
       "notes": ""
     },
@@ -590,7 +590,7 @@
       "equipment": ["BrainSaw"],
       "software_tools": ["BakingTray","StitchIt"],
       "techniques": [],
-      "instrument_location": "UCL",
+      "instrument_location": "UCL, Clark",
       "external_institution": "UCL",
       "notes": ""
     },
@@ -627,7 +627,7 @@
       "software_tools": ["BakingTray","StitchIt"],
       "techniques": [],
       "instrument_location": "AMF",
-      "external_institution": null,
+      "external_institution": "University of Cambridge",
       "notes": "Julija Krupic and colleagues used BrainSaw at the AMF"
     },
     {
@@ -644,7 +644,7 @@
       "equipment": ["BrainSaw"],
       "software_tools": ["BakingTray","StitchIt"],
       "techniques": [],
-      "instrument_location": "AMF",
+      "instrument_location": "EPFL",
       "external_institution": "EPFL",
       "notes": "Carl Petersen's Lab"
     },
@@ -662,7 +662,7 @@
       "equipment": ["BrainSaw"],
       "software_tools": ["BakingTray","StitchIt"],
       "techniques": [],
-      "instrument_location": "AMF",
+      "instrument_location": "EPFL",
       "external_institution": "EPFL",
       "notes": "Carl Petersen's Lab"
     },
@@ -695,11 +695,11 @@
       "affiliation": "external",
       "pi": [],
       "platforms": ["Whole-brain imaging"],
-      "equipment": [],
+      "equipment": ["TissueCyte"],
       "software_tools": ["BakingTray","StitchIt"],
       "techniques": [],
-      "instrument_location": "AMF",
-      "external_institution": null,
+      "instrument_location": "Biozentrum, University of Basel",
+      "external_institution": "Biozentrum, University of Basel",
       "notes": ""
     },
     {
@@ -716,7 +716,7 @@
       "equipment": ["BrainSaw"],
       "software_tools": ["BakingTray","StitchIt"],
       "techniques": [],
-      "instrument_location": "AMF",
+      "instrument_location": "EPFL",
       "external_institution": "EPFL",
       "notes": "Carl Petersen's Lab"
     },
@@ -734,7 +734,7 @@
       "equipment": ["BrainSaw"],
       "software_tools": ["BakingTray","StitchIt"],
       "techniques": [],
-      "instrument_location": "AMF",
+      "instrument_location": "EPFL",
       "external_institution": "EPFL",
       "notes": "Carl Petersen's Lab"
     },
@@ -752,7 +752,7 @@
       "equipment": ["BrainSaw"],
       "software_tools": ["BakingTray","StitchIt"],
       "techniques": [],
-      "instrument_location": "AMF",
+      "instrument_location": "EPFL",
       "external_institution": "EPFL",
       "notes": "Carl Petersen's Lab"
     }

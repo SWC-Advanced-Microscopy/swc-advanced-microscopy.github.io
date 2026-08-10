@@ -14,12 +14,16 @@ DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 BUILD_DIR="$HOME/.cache/site-rebuild-preview"
 
 # Where the jekyll gem lands differs per machine: a --user-install gem dir on
-# one, a conda env on another. Search the usual spots rather than hardcoding
-# one path. First hit wins; set JEKYLL in the environment to override.
+# one, a conda env on another, Homebrew's system gem dir on a third. Search the
+# usual spots rather than hardcoding one path. Asking rubygems where it puts
+# executables covers the Homebrew case without pinning a ruby version, which
+# changes with every major release. First hit wins; set JEKYLL in the
+# environment to override.
 JEKYLL="${JEKYLL:-}"
 if [ -z "$JEKYLL" ]; then
   for candidate in \
     "$(command -v jekyll || true)" \
+    "$(gem environment gemdir 2>/dev/null)/bin/jekyll" \
     "$HOME"/.local/share/gem/ruby/*/bin/jekyll \
     "$HOME"/.gem/ruby/*/bin/jekyll \
     "$HOME"/opt/anaconda3/envs/jekyll/share/rubygems/bin/jekyll \
@@ -62,7 +66,7 @@ export GEM_HOME="$(dirname "$(dirname "$JEKYLL")")"
 
 mkdir -p "$BUILD_DIR"
 
-exec "$RUBY" -r"$DIR/taint_shim.rb" "$JEKYLL" serve \
+exec "$RUBY" "$JEKYLL" serve \
   --source "$DIR/.." \
   --destination "$BUILD_DIR" \
   --baseurl "" \

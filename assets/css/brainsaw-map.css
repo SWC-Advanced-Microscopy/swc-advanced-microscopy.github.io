@@ -1,0 +1,74 @@
+/* Page-level styling for the BrainSaw map page.
+
+   Only the host page's own furniture lives here — the lede and the launch
+   card. The applet's styling is in brainsaw_map/map/brainsaw-map.css and is
+   namespaced .bsm- throughout, so the two never meet.
+
+   Everything is scoped under .brainsaw-map-page (set via page_class in the
+   front matter) so nothing leaks into the rest of the site. */
+
+.brainsaw-map-page .lede {
+  font-size: 1.15rem;
+  color: var(--color-text-dim);
+  margin: 0 0 2em;
+}
+
+.brainsaw-map-page .launch {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1.5em;
+  align-items: center;
+  margin: 2.2em 0;
+  padding: 1.6em 1.8em;
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+
+/* The card's own heading sits inside a panel, so it drops the section rule
+   that h2 carries elsewhere on the site. */
+.brainsaw-map-page .launch h2 {
+  margin: 0 0 0.3em;
+  padding: 0;
+  border: 0;
+  font-size: 1.25rem;
+}
+
+.brainsaw-map-page .launch p {
+  margin: 0;
+  color: var(--color-text-dim);
+}
+
+.brainsaw-map-page .launch button {
+  padding: 0.6em 1.4em;
+  background: var(--color-accent);
+  color: #fff;
+  border: 0;
+  border-radius: var(--radius);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.brainsaw-map-page .launch button:hover:not(:disabled),
+.brainsaw-map-page .launch button:focus:not(:disabled) {
+  background: var(--color-accent-hover);
+}
+
+/* Disabled is the initial state: the button says "Loading map…" until the
+   two JSON files have arrived and the applet is ready to open. */
+.brainsaw-map-page .launch button:disabled {
+  background: var(--color-border);
+  color: var(--color-text-dim);
+  cursor: default;
+}
+
+@media (max-width: 40rem) {
+  .brainsaw-map-page .launch {
+    grid-template-columns: 1fr;
+  }
+  .brainsaw-map-page .launch button {
+    width: 100%;
+  }
+}

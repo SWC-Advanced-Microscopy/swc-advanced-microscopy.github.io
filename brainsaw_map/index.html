@@ -1,0 +1,57 @@
+---
+layout: default
+permalink: /brainsaw_map/
+title: "BrainSaw System Map"
+excerpt: "Where are BrainSaw systems worldwide?"
+extra_css: /assets/css/brainsaw-map.css
+page_class: brainsaw-map-page
+---
+
+<!-- The permalink deliberately matches this source folder's name, so the page
+     and the assets it loads (map/, data/, system_photos/) sit at the same URL
+     and every path below can stay relative to the page. That also keeps them
+     correct under a non-empty baseurl. -->
+<link rel="stylesheet" href="map/brainsaw-map.css">
+
+<p class="lede">BrainSaw serial-section two-photon tomography, built and run by the labs that use it.</p>
+
+<p>BrainSaw microscopes conduct automated whole-brain imaging using open tools: <strong>BakingTray</strong> for
+acquisition, <strong>StitchIt</strong> for assembly, and the BrainGlobe ecosystem for analysis.</p>
+
+<p><strong>This page is for evaluating the map. No links point here.</strong></p>
+
+<div class="launch">
+  <div>
+    <h2>Where are the systems?</h2>
+    <p>An interactive map of every BrainSaw: who, what, where?</p>
+  </div>
+  <button id="launch" type="button" disabled>Loading map…</button>
+</div>
+
+<script src="map/world.js"></script>
+<script src="map/brainsaw-map.js"></script>
+<script>
+  // create() with no arguments: base defaults to '', which is right because
+  // the page sits beside the applet's folders. Publications then resolve via
+  // the built-in `../assets/data/publications.json`.
+  BrainSawMap.create().then((map) => {
+    const button = document.querySelector('#launch');
+    button.disabled = false;
+    button.textContent = 'Open the map';
+    // The applet returns focus here when the overlay closes.
+    map.opener = button;
+    button.addEventListener('click', () => map.open());
+
+    // Deep links: #map opens the overlay, #map/<system-id> opens it on one
+    // system. The applet has no opinion about the URL, so the host page owns
+    // this.
+    const fromHash = () => {
+      const m = /^#map(?:\/(.+))?$/.exec(window.location.hash);
+      if (!m) return;
+      map.open();
+      if (m[1]) map.select(m[1], { reveal: true });
+    };
+    window.addEventListener('hashchange', fromHash);
+    fromHash();
+  });
+</script>

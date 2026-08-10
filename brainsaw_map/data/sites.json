@@ -1,0 +1,399 @@
+{
+  "_comment": [
+    "BrainSaw installations, transcribed from Rob's tracking spreadsheet (2026-08-09).",
+    "A *site* is a lab or facility at one location; a site may hold several *systems*.",
+    "Publications belong to the site, not to an individual system, because users of a",
+    "site generally use whichever of its systems is free.",
+    "",
+    "Stalled entries are deliberately absent. A system only appears once money has been",
+    "committed and work is under way — 'under discussion but stalled' is a twinkle in the",
+    "eye, not an installation. Left out for that reason: Han lab (Wuhan), CSHL, Trondheim.",
+    "",
+    "'systemsName' is used only by sites with more than one system, to head their",
+    "publication list: 'Publications from SWC systems'. Only SWC and Crick have several.",
+    "",
+    "'microscope' and 'selfBuilt' are kept because they are real data, but nothing displays",
+    "them: the differences between systems are not meaningful to a visitor. Bring them back",
+    "when there is a distinction worth drawing, such as the coming cryostat variant.",
+    "E-mail addresses are deliberately not included; contact names are derived from them.",
+    "",
+    "Photographs are real, supplied by Rob, down-sized by tools/make_thumbs.py. Systems we",
+    "have no photograph of carry 'photoStandIn': true and show the Nerf ZombieStrike",
+    "BrainSaw instead — obviously not a microscope, which is the point: it reads as a gap",
+    "to be filled rather than as a picture of that system."
+  ],
+
+  "statuses": {
+    "in-use": {
+      "label": "In use",
+      "blurb": "Built and running."
+    },
+    "building": {
+      "label": "Under construction",
+      "blurb": "Being built now."
+    },
+    "planned": {
+      "label": "Construction soon",
+      "blurb": "Committed, with construction expected shortly."
+    },
+    "paused": {
+      "label": "Temporarily offline",
+      "blurb": "Built, but out of service for now."
+    },
+    "eol": {
+      "label": "No longer in use",
+      "blurb": "Retired from service."
+    }
+  },
+
+  "sites": [
+    {
+      "id": "swc",
+      "lab": "SWC Advanced Microscopy Facility",
+      "short": "SWC AMF",
+      "systemsName": "SWC",
+      "org": "Sainsbury Wellcome Centre, UCL",
+      "city": "London",
+      "country": "United Kingdom",
+      "lat": 51.5222,
+      "lon": -0.1372,
+      "organisers": [
+        { "name": "Rob Campbell", "role": "Contact" }
+      ],
+      "systems": [
+        {
+          "id": "swc-brainsaw",
+          "name": "BrainSaw",
+          "microscope": "Reso custom",
+          "selfBuilt": null,
+          "status": "in-use",
+          "statusDetail": null,
+          "photo": "system_photos/London_SWC_BrainSaw_OG_small.jpg"
+        },
+        {
+          "id": "swc-neurovision",
+          "name": "NeuroVision",
+          "microscope": "Hacked TC reso",
+          "selfBuilt": null,
+          "status": "in-use",
+          "statusDetail": null,
+          "photo": "system_photos/London_SWC_NeuroVision_small.jpg"
+        },
+        {
+          "id": "swc-organgrinder",
+          "name": "OrganGrinder",
+          "microscope": "Reso custom",
+          "selfBuilt": null,
+          "status": "in-use",
+          "statusDetail": null,
+          "photo": "system_photos/London_SWC_OrganGrinder_small.jpg"
+        }
+      ]
+    },
+
+    {
+      "id": "clark",
+      "lab": "Beverley Clark and Michael Krumin",
+      "short": "Clark / Krumin",
+      "org": "UCL",
+      "city": "London",
+      "country": "United Kingdom",
+      "lat": 51.5246,
+      "lon": -0.1340,
+      "organisers": [
+        { "name": "Beverley Clark", "role": "Contact" },
+        { "name": "Michael Krumin", "role": "Contact" }
+      ],
+      "systems": [
+        {
+          "id": "clark-rocksaw",
+          "name": "RockSaw",
+          "microscope": "Reso custom",
+          "selfBuilt": false,
+          "status": "in-use",
+          "statusDetail": null,
+          "photo": "system_photos/zombie_brainsaw_small.jpg",
+          "photoStandIn": true
+        }
+      ]
+    },
+
+    {
+      "id": "crick",
+      "lab": "Crick Core Facility",
+      "short": "Crick core facility",
+      "systemsName": "Crick",
+      "org": "The Francis Crick Institute",
+      "city": "London",
+      "country": "United Kingdom",
+      "lat": 51.5316,
+      "lon": -0.1284,
+      "organisers": [
+        { "name": "Kurt Anderson", "role": "Contact" },
+        { "name": "Juan Carlos Boffi", "role": "Contact" }
+
+      ],
+      "systems": [
+        {
+          "id": "crick-cricksaw01",
+          "name": "CrickSaw01",
+          "microscope": "Reso custom",
+          "selfBuilt": false,
+          "status": "in-use",
+          "statusDetail": null,
+          "photo": "system_photos/London_Crick_01_small.jpg"
+        },
+        {
+          "id": "crick-cricksaw02",
+          "name": "CrickSaw02",
+          "microscope": "Reso custom",
+          "selfBuilt": false,
+          "status": "building",
+          "statusDetail": "Under construction",
+          "photo": "system_photos/zombie_brainsaw_small.jpg",
+          "photoStandIn": true
+        }
+      ]
+    },
+
+    {
+      "id": "petersen",
+      "lab": "Carl Petersen lab",
+      "short": "Petersen lab",
+      "org": "EPFL",
+      "city": "Lausanne",
+      "country": "Switzerland",
+      "lat": 46.5191,
+      "lon": 6.5668,
+      "organisers": [
+        { "name": "Carl Petersen", "role": "Contact" },
+        { "name": "Georgios Foustoukos", "role": "Contact" }
+      ],
+      "systems": [
+        {
+          "id": "petersen-1",
+          "name": null,
+          "microscope": "Reso custom",
+          "selfBuilt": false,
+          "status": "eol",
+          "statusDetail": "The first system built outside SWC",
+          "photo": "system_photos/zombie_brainsaw_small.jpg",
+          "photoStandIn": true
+        }
+      ]
+    },
+
+    {
+      "id": "beaurepaire",
+      "lab": "Beaurepaire lab",
+      "short": "Beaurepaire lab",
+      "org": "École Polytechnique",
+      "city": "Palaiseau",
+      "country": "France",
+      "lat": 48.7139,
+      "lon": 2.2079,
+      "organisers": [
+        { "name": "Emmanuel Beaurepaire", "role": "Contact" },
+        { "name": "Pierre Mahou", "role": "Contact" }
+      ],
+      "systems": [
+        {
+          "id": "beaurepaire-1",
+          "name": null,
+          "microscope": "Hacked TC reso",
+          "selfBuilt": true,
+          "status": "in-use",
+          "statusDetail": null,
+          "photo": "system_photos/zombie_brainsaw_small.jpg",
+          "photoStandIn": true
+        }
+      ]
+    },
+
+    {
+      "id": "nerf",
+      "lab": "IMEC / NERF",
+      "short": "NERF, Leuven",
+      "org": "KU Leuven",
+      "city": "Leuven",
+      "country": "Belgium",
+      "lat": 50.8630,
+      "lon": 4.6797,
+      "organisers": [
+        { "name": "Adrien Philippon", "role": "Contact" },
+        { "name": "Vincent Bonin", "role": "Contact" }
+      ],
+      "systems": [
+        {
+          "id": "nerf-1",
+          "name": null,
+          "microscope": "Reso custom",
+          "selfBuilt": true,
+          "status": "paused",
+          "statusDetail": "Under renovation",
+          "photo": "system_photos/zombie_brainsaw_small.jpg",
+          "photoStandIn": true
+        }
+      ]
+    },
+
+    {
+      "id": "mpi-frankfurt",
+      "lab": "MPI Frankfurt Core Facility",
+      "short": "MPI Frankfurt",
+      "org": "Max Planck Institute for Brain Research",
+      "city": "Frankfurt",
+      "country": "Germany",
+      "lat": 50.0985,
+      "lon": 8.6555,
+      "organisers": [
+        { "name": "Stephan Junek", "role": "Contact" },
+        { "name": "Florian Vollrath", "role": "Contact" }
+      ],
+      "systems": [
+        {
+          "id": "mpi-frankfurt-1",
+          "name": null,
+          "microscope": "Reso custom",
+          "selfBuilt": true,
+          "status": "in-use",
+          "statusDetail": null,
+          "photo": "system_photos/zombie_brainsaw_small.jpg",
+          "photoStandIn": true
+        }
+      ]
+    },
+
+    {
+      "id": "mpi-munich",
+      "lab": "Max Planck Munich",
+      "short": "MPI Munich",
+      "org": null,
+      "city": "Munich",
+      "country": "Germany",
+      "lat": 48.1063,
+      "lon": 11.4620,
+      "organisers": [
+        { "name": "Claudio Polisseni", "role": "Contact" }
+      ],
+      "systems": [
+        {
+          "id": "mpi-munich-1",
+          "name": null,
+          "microscope": "Modified Sutter MOM",
+          "selfBuilt": null,
+          "status": "building",
+          "statusDetail": "Under construction",
+          "photo": "system_photos/zombie_brainsaw_small.jpg",
+          "photoStandIn": true
+        }
+      ]
+    },
+
+    {
+      "id": "charite",
+      "lab": "Friedrich Johenning lab",
+      "short": "Johenning lab",
+      "org": "Charité Universitätsmedizin Berlin",
+      "city": "Berlin",
+      "country": "Germany",
+      "lat": 52.5245,
+      "lon": 13.3777,
+      "organisers": [
+        { "name": "Friedrich Johenning", "role": "Contact" },
+        { "name": "John Tukker", "role": "Contact" }
+      ],
+      "systems": [
+        {
+          "id": "charite-1",
+          "name": null,
+          "microscope": "Galvo custom",
+          "selfBuilt": false,
+          "status": "in-use",
+          "statusDetail": null,
+          "photo": "system_photos/zombie_brainsaw_small.jpg",
+          "photoStandIn": true
+        }
+      ]
+    },
+
+    {
+      "id": "nin",
+      "lab": "Rajeev Rajendran lab",
+      "short": "NIN Amsterdam",
+      "org": "Netherlands Institute for Neuroscience",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "lat": 52.3547,
+      "lon": 4.9535,
+      "organisers": [
+        { "name": "Rajeev Rajendran", "role": "Contact" },
+        { "name": "Roeland Lokhorst", "role": "Contact" }
+      ],
+      "systems": [
+        {
+          "id": "nin-1",
+          "name": null,
+          "microscope": "Reso custom",
+          "selfBuilt": false,
+          "status": "in-use",
+          "statusDetail": null,
+          "photo": "system_photos/zombie_brainsaw_small.jpg",
+          "photoStandIn": true
+        }
+      ]
+    },
+
+    {
+      "id": "hong-kong",
+      "lab": "Häusser lab",
+      "short": "HKU",
+      "org": "The University of Hong Kong",
+      "city": "Hong Kong",
+      "country": "Hong Kong",
+      "lat": 22.2830,
+      "lon": 114.1371,
+      "organisers": [
+        { "name": "Michael Häusser", "role": "Organiser" },
+        { "name": "Howard Chan", "role": "Organiser" }
+      ],
+      "systems": [
+        {
+          "id": "hk-1",
+          "name": "BrainSaw_HKMH",
+          "microscope": "Reso custom",
+          "selfBuilt": false,
+          "status": "in-use",
+          "statusDetail": null,
+          "photo": "system_photos/HKU_Hausser_01_small.jpg"
+        }
+      ]
+    },
+
+    {
+      "id": "huji",
+      "lab": "ELSC core facility",
+      "short": "Hebrew University",
+      "org": "Hebrew University of Jerusalem",
+      "city": "Jerusalem",
+      "country": "Israel",
+      "lat": 31.7757,
+      "lon": 35.1975,
+      "organisers": [
+        { "name": "Verena Wulf", "role": "Contact" }
+      ],
+      "systems": [
+        {
+          "id": "huji-1",
+          "name": null,
+          "microscope": "Reso custom",
+          "selfBuilt": null,
+          "status": "planned",
+          "statusDetail": "Construction soon",
+          "photo": "system_photos/zombie_brainsaw_small.jpg",
+          "photoStandIn": true
+        }
+      ]
+    }
+  ]
+}

@@ -17,3 +17,9 @@ exclude:
   - README.md
   - amf-site-rebuild-brief.md
   - bin/
+  # Developer files for the map applet — its own docs, its standalone server
+  # and the scripts that regenerate the basemap and thumbnails. The applet
+  # itself (map/, data/, system_photos/) is served and must stay.
+  - brainsaw_map/README.md
+  - brainsaw_map/serve.sh
+  - brainsaw_map/tools/
