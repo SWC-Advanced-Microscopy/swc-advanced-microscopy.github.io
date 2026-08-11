@@ -372,9 +372,9 @@
 
     {
       "id": "huji",
-      "lab": "ELSC core facility",
-      "short": "Hebrew University",
-      "org": "Hebrew University of Jerusalem",
+      "lab": "ELSC Imaging Core",
+      "short": "ELSC",
+      "org": "The Edmond and Lily Safra Center for Brain Science, Hebrew University of Jerusalem",
       "city": "Jerusalem",
       "country": "Israel",
       "lat": 31.7757,
@@ -387,9 +387,9 @@
           "id": "huji-1",
           "name": null,
           "microscope": "Reso custom",
-          "selfBuilt": null,
+          "selfBuilt": false,
           "status": "planned",
-          "statusDetail": "Construction soon",
+          "statusDetail": "Under construction",
           "photo": "system_photos/zombie_brainsaw_small.jpg",
           "photoStandIn": true
         }
