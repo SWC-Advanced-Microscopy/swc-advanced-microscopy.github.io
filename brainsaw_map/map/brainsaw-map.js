@@ -98,6 +98,7 @@ const BrainSawMap = (() => {
     // why an unknown value shouts rather than being quietly dropped.
     'UCL': 'clark',
     'UCL, Clark': 'clark',
+    'Ecole Polytechnique': 'beaurepaire',
   };
 
   function adaptPublications(raw) {
