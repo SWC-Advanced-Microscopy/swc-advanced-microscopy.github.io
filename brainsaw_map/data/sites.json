@@ -150,8 +150,8 @@
           "selfBuilt": false,
           "status": "building",
           "statusDetail": "Under construction",
-          "photo": "system_photos/zombie_brainsaw_small.jpg",
-          "photoStandIn": true
+          "photo": "system_photos/under-construction.jpg",
+          "photoStandIn": false
         }
       ]
     },
@@ -284,8 +284,8 @@
           "selfBuilt": null,
           "status": "building",
           "statusDetail": "Under construction",
-          "photo": "system_photos/zombie_brainsaw_small.jpg",
-          "photoStandIn": true
+          "photo": "system_photos/under-construction.jpg",
+          "photoStandIn": false
         }
       ]
     },
@@ -388,9 +388,9 @@
           "microscope": "Reso custom",
           "selfBuilt": false,
           "status": "building",
-          "statusDetail": null,
-          "photo": "system_photos/zombie_brainsaw_small.jpg",
-          "photoStandIn": true
+          "statusDetail": "Under construction",
+          "photo": "system_photos/under-construction.jpg",
+          "photoStandIn": false
         }
       ]
     }
