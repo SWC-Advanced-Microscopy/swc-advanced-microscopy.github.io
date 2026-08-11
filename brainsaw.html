@@ -12,14 +12,14 @@ header_overlay: 0.3
 "BrainSaw" is the generic term for our in-house serial section 2-photon systems.
 BrainSaw systems run "BakingTray" acquisition software backed up by the "StitchIt" pre-processing and stitching pipeline.
 BrainGlobe tools can be used to analyse the results.
-This platform has contributed to <a href="{{'/publications/' |relative_url}}">over 30 research papers</a> and some 10 BrainSaw clones exist outside of the SWC.
+This platform has contributed to <a href="#bs-pubs">over 30 research papers</a> and some 10 BrainSaw clones exist outside of the SWC.
 </p>
 
 <div class="feature-row">
   <img src="https://raw.githubusercontent.com/wiki/SainsburyWellcomeCentre/StitchIt/images/rgb_brain_example.jpg" alt="Acquisition of raw data">
   <div class="feature-row__body">
     <h3>BakingTray: serial-section acquisition software</h3>
-    <p>BakingTray is modular serial-section acquisition software for MATLAB. It can easily be modified to utilise any desired acquisition hardware (scanners, stages, etc). Images are currently acquired with ScanImage, but BakingTray can easily be extended to work with any acquisition system (e.g. a spinning-disk confocal or your own scanning software). BakingTray is more of a research platform for catalysing developments in serial section imaging than a complete turn-key system.</p>
+    <p>Our BrainSaw systems run BakingTray, a modular serial-section acquisition software for MATLAB. It can easily be modified to utilise any desired acquisition hardware (scanners, stages, etc). Images are currently acquired with ScanImage, but BakingTray can easily be extended to work with any acquisition system (e.g. a spinning-disk confocal or your own scanning software).</p>
     <a class="btn" href="https://bakingtray.mouse.vision">Repo</a>
   </div>
 </div>
@@ -57,7 +57,7 @@ This platform has contributed to <a href="{{'/publications/' |relative_url}}">ov
   <li><a href="https://www.nature.com/articles/s41596-019-0148-4">FAST serial section spinning disk confocal</a></li>
 </ul>
 
-<details class="bs-pubs">
+<details class="bs-pubs" id="bs-pubs">
   <summary><h2 id="bs-pubs-heading">BrainSaw Publications</h2></summary>
   <ul class="bs-pub-list" id="bs-pub-list"></ul>
 </details>
@@ -119,5 +119,11 @@ async function initBrainSawPublications() {
   }).join('');
 }
 
-initBrainSawPublications();
+// Older browsers don't auto-expand a <details> that a fragment link targets.
+function openBrainSawPublicationsFromHash() {
+  if (location.hash === '#bs-pubs') document.getElementById('bs-pubs').open = true;
+}
+window.addEventListener('hashchange', openBrainSawPublicationsFromHash);
+
+initBrainSawPublications().then(openBrainSawPublicationsFromHash);
 </script>
