@@ -56,3 +56,68 @@ This platform has contributed to <a href="{{'/publications/' |relative_url}}">ov
   <li><a href="https://elifesciences.org/articles/10566">TeraVoxel resonant-scanning serial section 2p</a> and <a href="https://github.com/TeravoxelTwoPhotonTomography">GitHub page</a>. See also <a href="https://github.com/MouseLightPipeline">MouseLight</a> and paper by <a href="https://www.sciencedirect.com/science/article/pii/S0092867419308426?via%3Dihub">Winnubst, et al. (2019)</a>.</li>
   <li><a href="https://www.nature.com/articles/s41596-019-0148-4">FAST serial section spinning disk confocal</a></li>
 </ul>
+
+<details class="bs-pubs">
+  <summary><h2 id="bs-pubs-heading">BrainSaw Publications</h2></summary>
+  <ul class="bs-pub-list" id="bs-pub-list"></ul>
+</details>
+
+<style>
+  /* Body copy is line-height 1.6; these entries sit 25% tighter so the list
+     stays compact — one publication per line wherever the width allows. */
+  .bs-pubs { margin-top: 2em; }
+  /* The native marker is dropped so the h2 can be a full-width block and keep
+     its usual rule under the heading; the arrow is redrawn on the h2 itself. */
+  .bs-pubs > summary { cursor: pointer; list-style: none; }
+  .bs-pubs > summary::-webkit-details-marker { display: none; }
+  .bs-pubs > summary h2 { display: flex; align-items: baseline; gap: 0.4em; }
+  .bs-pubs > summary h2::before { content: "\25B8"; font-size: 0.8em; }
+  .bs-pubs[open] > summary h2::before { content: "\25BE"; }
+
+  .bs-pub-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0.75em;
+    columns: 2;
+    column-gap: 2.5em;
+  }
+  .bs-pub-list li { line-height: 1.2; margin-bottom: 0.35em; break-inside: avoid; }
+  @media (max-width: 700px) { .bs-pub-list { columns: 1; } }
+  .bs-pub-loc { font-size: 0.9em; opacity: 0.75; margin-left: 0.5em; }
+</style>
+
+<script>
+// Where the imaging was done, as it should read on the page.
+const BS_LOCATION_LABELS = { 'AMF': 'SWC', 'UCL, Clark': 'UCL' };
+
+async function initBrainSawPublications() {
+  const list = document.getElementById('bs-pub-list');
+  const heading = document.getElementById('bs-pubs-heading');
+
+  let data;
+  try {
+    const res = await fetch('{{ "/assets/data/publications.json" | relative_url }}');
+    data = (await res.json()).publications;
+  } catch (err) {
+    list.textContent = 'Could not load publication data.';
+    return;
+  }
+
+  const pubs = data
+    .filter(p => p.equipment.includes('BrainSaw'))
+    .sort((a, b) => b.year - a.year);
+
+  heading.textContent = `BrainSaw Publications (${pubs.length})`;
+
+  list.innerHTML = pubs.map(p => {
+    // Consortium "authors" carry a space; individual surnames don't, so only
+    // the latter get an "et al.".
+    const author = p.first_author.includes(' ') ? p.first_author : `${p.first_author}, et al.`;
+    const loc = BS_LOCATION_LABELS[p.instrument_location] || p.instrument_location;
+    return `<li><a href="${p.url}">${author} ${p.journal}, ${p.year}</a>` +
+           `<span class="bs-pub-loc">${loc}</span></li>`;
+  }).join('');
+}
+
+initBrainSawPublications();
+</script>

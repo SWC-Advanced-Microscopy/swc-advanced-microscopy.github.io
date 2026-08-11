@@ -2,6 +2,7 @@
   "publications": [
     {
       "id": "zapit-2026",
+      "first_author": "Lohse",
       "title": "Zapit: Open Source Laser-Scanning Photostimulation For Neuroscience",
       "journal": "eLife (reviewed preprint)",
       "year": 2026,
@@ -20,6 +21,7 @@
     },
     {
       "id": "std-measurements-2025",
+      "first_author": "Lees",
       "title": "Standardised Measurements for Monitoring and Comparing Multiphoton Microscope Systems",
       "journal": "Nature Protocols",
       "year": 2025,
@@ -38,6 +40,7 @@
     },
     {
       "id": "blackcap-atlas-2026",
+      "first_author": "Sirmpilatze",
       "title": "An open-source three-dimensional digital brain atlas of a migratory bird, the Eurasian blackcap",
       "journal": "Current Biology",
       "year": 2026,
@@ -56,6 +59,7 @@
     },
     {
       "id": "ibl-reproducibility-2025",
+      "first_author": "International Brain Laboratory",
       "title": "Reproducibility of in-vivo electrophysiological measurements in mice",
       "journal": "eLife",
       "year": 2025,
@@ -74,6 +78,7 @@
     },
     {
       "id": "insihgt-2024",
+      "first_author": "Yau",
       "title": "INSIHGT: An accessible multi-scale, multi-modal 3D spatial biology platform",
       "journal": "Nature Communications",
       "year": 2024,
@@ -92,6 +97,7 @@
     },
     {
       "id": "cosmic-kidney-2024",
+      "first_author": "Siew",
       "title": "Cosmic kidney disease: an integrated pan-omic, physiological and morphological study into spaceflight-induced renal dysfunction",
       "journal": "Nature Communications",
       "year": 2024,
@@ -110,6 +116,7 @@
     },
     {
       "id": "antibody-stabilization-2022",
+      "first_author": "Lai",
       "title": "Antibody stabilization for thermally accelerated deep immunostaining",
       "journal": "Nature Methods",
       "year": 2022,
@@ -128,6 +135,7 @@
     },
     {
       "id": "mesospim-initiative-2019",
+      "first_author": "Voigt",
       "title": "The mesoSPIM initiative: open-source light-sheet microscopes for imaging cleared tissue",
       "journal": "Nature Methods",
       "year": 2019,
@@ -146,6 +154,7 @@
     },
     {
       "id": "replay-procedural-memory-2026",
+      "first_author": "Thompson",
       "title": "Replay of procedural memory is independent of the hippocampus",
       "journal": "Nature Neuroscience",
       "year": 2026,
@@ -164,6 +173,7 @@
     },
     {
       "id": "brain-wide-map-2025",
+      "first_author": "International Brain Laboratory",
       "title": "A Brain-Wide Map of Neural Activity during Complex Behaviour",
       "journal": "Nature",
       "year": 2025,
@@ -182,6 +192,7 @@
     },
     {
       "id": "dopaminergic-teaching-signal-2025",
+      "first_author": "Greenstreet",
       "title": "Dopaminergic action prediction errors serve as a value-free teaching signal",
       "journal": "Nature",
       "year": 2025,
@@ -200,6 +211,7 @@
     },
     {
       "id": "layer6-corticocortical-2025",
+      "first_author": "Weiler",
       "title": "Layer 6 corticocortical neurons are a major route for intra and interhemispheric feedback",
       "journal": "eLife",
       "year": 2025,
@@ -218,6 +230,7 @@
     },
     {
       "id": "subcortical-switchboard-2025",
+      "first_author": "Ahmadlou",
       "title": "A subcortical switchboard for perseverative, exploratory and disengaged states",
       "journal": "Nature",
       "year": 2025,
@@ -236,6 +249,7 @@
     },
     {
       "id": "hamfish-medial-amygdala-2025",
+      "first_author": "Edwards",
       "title": "Combined transcriptomic, connectivity, and activity profiling of the medial amygdala using highly amplified multiplexed in situ hybridization (hamFISH)",
       "journal": "eLife (reviewed preprint)",
       "year": 2025,
@@ -254,6 +268,7 @@
     },
     {
       "id": "motor-vestibular-signals-2025",
+      "first_author": "Vélez-Fort",
       "title": "Motor and vestibular signals in the visual cortex permit the separation of self versus externally generated visual motion",
       "journal": "Cell",
       "year": 2025,
@@ -272,6 +287,7 @@
     },
     {
       "id": "overwriting-an-instinct-2025",
+      "first_author": "Mederos",
       "title": "Overwriting an instinct: Visual cortex instructs learning to suppress fear responses",
       "journal": "Science",
       "year": 2025,
@@ -290,6 +306,7 @@
     },
     {
       "id": "tacto-visual-integration-2024",
+      "first_author": "Weiler",
       "title": "A primary sensory cortical interareal feedforward inhibitory circuit for tacto-visual integration",
       "journal": "Nature Communications",
       "year": 2024,
@@ -308,6 +325,7 @@
     },
     {
       "id": "cortico-collicular-circuit-2023",
+      "first_author": "Campagner",
       "title": "A cortico-collicular circuit for orienting to shelter during escape",
       "journal": "Nature",
       "year": 2023,
@@ -326,6 +344,7 @@
     },
     {
       "id": "aav-endothelial-tropism-2023",
+      "first_author": "Chen",
       "title": "Functional gene delivery to and across brain vasculature of systemic AAVs with endothelial-specific tropism in rodents and broad tropism in primates",
       "journal": "Nature Communications",
       "year": 2023,
@@ -344,6 +363,7 @@
     },
     {
       "id": "cortical-feedback-loops-2022",
+      "first_author": "Voitov",
       "title": "Cortical feedback loops bind distributed representations of working memory",
       "journal": "Nature",
       "year": 2022,
@@ -362,6 +382,7 @@
     },
     {
       "id": "ethological-events-amygdala-2022",
+      "first_author": "Mazuski",
       "title": "Representation of ethological events by basolateral amygdala neurons",
       "journal": "Cell Reports",
       "year": 2022,
@@ -380,6 +401,7 @@
     },
     {
       "id": "independent-response-modulation-2022",
+      "first_author": "Kanamori",
       "title": "Independent response modulation of visual cortical neurons by attentional and behavioral states",
       "journal": "Neuron",
       "year": 2022,
@@ -398,6 +420,7 @@
     },
     {
       "id": "marker-location-determination-2022",
+      "first_author": "Tyson",
       "title": "Accurate determination of marker location within whole-brain microscopy images",
       "journal": "Scientific Reports",
       "year": 2022,
@@ -416,6 +439,7 @@
     },
     {
       "id": "deep-learning-3d-cell-detection-2021",
+      "first_author": "Tyson",
       "title": "A deep learning algorithm for 3D cell detection in whole mouse brain image datasets",
       "journal": "PLOS Computational Biology",
       "year": 2021,
@@ -434,6 +458,7 @@
     },
     {
       "id": "retrosplenial-cortex-2021",
+      "first_author": "Keshavarzi",
       "title": "The retrosplenial cortex combines internal and external cues to encode head velocity during navigation",
       "journal": "Neuron",
       "year": 2021,
@@ -452,6 +477,7 @@
     },
     {
       "id": "flexible-inhibitory-control-2021",
+      "first_author": "Fratzl",
       "title": "Flexible inhibitory control of visually-evoked defensive behavior by the ventral lateral geniculate nucleus",
       "journal": "Neuron",
       "year": 2021,
@@ -470,6 +496,7 @@
     },
     {
       "id": "intracortical-transthalamic-pathways-2021",
+      "first_author": "Blot",
       "title": "Visual intracortical and transthalamic pathways carry distinct information to cortical areas",
       "journal": "Neuron",
       "year": 2021,
@@ -488,6 +515,7 @@
     },
     {
       "id": "mesoscale-cortical-dynamics-2021",
+      "first_author": "Orsolic",
       "title": "Mesoscale cortical dynamics reflect the interaction of sensory evidence and temporal expectation during perceptual decision-making",
       "journal": "Neuron",
       "year": 2021,
@@ -506,6 +534,7 @@
     },
     {
       "id": "l6-head-visual-motion-2018",
+      "first_author": "Vélez-Fort",
       "title": "A Circuit for Integration of Head- and Visual-Motion Signals in Layer 6 of Mouse Primary Visual Cortex",
       "journal": "Neuron",
       "year": 2018,
@@ -524,6 +553,7 @@
     },
     {
       "id": "single-cell-projections-visual-cortex-2018",
+      "first_author": "Han",
       "title": "The logic of single-cell projections from visual cortex",
       "journal": "Nature",
       "year": 2018,
@@ -542,6 +572,7 @@
     },
     {
       "id": "barcoded-rabies-connectomics-2025",
+      "first_author": "Becalick",
       "title": "Barcoded Rabies In Situ Connectomics for high-throughput reconstruction of neural circuits",
       "journal": "bioRxiv",
       "year": 2025,
@@ -560,6 +591,7 @@
     },
     {
       "id": "deep-learning-cell-types-2025",
+      "first_author": "Beau",
       "title": "A deep-learning strategy to identify cell types across species from high-density extracellular recordings",
       "journal": "Cell",
       "year": 2025,
@@ -578,6 +610,7 @@
     },
     {
       "id": "sound-evoked-visual-cortex-2023",
+      "first_author": "Bimbard",
       "title": "Behavioral origin of sound-evoked activity in mouse visual cortex",
       "journal": "Nature Neuroscience",
       "year": 2023,
@@ -596,6 +629,7 @@
     },
     {
       "id": "rabies-connectivity-tracing-2023",
+      "first_author": "Tran-Van-Minh",
       "title": "Quantitative analysis of rabies virus-based synaptic connectivity tracing",
       "journal": "PLOS ONE",
       "year": 2023,
@@ -614,6 +648,7 @@
     },
     {
       "id": "automated-home-cage-2023",
+      "first_author": "Ho",
       "title": "A fully automated home cage for long-term continuous phenotyping of mouse cognition and behavior",
       "journal": "Cell Reports Methods",
       "year": 2023,
@@ -632,6 +667,7 @@
     },
     {
       "id": "excitation-inhibition-changes-2022",
+      "first_author": "Esmaeili",
       "title": "Learning-related congruent and incongruent changes of excitation and inhibition in distinct cortical areas",
       "journal": "PLoS Biology",
       "year": 2022,
@@ -650,6 +686,7 @@
     },
     {
       "id": "l23-barrel-cortex-morphology-2022",
+      "first_author": "Liu",
       "title": "Axonal and Dendritic Morphology of Excitatory Neurons in Layer 2/3 Mouse Barrel Cortex Imaged Through Whole-Brain Two-Photon Tomography and Registered to a Digital Brain Atlas",
       "journal": "Frontiers in Neuroanatomy",
       "year": 2022,
@@ -668,6 +705,7 @@
     },
     {
       "id": "dendritic-domain-sampling-2022",
+      "first_author": "Galloni",
       "title": "Dendritic Domain-Specific Sampling of Long-Range Axons Shapes Feedforward and Feedback Connectivity of L5 Neurons",
       "journal": "Journal of Neuroscience",
       "year": 2022,
@@ -686,6 +724,7 @@
     },
     {
       "id": "salmonella-persistence-2021",
+      "first_author": "Li",
       "title": "Tissue compartmentalization enables Salmonella persistence during chemotherapy",
       "journal": "PNAS",
       "year": 2021,
@@ -704,6 +743,7 @@
     },
     {
       "id": "rapid-suppression-sensory-motor-2021",
+      "first_author": "Esmaeili",
       "title": "Rapid suppression and sustained activation of distinct cortical regions for a delayed sensory-triggered motor response",
       "journal": "Neuron",
       "year": 2021,
@@ -722,6 +762,7 @@
     },
     {
       "id": "thalamocortical-inputs-whisker-2020",
+      "first_author": "El-Boustani",
       "title": "Anatomically and functionally distinct thalamocortical inputs to primary and secondary mouse whisker somatosensory cortices",
       "journal": "Nature Communications",
       "year": 2020,
@@ -740,6 +781,7 @@
     },
     {
       "id": "whisker-tongue-jaw-sensorimotor-2019",
+      "first_author": "Mayrhofer",
       "title": "Distinct Contributions of Whisker Sensory Cortex and Tongue-Jaw Motor Cortex in a Goal-Directed Sensorimotor Transformation",
       "journal": "Neuron",
       "year": 2019,
@@ -758,6 +800,7 @@
     },
     {
       "id": "chromatically-correct-2023",
+      "first_author": "Blanc",
       "title": "Chromatically Corrected Multicolor Multiphoton Microscopy",
       "journal": "ACS Photonics",
       "year": 2023,
@@ -776,6 +819,7 @@
     },
     {
       "id": "frontal-motor-economic-decisions-2026",
+      "first_author": "Gauld",
       "title": "A frontal motor circuit for economic decisions and actions",
       "journal": "bioRxiv",
       "year": 2026,
