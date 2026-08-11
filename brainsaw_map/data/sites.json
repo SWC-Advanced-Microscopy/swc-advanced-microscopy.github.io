@@ -187,7 +187,7 @@
       "id": "beaurepaire",
       "lab": "Beaurepaire lab",
       "short": "Beaurepaire lab",
-      "org": "École Polytechnique",
+      "org": "Laboratory for Optics and Biosciences, École Polytechnique",
       "city": "Palaiseau",
       "country": "France",
       "lat": 48.7139,
@@ -198,14 +198,14 @@
       ],
       "systems": [
         {
-          "id": "beaurepaire-1",
-          "name": null,
+          "id": "chroms-1",
+          "name": "ChroMS",
           "microscope": "Hacked TC reso",
           "selfBuilt": true,
           "status": "in-use",
           "statusDetail": null,
-          "photo": "system_photos/zombie_brainsaw_small.jpg",
-          "photoStandIn": true
+          "photo": "system_photos/Paris_EP_ChroMS_small.png",
+          "photoStandIn": false
         }
       ]
     },
@@ -258,8 +258,8 @@
           "selfBuilt": true,
           "status": "in-use",
           "statusDetail": null,
-          "photo": "system_photos/zombie_brainsaw_small.jpg",
-          "photoStandIn": true
+          "photo": "system_photos/Frankfurt_MPI_BlockFace2p_01_small.jpg",
+          "photoStandIn": false
         }
       ]
     },
