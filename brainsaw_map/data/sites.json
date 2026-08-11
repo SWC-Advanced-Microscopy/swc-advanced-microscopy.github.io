@@ -319,7 +319,7 @@
 
     {
       "id": "nin",
-      "lab": "Rajeev Rajendran lab",
+      "lab": "Social Brain Lab",
       "short": "NIN Amsterdam",
       "org": "Netherlands Institute for Neuroscience",
       "city": "Amsterdam",
@@ -333,13 +333,12 @@
       "systems": [
         {
           "id": "nin-1",
-          "name": null,
+          "name": "Whole Brain Microscope",
           "microscope": "Reso custom",
           "selfBuilt": false,
           "status": "in-use",
           "statusDetail": null,
-          "photo": "system_photos/zombie_brainsaw_small.jpg",
-          "photoStandIn": true
+          "photo": "system_photos/Amsterdam_NIN_WholeBrainMicroscope_01_small.jpg"
         }
       ]
     },
