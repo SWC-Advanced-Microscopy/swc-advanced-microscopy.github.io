@@ -97,6 +97,7 @@ const BrainSawMap = (() => {
     // If a second one is ever built this stops being unambiguous, which is
     // why an unknown value shouts rather than being quietly dropped.
     'UCL': 'clark',
+    'UCL, Clark': 'clark',
   };
 
   function adaptPublications(raw) {
