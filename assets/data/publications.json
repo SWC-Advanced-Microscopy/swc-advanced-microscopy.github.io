@@ -28,7 +28,7 @@
       "amf_authorship": "first",
       "affiliation": "swc",
       "pi": [],
-      "platforms": ["Multiphoton imaging"],
+      "platforms": ["Technical services"],
       "equipment": [],
       "software_tools": [],
       "techniques": [],
@@ -352,7 +352,7 @@
       "amf_authorship": "none",
       "affiliation": "swc",
       "pi": ["Mrsic-Flogel"],
-      "platforms": ["Multiphoton imaging"],
+      "platforms": ["Technical services"],
       "equipment": [],
       "software_tools": [],
       "techniques": [],
@@ -388,7 +388,7 @@
       "amf_authorship": "none",
       "affiliation": "swc",
       "pi": ["Mrsic-Flogel"],
-      "platforms": ["Histology", "Multiphoton imaging"],
+      "platforms": ["Histology", "Technical services"],
       "equipment": [],
       "software_tools": [],
       "techniques": ["RNAscope"],
@@ -773,6 +773,24 @@
       "instrument_location": "Ecole Polytechnique",
       "external_institution": "Ecole Polytechnique",
       "notes": "Emmanuel Beaurepaire's lab"
+    },
+    {
+      "id": "frontal-motor-economic-decisions-2026",
+      "title": "A frontal motor circuit for economic decisions and actions",
+      "journal": "bioRxiv",
+      "year": 2026,
+      "url": "https://www.biorxiv.org/content/10.64898/2025.12.11.693624v2.full",
+      "doi": "10.64898/2025.12.11.693624",
+      "amf_authorship": "none",
+      "affiliation": "swc",
+      "pi": ["Erlich","Duan"],
+      "platforms": ["Technical services"],
+      "equipment": [],
+      "software_tools": ["Zapit"],
+      "techniques": [],
+      "instrument_location": "AMF",
+      "external_institution": null,
+      "notes": ""
     }
   ]
 }
