@@ -8,10 +8,90 @@ header_image: /assets/images/home/bw_neurons.jpg
 
 <div id="pub-sections">Loading publications&hellip;</div>
 
+<section id="pub-stats" class="pub-stats" hidden>
+  <h2>Publications by Year</h2>
+  <div class="pub-chart-wrap">
+    <div class="pub-legend">
+      <span class="pub-legend-item"><span class="pub-swatch" data-series="internal"></span>SWC internal (AMF-authored + SWC groups)</span>
+      <span class="pub-legend-item"><span class="pub-swatch" data-series="external"></span>External groups using our tools</span>
+    </div>
+    <svg id="pub-chart-svg" class="pub-chart-svg" role="img" aria-labelledby="pub-chart-title"></svg>
+    <div id="pub-tooltip" class="pub-tooltip" hidden></div>
+  </div>
+  <details class="pub-table-toggle">
+    <summary>Table view</summary>
+    <table class="pub-stats-table">
+      <thead><tr><th>Year</th><th>SWC internal</th><th>External</th></tr></thead>
+      <tbody id="pub-stats-tbody"></tbody>
+    </table>
+  </details>
+</section>
+
 <style>
   .pub-list { padding-left: 1.25em; }
   .pub-list li { margin-bottom: 0.9em; }
   .pub-meta { display: block; font-size: 0.9em; opacity: 0.75; }
+
+  .pub-stats { margin-top: 3em; }
+  .pub-chart-wrap {
+    position: relative;
+    max-width: 800px;
+    margin: 1.25em auto 0;
+  }
+  .pub-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    justify-content: center;
+    margin-bottom: 0.75em;
+    font-size: 0.9em;
+    color: var(--color-text-dim);
+  }
+  .pub-legend-item { display: inline-flex; align-items: center; gap: 0.5em; }
+  .pub-swatch {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+  }
+  .pub-swatch[data-series="internal"] { background: #00969c; }
+  .pub-swatch[data-series="external"] { background: #bd8748; }
+
+  .pub-chart-svg { display: block; width: 100%; height: auto; }
+
+  .pub-bar { transition: opacity 0.1s ease; }
+  .pub-bar[data-series="internal"] { fill: #00969c; }
+  .pub-bar[data-series="external"] { fill: #bd8748; }
+  .pub-bar:hover, .pub-bar:focus { opacity: 0.78; outline: none; }
+
+  .pub-axis-label { fill: var(--color-text-dim); font-size: 11px; }
+  .pub-gridline { stroke: var(--color-border); stroke-width: 1; opacity: 0.5; }
+  .pub-baseline { stroke: var(--color-border); stroke-width: 1; }
+
+  .pub-tooltip {
+    position: absolute;
+    pointer-events: none;
+    background: var(--color-bg-alt);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: 0.4em 0.65em;
+    font-size: 0.85em;
+    white-space: nowrap;
+    transform: translate(-50%, -100%);
+    z-index: 5;
+  }
+  .pub-tooltip strong { color: var(--color-text); }
+  .pub-tooltip .pub-tooltip-series { color: var(--color-text-dim); }
+
+  .pub-table-toggle { max-width: 800px; margin: 1em auto 0; font-size: 0.9em; }
+  .pub-table-toggle summary { cursor: pointer; color: var(--color-text-dim); }
+  .pub-stats-table { border-collapse: collapse; margin-top: 0.75em; width: 100%; }
+  .pub-stats-table th, .pub-stats-table td {
+    text-align: right;
+    padding: 0.3em 0.6em;
+    border-bottom: 1px solid var(--color-border);
+  }
+  .pub-stats-table th:first-child, .pub-stats-table td:first-child { text-align: left; }
 </style>
 
 <script>
@@ -53,6 +133,158 @@ async function initPublications() {
       </li>`).join('');
     return `<h2>${section.title}</h2>${section.intro ? `<p>${section.intro}</p>` : ''}<ul class="pub-list">${items}</ul>`;
   }).join('');
+
+  renderYearChart(data);
+}
+
+// "Internal" = anything AMF-authored (first or middle) or from an SWC group —
+// i.e. every section above except "External groups using our tools".
+function isInternal(p) {
+  return p.amf_authorship !== 'none' || p.affiliation === 'swc';
+}
+
+function renderYearChart(data) {
+  const section = document.getElementById('pub-stats');
+  const svg = document.getElementById('pub-chart-svg');
+  const tooltip = document.getElementById('pub-tooltip');
+  const tbody = document.getElementById('pub-stats-tbody');
+  const ns = 'http://www.w3.org/2000/svg';
+
+  if (!data.length) return;
+
+  const years = data.map(p => p.year);
+  const minYear = Math.min(...years);
+  const maxYear = Math.max(...years);
+  const yearList = [];
+  for (let y = minYear; y <= maxYear; y++) yearList.push(y);
+
+  const counts = {};
+  yearList.forEach(y => { counts[y] = { internal: 0, external: 0 }; });
+  data.forEach(p => {
+    const bucket = counts[p.year];
+    if (!bucket) return;
+    bucket[isInternal(p) ? 'internal' : 'external']++;
+  });
+
+  // Table view — the accessible, no-hover fallback for every value below.
+  tbody.innerHTML = yearList.map(y =>
+    `<tr><td>${y}</td><td>${counts[y].internal}</td><td>${counts[y].external}</td></tr>`
+  ).join('');
+
+  const maxCount = Math.max(1, ...yearList.map(y => Math.max(counts[y].internal, counts[y].external)));
+  const niceMax = Math.ceil(maxCount / 2) * 2 || 2;
+  const tickCount = Math.min(niceMax, 5);
+  const tickStep = niceMax / tickCount;
+
+  const W = 800, H = 334;
+  const marginLeft = 40, marginRight = 16, marginTop = 16, marginBottom = 40;
+  const plotW = W - marginLeft - marginRight;
+  const plotH = H - marginTop - marginBottom;
+
+  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+  svg.innerHTML = '';
+
+  const title = document.createElementNS(ns, 'title');
+  title.id = 'pub-chart-title';
+  title.textContent = 'Bar chart of publication counts per year, split into SWC-internal and external groups';
+  svg.appendChild(title);
+
+  const yScale = (v) => plotH - (v / niceMax) * plotH;
+
+  // Gridlines + y-axis ticks.
+  for (let t = 0; t <= tickCount; t++) {
+    const v = t * tickStep;
+    const y = marginTop + yScale(v);
+    const line = document.createElementNS(ns, 'line');
+    line.setAttribute('class', 'pub-gridline');
+    line.setAttribute('x1', marginLeft);
+    line.setAttribute('x2', W - marginRight);
+    line.setAttribute('y1', y);
+    line.setAttribute('y2', y);
+    svg.appendChild(line);
+
+    const label = document.createElementNS(ns, 'text');
+    label.setAttribute('class', 'pub-axis-label');
+    label.setAttribute('x', marginLeft - 8);
+    label.setAttribute('y', y + 3);
+    label.setAttribute('text-anchor', 'end');
+    label.textContent = Math.round(v);
+    svg.appendChild(label);
+  }
+
+  const groupW = plotW / yearList.length;
+  const barGap = 2;
+  const barW = Math.min(24, (groupW - 16 - barGap) / 2);
+
+  yearList.forEach((y, i) => {
+    const groupX = marginLeft + i * groupW + groupW / 2;
+    const pair = [
+      { series: 'internal', value: counts[y].internal, label: 'SWC internal' },
+      { series: 'external', value: counts[y].external, label: 'External groups' }
+    ];
+    pair.forEach((d, j) => {
+      const barX = groupX - barW - barGap / 2 + j * (barW + barGap);
+      const barTop = marginTop + yScale(d.value);
+      const barH = plotH - yScale(d.value);
+
+      const rect = document.createElementNS(ns, 'rect');
+      rect.setAttribute('class', 'pub-bar');
+      rect.setAttribute('data-series', d.series);
+      rect.setAttribute('x', barX);
+      rect.setAttribute('y', barH > 0 ? barTop : marginTop + plotH);
+      rect.setAttribute('width', barW);
+      rect.setAttribute('height', Math.max(barH, 0));
+      rect.setAttribute('rx', 4);
+      rect.setAttribute('tabindex', '0');
+      rect.setAttribute('role', 'img');
+      rect.setAttribute('aria-label', `${y}, ${d.label}: ${d.value} publication${d.value === 1 ? '' : 's'}`);
+
+      const showTip = () => {
+        tooltip.innerHTML = '';
+        const strong = document.createElement('strong');
+        strong.textContent = `${d.value} publication${d.value === 1 ? '' : 's'}`;
+        const series = document.createElement('div');
+        series.className = 'pub-tooltip-series';
+        series.textContent = `${d.label} — ${y}`;
+        tooltip.appendChild(strong);
+        tooltip.appendChild(series);
+        tooltip.hidden = false;
+        const wrapRect = svg.getBoundingClientRect();
+        const scale = wrapRect.width / W;
+        const px = wrapRect.left + barX * scale + (barW * scale) / 2 - svg.parentElement.getBoundingClientRect().left;
+        const py = wrapRect.top + barTop * scale - svg.parentElement.getBoundingClientRect().top - 6;
+        tooltip.style.left = `${px}px`;
+        tooltip.style.top = `${py}px`;
+      };
+      const hideTip = () => { tooltip.hidden = true; };
+
+      rect.addEventListener('pointerenter', showTip);
+      rect.addEventListener('pointermove', showTip);
+      rect.addEventListener('pointerleave', hideTip);
+      rect.addEventListener('focus', showTip);
+      rect.addEventListener('blur', hideTip);
+
+      svg.appendChild(rect);
+    });
+
+    const label = document.createElementNS(ns, 'text');
+    label.setAttribute('class', 'pub-axis-label');
+    label.setAttribute('x', groupX);
+    label.setAttribute('y', H - marginBottom + 16);
+    label.setAttribute('text-anchor', 'middle');
+    label.textContent = y;
+    svg.appendChild(label);
+  });
+
+  const baseline = document.createElementNS(ns, 'line');
+  baseline.setAttribute('class', 'pub-baseline');
+  baseline.setAttribute('x1', marginLeft);
+  baseline.setAttribute('x2', W - marginRight);
+  baseline.setAttribute('y1', marginTop + plotH);
+  baseline.setAttribute('y2', marginTop + plotH);
+  svg.appendChild(baseline);
+
+  section.hidden = false;
 }
 
 initPublications();
