@@ -298,3 +298,31 @@ ul { padding-left: 1.25em; }
   padding: 1em 1.25em;
   margin: 1.5em 0;
 }
+
+/* ==========================================================================
+   Publication lists
+   Collapsible, compact publication lists driven by publication-list.js.
+   Used on the platform pages (BrainSaw, technical services, ...).
+   ========================================================================== */
+
+.pub-details { margin-top: 2em; }
+/* The native marker is dropped so the h2 can be a full-width block and keep
+   its usual rule under the heading; the arrow is redrawn on the h2 itself. */
+.pub-details > summary { cursor: pointer; list-style: none; }
+.pub-details > summary::-webkit-details-marker { display: none; }
+.pub-details > summary h2 { display: flex; align-items: baseline; gap: 0.4em; }
+.pub-details > summary h2::before { content: "\25B8"; font-size: 0.8em; }
+.pub-details[open] > summary h2::before { content: "\25BE"; }
+
+/* Body copy is line-height 1.6; these entries sit 25% tighter so the list
+   stays compact — one publication per line wherever the width allows. */
+.pub-compact {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0.75em;
+  columns: 2;
+  column-gap: 2.5em;
+}
+.pub-compact li { line-height: 1.2; margin-bottom: 0.35em; break-inside: avoid; }
+@media (max-width: 700px) { .pub-compact { columns: 1; } }
+.pub-compact__loc { font-size: 0.9em; opacity: 0.75; margin-left: 0.5em; }
