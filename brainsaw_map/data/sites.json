@@ -177,8 +177,8 @@
           "selfBuilt": false,
           "status": "eol",
           "statusDetail": "The first system built outside SWC",
-          "photo": "system_photos/zombie_brainsaw_small.jpg",
-          "photoStandIn": true
+          "photo": "system_photos/Lausanne_EPFL_BrainSaw_01_small.png",
+          "photoStandIn": false
         }
       ]
     },
