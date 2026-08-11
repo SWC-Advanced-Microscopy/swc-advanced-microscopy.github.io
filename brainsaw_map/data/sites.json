@@ -388,8 +388,8 @@
           "name": null,
           "microscope": "Reso custom",
           "selfBuilt": false,
-          "status": "planned",
-          "statusDetail": "Under construction",
+          "status": "building",
+          "statusDetail": null,
           "photo": "system_photos/zombie_brainsaw_small.jpg",
           "photoStandIn": true
         }
