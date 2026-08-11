@@ -506,7 +506,7 @@ const BrainSawMap = (() => {
       for (const c of clusters) {
         if (c.members.length === 1) {
           this.pinLayer.appendChild(this.sitePin(c.members[0], c.x, c.y));
-          if (named) this.addLabel(this.pinLabel(c.members[0].sys), c.x, c.y, true);
+          if (named) this.addLabel(c.members[0].sys, c.x, c.y, true);
           continue;
         }
 
@@ -525,7 +525,7 @@ const BrainSawMap = (() => {
             this.pinLayer.appendChild(this.sitePin(m, px, py));
             // Fanned-out pins have room for a name, so say which is which
             // rather than making the reader hover over all of them.
-            this.addLabel(this.pinLabel(m.sys), px, py, Math.cos(a) >= -0.15);
+            this.addLabel(m.sys, px, py, Math.cos(a) >= -0.15);
           });
           const dot = document.createElementNS(ns, 'circle');
           dot.setAttribute('class', 'bsm-anchor');
@@ -538,11 +538,20 @@ const BrainSawMap = (() => {
       }
     }
 
-    addLabel(text, x, y, right) {
-      const lab = el('span', 'bsm-plabel', text);
+    // The label is a second, larger hit target for the same system as its
+    // pin — small pins are easy to miss, and the name sits right next to it
+    // doing nothing otherwise. tabindex="-1" keeps it out of tab order since
+    // the pin itself already covers keyboard access.
+    addLabel(sys, x, y, right) {
+      const lab = el('button', 'bsm-plabel', this.pinLabel(sys));
+      lab.type = 'button';
+      lab.tabIndex = -1;
       lab.dataset.side = right ? 'right' : 'left';
       lab.style.left = `${x + (right ? 16 : -16)}px`;
       lab.style.top = `${y}px`;
+      lab.addEventListener('mouseenter', () => this.showTip(sys, x, y));
+      lab.addEventListener('mouseleave', () => this.hideTip());
+      lab.addEventListener('click', (e) => { e.stopPropagation(); this.select(sys.id); });
       this.pinLayer.appendChild(lab);
       // Flip a label that would run off the edge of the map rather than let
       // it disappear under the frame.
