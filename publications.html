@@ -110,8 +110,8 @@ async function initPublications() {
   const sections = [
     { title: 'AMF "First Author" Publications', intro: 'AMF staff contributed in a "co-first author" capacity in these papers.', match: p => p.amf_authorship === 'first' },
     { title: 'AMF "Middle Author" Publications', intro: 'AMF staff contributed in a "middle author" capacity in these papers.', match: p => p.amf_authorship === 'middle' },
-    { title: 'Publications From SWC Groups Using Our Equipment or Services', intro: '', match: p => p.amf_authorship === 'none' && p.affiliation === 'swc' },
-    { title: 'Publications From External Groups Using Our Tools', intro: '', match: p => p.amf_authorship === 'none' && p.affiliation === 'external' }
+    { title: 'Publications From SWC Groups Using Our Platforms', intro: '', match: p => p.amf_authorship === 'none' && p.affiliation === 'swc' },
+    { title: 'Publications From External Groups Using Our Tools or Platforms', intro: '', match: p => p.amf_authorship === 'none' && p.affiliation === 'external' }
   ];
 
   function metaLine(p) {

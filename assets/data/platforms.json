@@ -1,0 +1,20 @@
+{
+  "_comment": "What belongs to each of the three AMF platforms. Publication entries in publications.json are tagged with everything a paper used, which may span platforms; a platform page uses this roster to name only its own equipment, software and techniques. Names must match those used in publications.json.",
+  "platforms": {
+    "Histology": {
+      "equipment": ["AxioScan", "Imager", "Leica SP8", "Nikon AX R"],
+      "software_tools": [],
+      "techniques": ["IHC", "RNAscope", "HCR", "clearing"]
+    },
+    "Whole-brain imaging": {
+      "equipment": ["BrainSaw", "MesoSPIM", "TissueCyte"],
+      "software_tools": ["BakingTray", "StitchIt"],
+      "techniques": []
+    },
+    "Technical services": {
+      "equipment": ["MesoScope", "Mini-2p", "3-photon", "holographic photostim"],
+      "software_tools": ["Zapit", "MPQC"],
+      "techniques": []
+    }
+  }
+}
