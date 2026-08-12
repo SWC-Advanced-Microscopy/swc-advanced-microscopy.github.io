@@ -219,6 +219,71 @@ ul { padding-left: 1.25em; }
 .card__excerpt { color: var(--color-text-dim); flex: 1; }
 .card__body .btn { align-self: flex-start; margin-top: 1em; }
 
+/* Contact line under a person's role. Addresses are long relative to the
+   narrow people cards, so they are allowed to break mid-word rather than
+   push the card wider. */
+.card__contact {
+  /* Sits directly under the name, above the role. */
+  margin: -0.15em 0 0.45em;
+  font-size: 0.85em;
+  line-height: 1.3;
+  overflow-wrap: anywhere;
+}
+
+/* Clickable cards.
+   The whole tile is a link, without a button: the title anchor's ::after is
+   stretched over the card, so a click anywhere in it navigates. That keeps
+   the markup valid — an <a> wrapping the card would nest anchors around the
+   links inside the excerpt. Those inner links sit on a higher layer so they
+   still take their own clicks. */
+
+.card--link {
+  position: relative;
+  /* The border is always present, just invisible until hover. Introducing it
+     on hover instead would narrow the content box by 2px at that moment and
+     re-wrap the text; only the colour may change. */
+  border: 1px solid transparent;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.card--link:hover,
+.card--link:focus-within {
+  transform: scale(var(--card-hover-scale, 1.1));
+  border-color: rgba(100, 110, 100, 0.3);
+  box-shadow: 0 0.9rem 2.25rem rgba(0, 0, 0, 0.5);
+  /* White reads as a glow rather than a cast shadow, so it sits evenly around
+     the tile instead of being offset downwards.
+  box-shadow: 0 0 1.75rem var(--card-hover-glow, rgba(255, 255, 255, 0.18));*/
+  /* Lift above the neighbouring tiles, which the growth overlaps. */
+  z-index: 2;
+}
+
+.card__link { color: var(--color-text); }
+.card__link:hover, .card__link:focus { text-decoration: none; }
+
+/* The hit area: covers the tile, sits under the excerpt's own links. */
+.card__link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.card--link:hover .card__title,
+.card--link:focus-within .card__title { color: var(--color-accent); }
+
+/* Links written into the card text stay independently clickable. */
+.card__body a:not(.card__link) { position: relative; z-index: 1; }
+
+/* Keyboard focus lands on the title anchor, whose box is only the text; ring
+   the whole tile instead so the target is obvious. */
+.card--link:focus-within { outline: 2px solid var(--color-accent); outline-offset: 3px; }
+.card__link:focus { outline: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  .card--link { transition: none; }
+  .card--link:hover, .card--link:focus-within { transform: none; }
+}
+
 /* Wide card row: image left, text right (used for tool/equipment feature rows) */
 
 .feature-row {
@@ -246,7 +311,7 @@ ul { padding-left: 1.25em; }
 
 .people-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
   gap: 1.5em;
   margin: 1.5em 0;
 }
