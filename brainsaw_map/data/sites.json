@@ -185,9 +185,9 @@
 
     {
       "id": "beaurepaire",
-      "lab": "Advanced Microscopies group",
+      "lab": "Laboratory for Optics and Biosciences",
       "short": "AMG",
-      "org": "Laboratory for Optics and Biosciences, École Polytechnique",
+      "org": "École Polytechnique",
       "city": "Palaiseau",
       "country": "France",
       "lat": 48.7139,
@@ -292,7 +292,7 @@
 
     {
       "id": "charite",
-      "lab": "Friedrich Johenning lab",
+      "lab": "Sensory Biology of Feeding-Group",
       "short": "Johenning lab",
       "org": "Charité Universitätsmedizin Berlin",
       "city": "Berlin",
