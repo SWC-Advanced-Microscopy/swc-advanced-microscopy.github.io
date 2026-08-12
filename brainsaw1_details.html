@@ -1,0 +1,88 @@
+---
+layout: default
+permalink: /brainsaw1_details/
+title: "BrainSaw 1"
+excerpt: "System details for the first of our three serial section 2-photon microscopes"
+header_image: /assets/images/serialsection/rgb_brain_banner.jpg
+header_overlay: 0.45
+page_class: docs-page
+extra_css: /assets/css/docs-page.css
+---
+
+<div class="docs-layout">
+
+  <aside class="docs-sidebar">
+    <p class="docs-sidebar__title">On this page</p>
+    <!-- Filled in by docs-toc.js from the headings below. -->
+    <ol class="docs-toc"></ol>
+  </aside>
+
+  <div class="docs-content">
+
+    <section>
+      <h2 id="specs">Specs</h2>
+      <p>
+      BrainSaw 1 is the first of our three <a href="{{ '/brainsaw/' | relative_url }}">BrainSaw</a> serial section 2-photon microscopes.
+      It has the broadest excitation tuning range and the fastest scanner of the three.
+      </p>
+      <ul>
+        <li><strong>Excitation:</strong> MaiTai eHP DS (usable range ~750 to 1040&nbsp;nm)</li>
+        <li><strong>Laser modulation:</strong> Conoptics Pockels cell</li>
+        <li><strong>Detection:</strong> Four PMT channels. <a href="https://www.hamamatsu.com/resources/pdf/etd/R10699_TPMS1074E.pdf">Hamamatsu R10699 multialkali</a>.</li>
+        <li><strong>Objective:</strong> Nikon 16&times; NA 0.8 water immersion</li>
+        <li><strong>Scanhead:</strong> 8&nbsp;kHz resonant scanner optically coupled to galvo</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 id="filters">Filters</h2>
+
+      <h3 id="dichroic-pass-bands">Dichroic pass bands</h3>
+      <ul>
+        <li><a href="https://www.idex-hs.com/store/product-detail/ff635_di01_25x36/fl-006868">FF635-Di01</a> &mdash; long pass, splits red from far red.</li>
+        <li><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=DMSP490R">DMSP-490R</a> &mdash; short pass, splits green from blue.</li>
+      </ul>
+
+      <h3 id="bandpass-filters">Bandpass filters</h3>
+      <div class="docs-table-wrap">
+        <table class="docs-table">
+          <thead>
+            <tr>
+              <th class="num">Chan&nbsp;#</th><th>"Colour"</th><th>Filter name</th><th>Pass band</th><th>PMT serial number</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="num">1</td><td>Far red</td>
+              <td><a href="https://ahf.de/en/products/spectral-analysis-photonic/optical-filters/individual-filters/bandpass-filters/600-699-nm/676-29-brightline-hc/F39-676">Brightline 676/29</a></td>
+              <td>700&ndash;661&nbsp;nm</td><td>AFK5930</td>
+            </tr>
+            <tr>
+              <td class="num">2</td><td>Red</td>
+              <td><a href="https://www.chroma.com/products/parts/et605-70m">Chroma 605/70m</a></td>
+              <td>640&ndash;570&nbsp;nm <span class="docs-note">(21/02/2019)</span></td><td>AFK5929</td>
+            </tr>
+            <tr>
+              <td class="num">3</td><td>Green</td>
+              <td><a href="https://www.idex-hs.com/store/product-detail/ff01_525_39_25/fl-004547">Brightline 525/39</a></td>
+              <td>550&ndash;505&nbsp;nm <span class="docs-note">(30/01/2019)</span></td><td>AFK6125</td>
+            </tr>
+            <tr>
+              <td class="num">4</td><td>Blue</td>
+              <td><a href="https://ahf.de/produkte/spektralanalytik-photonik/optische-filter/einzelfilter/bandpass-filter/400-499-nm/460-60-brightline-hc/F39-461">Brightline basic 460/60</a></td>
+              <td>491&ndash;437&nbsp;nm <span class="docs-note">(07/02/2019)</span></td><td>AFK6121</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <figure class="docs-figure docs-figure--plot">
+        <img src="{{ '/assets/images/equipment/brainsaw1_filters.png' | relative_url }}" alt="Transmission spectra of the four BrainSaw 1 bandpass filters, spanning roughly 425 to 700 nm">
+        <figcaption>Measured transmission of the four installed bandpass filters.</figcaption>
+      </figure>
+    </section>
+
+  </div><!-- /.docs-content -->
+</div><!-- /.docs-layout -->
+
+<script src="{{ '/assets/js/docs-toc.js' | relative_url }}" defer></script>

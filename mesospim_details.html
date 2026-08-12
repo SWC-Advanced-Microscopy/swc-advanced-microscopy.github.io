@@ -1,0 +1,165 @@
+---
+layout: default
+permalink: /mesospim_details/
+title: "MesoSPIM v5"
+excerpt: "System details and operating notes for the AMF lightsheet"
+header_image: /assets/images/equipment/mesoSPIM_swc_1_lowres.jpg
+header_overlay: 0.45
+page_class: docs-page
+extra_css: /assets/css/docs-page.css
+---
+
+<div class="docs-layout">
+
+  <aside class="docs-sidebar">
+    <p class="docs-sidebar__title">On this page</p>
+    <!-- Filled in by docs-toc.js from the headings below. -->
+    <ol class="docs-toc"></ol>
+  </aside>
+
+  <div class="docs-content">
+
+    <section>
+      <h2 id="overview">Overview</h2>
+      <p>
+      We have a <a href="http://mesospim.org/">mesoSPIM</a> v5 lightsheet designed by Fabian Voigt in the Helmchen Lab, Zurich.
+      The system is based around an Olympus zoom macroscope and is ideal for screening large numbers of samples and visualising sparse cell populations, plaques, or blood vessels.
+      The system is unsuited for samples where resolutions of about a micron or better are needed.
+      Images are acquired with a <a href="https://www.hamamatsu.com/us/en/product/type/C13440-20CU/index.html">Hamamatsu ORCA Flash 4.0</a>.
+      Two <a href="https://www.toptica.com/products/multi-laser-engines/ichrome-mle/">iChrome MLE</a> laser launches provide excitation wavelengths of 488&nbsp;nm, 561&nbsp;nm, 640&nbsp;nm, and 685&nbsp;nm.
+      Emitted light is filtered using a <a href="https://ludl.com/?portfolio=filter-wheels">10 position Ludl filter wheel</a>.
+      Open source Python code runs the microscope.
+      </p>
+
+      <figure class="docs-figure">
+        <img src="{{ '/assets/images/equipment/mesoSPIM_swc_1_lowres.jpg' | relative_url }}" alt="The SWC mesoSPIM v5 lightsheet microscope">
+        <figcaption>The mesoSPIM v5 in the AMF.</figcaption>
+      </figure>
+
+      <p>
+      Users must be trained by the AMF before they can access the microscope, and are responsible for clearing their own samples.
+      We can provide protocols and advice &mdash; see the <a href="#clearing-techniques">clearing techniques</a> below.
+      </p>
+    </section>
+
+    <section>
+      <h2 id="basic-usage">Basic usage</h2>
+
+      <h3 id="turning-on-the-system">Turning on the system</h3>
+      <ol class="docs-steps">
+        <li>Turn on the Hamamatsu camera with the switch at the back of it.</li>
+        <li>Turn the keys of each laser launch clockwise by 90 degrees. Each laser will play a little tune once it has started up.</li>
+        <li>Start the mesoSPIM software via the icon on the Desktop.</li>
+      </ol>
+
+      <h3 id="turning-off-the-system">Turning off the system</h3>
+      <ol class="docs-steps">
+        <li>Turn off the camera.</li>
+        <li>Switch off the lasers with the key switch.</li>
+        <li>Close the software.</li>
+        <li>Cap the large cuvettes so dust does not get in.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2 id="system-details">System details</h2>
+
+      <h3 id="filters">Filters</h3>
+      <div class="docs-table-wrap">
+        <table class="docs-table">
+          <caption>Emission filters currently loaded in the wheel.</caption>
+          <thead>
+            <tr><th class="num">Pos.</th><th>Use</th><th>Filter ID</th></tr>
+          </thead>
+          <tbody>
+            <tr><td class="num">1</td><td>Quad line</td><td>ZET405/488/561/640mv2</td></tr>
+            <tr><td class="num">2</td><td>GFP</td><td>FF01-520/35</td></tr>
+            <tr><td class="num">3</td><td>tdTomato &amp; mCherry</td><td>BLP01-594R</td></tr>
+            <tr><td class="num">4</td><td class="is-empty">&mdash;</td><td>BLP01-633R</td></tr>
+            <tr><td class="num">5</td><td>700 nm low pass</td><td class="is-empty">&mdash;</td></tr>
+            <tr><td class="num">6&ndash;9</td><td class="is-empty" colspan="2">Unassigned</td></tr>
+            <tr><td class="num">10</td><td>Open port</td><td class="is-empty">n/a</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>The following filters are available but not installed in the wheel:</p>
+      <ul>
+        <li>LP02-561RU</li>
+        <li>ET585-40m</li>
+        <li>FF01-565/24 &mdash; could be good for AF555</li>
+        <li>FF01-515/LP</li>
+        <li>FF01-542/27</li>
+        <li>ET535-30m</li>
+        <li>FF01-530/43</li>
+        <li>FF01-509/22</li>
+        <li>FF01-482/35</li>
+      </ul>
+
+      <h3 id="zooms">Zooms</h3>
+      <p>
+      The mesoSPIM uses an Olympus macroscope zoom body.
+      A stepper motor turns the zoom knob via the software.
+      The zooms correspond to the following fields of view and pixel sizes.
+      </p>
+
+      <div class="docs-table-wrap">
+        <table class="docs-table">
+          <thead>
+            <tr><th class="num">Zoom</th><th class="num">FoV (mm)</th><th class="num">Pixel size (mm)</th></tr>
+          </thead>
+          <tbody>
+            <tr><td class="num">0.63</td><td class="num">21.56</td><td class="num">0.0105</td></tr>
+            <tr><td class="num">0.80</td><td class="num">16.86</td><td class="num">0.0082</td></tr>
+            <tr><td class="num">1.00</td><td class="num">13.42</td><td class="num">0.0066</td></tr>
+            <tr><td class="num">1.25</td><td class="num">10.79</td><td class="num">0.0053</td></tr>
+            <tr><td class="num">1.60</td><td class="num">8.36</td><td class="num">0.0041</td></tr>
+            <tr><td class="num">2.00</td><td class="num">6.69</td><td class="num">0.0033</td></tr>
+            <tr><td class="num">2.50</td><td class="num">5.34</td><td class="num">0.0026</td></tr>
+            <tr><td class="num">3.20</td><td class="num">4.16</td><td class="num">0.0020</td></tr>
+            <tr><td class="num">4.00</td><td class="num">3.29</td><td class="num">0.0016</td></tr>
+            <tr><td class="num">5.00</td><td class="num">2.62</td><td class="num">0.0013</td></tr>
+            <tr><td class="num">6.30</td><td class="num">2.12</td><td class="num">0.0010</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="notice">
+        <p>
+        The NA varies with zoom: NA&nbsp;=&nbsp;0.075 at 1&times; zoom and NA&nbsp;=&nbsp;0.22 at 4&times; zoom.
+        The change in NA keeps pace with magnification so the image does not dim up to about zoom 4.
+        Beyond zoom 4 the NA no longer increases, so the image dims.
+        NA&nbsp;0.22 corresponds to a lateral resolution of about 1.4&nbsp;microns.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2 id="useful-links">Useful links</h2>
+
+      <h3 id="analysis">Analysis</h3>
+      <ul>
+        <li><a href="https://pubmed.ncbi.nlm.nih.gov/33063286/">iDISCO atlas &mdash; Perens et al. (2020)</a></li>
+        <li><a href="https://brainglobe.info/">BrainGlobe</a> &mdash; our suggested starting point for registration and cell detection in whole-brain data.</li>
+      </ul>
+
+      <h3 id="reviews">Reviews</h3>
+      <ul>
+        <li><a href="http://clarityresourcecenter.org/pdfs/nmeth.3181.pdf">Microscopy: seeing through tissue</a> by Vivien Marx (2014)</li>
+        <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4537058/">Clarifying tissue clearing</a> by Richardson &amp; Lichtman (2016)</li>
+        <li><a href="https://www.sciencedirect.com/science/article/pii/S2589004221001462">Physical and chemical mechanisms of tissue optical clearing</a> (2021)</li>
+        <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8121164/">Tissue clearing and its applications in neuroscience</a> (2020)</li>
+      </ul>
+
+      <h3 id="clearing-techniques">Clearing techniques</h3>
+      <ul>
+        <li><a href="http://www.chunglabresources.com/sh1#sh-protocol">SHIELD</a></li>
+        <li><a href="https://pubmed.ncbi.nlm.nih.gov/30746463/">FDISCO</a></li>
+        <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8326876/">Protocol for tissue clearing and 3D analysis of dopamine neurons in the developing mouse midbrain</a> (2021)</li>
+      </ul>
+    </section>
+
+  </div><!-- /.docs-content -->
+</div><!-- /.docs-layout -->
+
+<script src="{{ '/assets/js/docs-toc.js' | relative_url }}" defer></script>

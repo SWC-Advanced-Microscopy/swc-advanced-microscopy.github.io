@@ -1,0 +1,208 @@
+/* ==========================================================================
+   Documentation page layout — sticky left nav beside the body copy.
+   Loaded per-page via the layout's `extra_css` front-matter key, so nothing
+   here leaks onto the rest of the site.
+   ========================================================================== */
+
+/* main.css sets `overflow-x: hidden` on html/body. That turns the root into a
+   scroll container and stops `position: sticky` working in WebKit/Blink, so
+   swap it for `clip`, which suppresses sideways scroll without the side
+   effect. The `hidden` line stays first as the fallback for browsers that
+   don't know `clip`. */
+html, body {
+  overflow-x: hidden;
+  overflow-x: clip;
+}
+
+/* Content column is narrower than the site default: long technical prose is
+   easier to read at ~70 characters than at the full 84rem. */
+.docs-page .page__content-wrap {
+  max-width: 76rem;
+}
+
+.docs-layout {
+  display: grid;
+  grid-template-columns: 16rem minmax(0, 1fr);
+  gap: 3em;
+  align-items: start;
+}
+
+/* --------------------------------------------------------------------------
+   Sidebar
+   -------------------------------------------------------------------------- */
+
+.docs-sidebar {
+  position: sticky;
+  /* Clears the top of the viewport; the masthead scrolls away with the page. */
+  top: 1.5em;
+  /* Its own scrollbar once the contents outgrow the viewport, so a long
+     table of contents never gets clipped. */
+  max-height: calc(100vh - 3em);
+  overflow-y: auto;
+  padding-right: 0.5em;
+  border-left: 1px solid var(--color-border);
+}
+
+.docs-sidebar__title {
+  margin: 0 0 0.75em 1.25em;
+  font-size: 0.75em;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-dim);
+}
+
+.docs-toc,
+.docs-toc ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.docs-toc a {
+  display: block;
+  padding: 0.3em 0.75em;
+  /* Sits on top of the sidebar's border-left, which the active marker
+     replaces one item at a time. */
+  margin-left: -1px;
+  border-left: 2px solid transparent;
+  color: var(--color-text-dim);
+  font-size: 0.95em;
+  line-height: 1.35;
+}
+.docs-toc a:hover,
+.docs-toc a:focus {
+  color: var(--color-text);
+  border-left-color: var(--color-border);
+  text-decoration: none;
+}
+
+/* Sub-headings (h3) indent under their parent section. */
+.docs-toc .docs-toc__sub a {
+  padding-left: 1.6em;
+  font-size: 0.9em;
+}
+
+.docs-toc a.is-active {
+  color: var(--color-accent);
+  border-left-color: var(--color-accent);
+  font-weight: 600;
+}
+
+/* --------------------------------------------------------------------------
+   Content column
+   -------------------------------------------------------------------------- */
+
+/* Anchored headings land clear of the top of the window rather than flush
+   against it. */
+.docs-content :is(h2, h3) {
+  scroll-margin-top: 1.5em;
+}
+
+.docs-content > section:first-child > h2 {
+  margin-top: 0;
+}
+
+.docs-content h3 {
+  margin-top: 1.8em;
+}
+
+/* Tables — the wiki content is mostly specification tables and main.css has
+   no styling for them. */
+.docs-table-wrap {
+  overflow-x: auto;
+  margin: 1.25em 0 2em;
+}
+
+.docs-table {
+  border-collapse: collapse;
+  min-width: 22rem;
+  font-size: 0.95em;
+}
+.docs-table caption {
+  text-align: left;
+  color: var(--color-text-dim);
+  font-size: 0.9em;
+  padding-bottom: 0.6em;
+}
+.docs-table th,
+.docs-table td {
+  padding: 0.45em 1.1em 0.45em 0;
+  border-bottom: 1px solid var(--color-border);
+  text-align: left;
+  vertical-align: top;
+}
+.docs-table th {
+  color: var(--color-text);
+  font-weight: 600;
+  white-space: nowrap;
+}
+.docs-table td.num,
+.docs-table th.num {
+  text-align: right;
+  padding-right: 1.6em;
+  font-variant-numeric: tabular-nums;
+}
+.docs-table tbody tr:hover { background: var(--color-bg-alt); }
+.docs-table .is-empty { color: var(--color-text-dim); }
+
+/* Numbered procedures */
+.docs-steps { padding-left: 1.2em; }
+.docs-steps li { margin-bottom: 0.4em; }
+
+/* Secondary detail inside a table cell — install dates, part notes. */
+.docs-note {
+  color: var(--color-text-dim);
+  font-size: 0.9em;
+  white-space: nowrap;
+}
+
+/* Paths and filenames. main.css has no `code` styling of its own. */
+.docs-content code {
+  padding: 0.1em 0.35em;
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: 3px;
+  font-size: 0.9em;
+  overflow-wrap: break-word;
+}
+
+.docs-figure { margin: 1.5em 0 2em; }
+.docs-figure img { border-radius: var(--radius); }
+
+/* Plots exported with a white background need their own ground, otherwise
+   they float on the dark page with no margin around the axis labels. */
+.docs-figure--plot img {
+  background: #fff;
+  padding: 0.75em;
+  max-width: 40rem;
+}
+.docs-figure figcaption {
+  margin-top: 0.6em;
+  color: var(--color-text-dim);
+  font-size: 0.9em;
+}
+
+/* --------------------------------------------------------------------------
+   Narrow screens — the nav folds to a disclosure above the content.
+   -------------------------------------------------------------------------- */
+
+@media (max-width: 60em) {
+  .docs-layout {
+    display: block;
+  }
+
+  .docs-sidebar {
+    position: static;
+    max-height: none;
+    overflow-y: visible;
+    border-left: 0;
+    border-bottom: 1px solid var(--color-border);
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+  }
+
+  .docs-sidebar__title { margin-left: 0; }
+  .docs-toc a { margin-left: 0; border-left: 0; padding-left: 0; }
+  .docs-toc .docs-toc__sub a { padding-left: 1.2em; }
+  .docs-toc a.is-active { border-left: 0; }
+}

@@ -1,0 +1,201 @@
+---
+layout: default
+permalink: /axioscan_details/
+title: "Zeiss Axio Scan.Z1 Slide Scanner"
+excerpt: "System details and operating notes for the AMF slide scanner"
+# No header image: the only Axioscan photo in the repo is a Zeiss render of an
+# Axioscan 7 with the model name printed on the housing, and our system is a
+# Z1. Add a photo of the actual microscope here when one is available.
+page_class: docs-page
+extra_css: /assets/css/docs-page.css
+---
+
+<div class="docs-layout">
+
+  <aside class="docs-sidebar">
+    <p class="docs-sidebar__title">On this page</p>
+    <!-- Filled in by docs-toc.js from the headings below. -->
+    <ol class="docs-toc"></ol>
+  </aside>
+
+  <div class="docs-content">
+
+    <section>
+      <h2 id="system-specs">System specs</h2>
+      <p>
+      Our slide scanner is a Zeiss <strong>Axio Scan.Z1</strong>.
+      This high-throughput widefield microscope accommodates up to 100 slides, which it images automatically after an interactive setup process.
+      It handles both fluorescence and conventional brightfield.
+      We run this microscope alongside our histology service, but it can also be booked and used independently.
+      You must be trained to have access to it.
+      </p>
+      <ul>
+        <li>Fully automated for high throughput</li>
+        <li>Z-drive with 3&nbsp;mm usable focus range</li>
+        <li>"Magazine" for 100 slides (size 26&times;76&nbsp;mm)</li>
+        <li>Precision scanning stage 300&times;100&nbsp;mm</li>
+        <li>Light source for bright field: Vis-LED</li>
+        <li>Light source for fluorescence: HXP 120 V (D), for fixed samples</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 id="important-notices">Important notices</h2>
+      <ul>
+        <li>All old scan profiles are in <code>C:\OLD_SCAN_PROFILES</code></li>
+        <li>You can populate your own scan profile directory by copying things into <code>C:\Scan Profiles</code></li>
+        <li>Shut down the microscope after use.</li>
+        <li>Power off the slide scanner itself using the button.</li>
+        <li>Shut down the PC.</li>
+        <li>The power to the camera is <em>not</em> controlled by the button on the Axioscan, so you need to turn off the power at the wall.</li>
+      </ul>
+
+      <h3 id="loading-slides">Loading slides</h3>
+      <p>When loading slides in a holder, please make sure that:</p>
+      <ul>
+        <li>The cover-slip is hanging over the edge of the slide.</li>
+        <li>The corners of your microscope slide are intact.</li>
+        <li>The slide scanner uses air objectives, so make sure slides are clean and not covered in oil.</li>
+        <li>You do not cover the small round hole in the slide holder (e.g. with tape).</li>
+      </ul>
+
+      <div class="notice">
+        <p>
+        During loading, if the microscope light flashes red (indicating an error), <strong>do not</strong> shut down the machine &mdash;
+        the internal robotic arm might crash into a slide.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2 id="usage-hints">Usage hints</h2>
+      <ul>
+        <li>It is possible to define slide names, and even profiles associated with slides, by importing data from an Excel or .csv file.</li>
+        <li>Profiles that lead to very long acquisition times are probably doing so because of focus map parameters that are excessively thorough.</li>
+        <li>Saving the data using Zen's lossy compression (JPEG XR) at 85% has been shown to produce results almost indistinguishable from lossless compression.</li>
+        <li>Avoid auto-exposure with fluorescence imaging &mdash; it tends to produce odd results and makes quantification impossible.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 id="cameras">Cameras</h2>
+      <p>
+      The system contains two high-end imaging cameras and one low-quality overview camera for taking images of the whole slide.
+      </p>
+
+      <h3 id="brightfield-camera">Bright-field RGB camera</h3>
+      <ul>
+        <li><strong>Model:</strong> 3CCD Hitachi HV-F202SCL for Axio Scan.Z1 (O)</li>
+        <li><strong>Effective number of pixels:</strong> 1600 &times; 1200</li>
+        <li><strong>Pixel size:</strong> 4.4&nbsp;&micro;m &times; 4.4&nbsp;&micro;m</li>
+        <li><strong>Effective area:</strong> 7.04&nbsp;mm &times; 5.28&nbsp;mm</li>
+        <li><strong>Max frame rate:</strong> 30 FPS RGB</li>
+        <li><strong>Dynamic range:</strong> 12 bit</li>
+        <li><strong>Sensitivity:</strong> 2000 Lux/F5.6</li>
+      </ul>
+
+      <h3 id="fluorescence-camera">Monochrome fluorescence camera</h3>
+      <ul>
+        <li><strong>Model:</strong> Orca Flash 4.0 V2 for Axio Scan.Z1 (O)</li>
+        <li><strong>Effective number of pixels:</strong> 2048 &times; 2048</li>
+        <li><strong>Pixel size:</strong> 6.5&nbsp;&micro;m &times; 6.5&nbsp;&micro;m</li>
+        <li><strong>Effective area:</strong> 13.31&nbsp;mm &times; 13.31&nbsp;mm</li>
+        <li><strong>Spectral range:</strong> approx. 250&ndash;1000&nbsp;nm</li>
+        <li><strong>Full frame rate:</strong> 100 FPS</li>
+        <li><strong>Dynamic range:</strong> 16 bit</li>
+        <li><strong>Quantum efficiency (at 600&nbsp;nm):</strong> &gt; 70%</li>
+        <li><strong>Noise at min EM gain:</strong> 1.6 electrons rms</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 id="objectives">Objectives</h2>
+      <div class="docs-table-wrap">
+        <table class="docs-table">
+          <thead>
+            <tr>
+              <th>Name</th><th class="num">Mag. / NA</th>
+              <th class="num">Rayleigh resolution at 550&nbsp;nm (&micro;m)</th>
+              <th class="num">Microns/pixel</th><th class="num">FOV (mm)</th>
+              <th>Medium</th><th class="num">Working distance</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Fluar</td><td class="num">5&times; / 0.25</td><td class="num">1.34</td><td class="num">1.3</td><td class="num">1</td><td>air</td><td class="num">12.5&nbsp;mm</td></tr>
+            <tr><td>Plan-Apochromat</td><td class="num">10&times; / 0.45</td><td class="num">0.61</td><td class="num">0.75</td><td class="num">0.5</td><td>air</td><td class="num">2.1&nbsp;mm</td></tr>
+            <tr><td>Plan-Apochromat</td><td class="num">20&times; / 0.8</td><td class="num">0.42</td><td class="num">0.325</td><td class="num">0.25</td><td>air</td><td class="num">0.55&nbsp;mm</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>
+      Note the system is operating below Nyquist: the number of microns per pixel is not less than half the Rayleigh resolution value.
+      This is unlikely to present a problem, given the typical use cases of the system.
+      </p>
+
+      <p>
+      So if you want quick overview scans of the "where is my fluorescence" sort, you should use the 5&times; with 4&times;4 binning.
+      That will give 3.5 microns per pixel.
+      For counting somata the 10&times; with 4&times;4 binning will work.
+      The 20&times; will provide brighter images at the cost of longer acquisition times.
+      </p>
+    </section>
+
+    <section>
+      <h2 id="filtersets">Filter sets</h2>
+      <div class="docs-table-wrap">
+        <table class="docs-table">
+          <thead>
+            <tr><th>Fluorochrome</th><th>Availability</th><th class="num">Excitation</th><th class="num">Dichroic</th><th class="num">Emission</th><th>Filter set</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>DAPI</td><td>Yes</td><td class="num">387/11</td><td class="num">409</td><td class="num">447/60</td><td>49 DAPI shift free (E)</td></tr>
+            <tr><td>eGFP</td><td>Yes</td><td class="num">470/40</td><td class="num">495</td><td class="num">520/50</td><td>38 HE GFP shift free (E)</td></tr>
+            <tr><td>mRFP</td><td>Yes</td><td class="num">572/25</td><td class="num">590</td><td class="num">629/62</td><td>63 HE mRFP shift free (E)</td></tr>
+            <tr><td>Cy5</td><td>Yes</td><td class="num">640/30</td><td class="num">660</td><td class="num">690/50</td><td>50 Cy5 shift free (E)</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h2 id="analysis-options">General analysis options</h2>
+      <p>In addition to the usual suspects, such as Fiji and Icy, you should be aware of:</p>
+      <ul>
+        <li><a href="https://qupath.github.io/">QuPath</a></li>
+        <li><a href="https://www.zeiss.com/microscopy/int/products/microscope-software/zen-lite.html">Zen</a> 3.8</li>
+        <li><a href="https://www.nature.com/articles/s41592-020-01018-x">cellpose</a> and <a href="https://github.com/stardist/stardist">StarDist</a> for identifying somata</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 id="atlas-registration">Registering slices to the atlas</h2>
+      <p>
+      There are many options, some of which are summarised
+      <a href="https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRyEI_7Yub2vTpEhmvksNtODBIHWkBJ6sqveqp6pE0y9kjhpAf_wDfjqH7i9BHaXCJ0orE4DfLbbwYg/pubhtml?gid=621726301&amp;single=true">in this spreadsheet</a>.
+      </p>
+      <ul>
+        <li><a href="https://github.com/BIOP/ijp-imagetoatlas">Allen Brain BIOP Aligner</a> &mdash; seems like a good starting point.</li>
+        <li><a href="https://github.com/brainglobe/slicereg">slicereg</a> &mdash; associated with BrainGlobe. Developed in the Kohl lab in collaboration with the SWC.</li>
+        <li><a href="https://www.cell.com/cell-reports/pdf/S2211-1247(20)30635-5.pdf">AMaSiNe</a></li>
+        <li><a href="https://github.com/tractatus/wholebrain">WholeBrain</a></li>
+        <li><a href="https://github.com/nitinagarwal/Mouse_Brain_Registration">Geometry Processing of Conventionally Produced Mouse Brain Slices</a></li>
+        <li><a href="https://sites.google.com/view/brain-mapping">Mapping Histological Slice Sequences to the Allen Mouse Brain Atlas without 3D Reconstruction</a></li>
+        <li><a href="https://github.com/fmeyenhofer/ABA_J">ABA-J</a></li>
+        <li><a href="https://github.com/cortex-lab/allenCCF/wiki">SHARP-Track</a> (by Phillip Shamash, Branco lab)</li>
+        <li><a href="https://github.com/petersaj/AP_histology">Histology</a> (by Andy Peters, Cortex lab)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 id="other">Other</h2>
+      <ul>
+        <li><strong>Serial number:</strong> 4631000402</li>
+        <li><strong>Bulbs:</strong> HXP R 120W/45C VIS</li>
+      </ul>
+    </section>
+
+  </div><!-- /.docs-content -->
+</div><!-- /.docs-layout -->
+
+<script src="{{ '/assets/js/docs-toc.js' | relative_url }}" defer></script>
