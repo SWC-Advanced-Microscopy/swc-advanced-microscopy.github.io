@@ -112,8 +112,8 @@
           "selfBuilt": false,
           "status": "in-use",
           "statusDetail": null,
-          "photo": "system_photos/zombie_brainsaw_small.jpg",
-          "photoStandIn": true
+          "photo": "system_photos/rockefeller_exterior.jpg",
+          "photoStandIn": false
         }
       ]
     },
@@ -231,8 +231,8 @@
           "selfBuilt": true,
           "status": "paused",
           "statusDetail": "Under renovation",
-          "photo": "system_photos/zombie_brainsaw_small.jpg",
-          "photoStandIn": true
+          "photo": "system_photos/imec.jpg",
+          "photoStandIn": false
         }
       ]
     },
@@ -311,8 +311,8 @@
           "selfBuilt": false,
           "status": "in-use",
           "statusDetail": null,
-          "photo": "system_photos/zombie_brainsaw_small.jpg",
-          "photoStandIn": true
+          "photo": "system_photos/charite_campus.jpg",
+          "photoStandIn": false
         }
       ]
     },
