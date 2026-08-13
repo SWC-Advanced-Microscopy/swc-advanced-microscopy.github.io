@@ -1,8 +1,8 @@
 ---
 layout: default
 permalink: /organgrinder_details/
-title: "BrainSaw 3 — OrganGrinder"
-excerpt: "System details for our third serial section 2-photon microscope"
+title: "OrganGrinder BrainSaw"
+excerpt: ""
 header_image: /assets/images/equipment/OG_System_Photo.jpg
 header_overlay: 0.45
 page_class: docs-page
@@ -21,15 +21,14 @@ extra_css: /assets/css/docs-page.css
 
     <section>
       <h2 id="specs">Specs</h2>
-      <p>
-      "OrganGrinder" is the third of our three <a href="{{ '/brainsaw/' | relative_url }}">BrainSaw</a> serial section 2-photon microscopes.
-      </p>
       <ul>
-        <li><strong>Excitation:</strong> MaiTai HP (usable range ~750 to 980&nbsp;nm)</li>
+        <li><strong>Excitation:</strong> Mai Tai eHP DS (usable range ~760 to 1040&nbsp;nm) and Coherent Axon-1064.</li>
         <li><strong>Laser modulation:</strong> Conoptics Pockels cell</li>
         <li><strong>Detection:</strong> Four PMT channels. <a href="https://www.hamamatsu.com/resources/pdf/etd/R10699_TPMS1074E.pdf">Hamamatsu R10699 multialkali</a>.</li>
         <li><strong>Objective:</strong> Nikon 16&times; NA 0.8 water immersion</li>
+        <li><strong>Optical sectioning:</strong> <a href="http://www.pifoc.com/">PIFOC</a></li>
         <li><strong>Scanhead:</strong> 4&nbsp;kHz resonant scanner optically coupled to galvo</li>
+        <li><strong>Vibratome:</strong> Leica VT1000</li>
       </ul>
     </section>
 
@@ -73,6 +72,12 @@ extra_css: /assets/css/docs-page.css
           </tbody>
         </table>
       </div>
+
+      <figure class="docs-figure docs-figure--plot">
+        <img src="{{ '/assets/images/equipment/organgrinder_filters.png' | relative_url }}" alt="Transmission spectra of the four OrganGrinder bandpass filters, spanning roughly 425 to 700 nm">
+        <figcaption>Transmission of the four installed bandpass filters.</figcaption>
+      </figure>
+
     </section>
 
   </div><!-- /.docs-content -->

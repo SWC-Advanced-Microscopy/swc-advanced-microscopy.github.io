@@ -1,8 +1,8 @@
 ---
 layout: default
 permalink: /neurovision_details/
-title: "BrainSaw 2 — NeuroVision"
-excerpt: "System details for our second serial section 2-photon microscope"
+title: "NeuroVision BrainSaw"
+excerpt: ""
 header_image: /assets/images/serialsection/brainsaw_embryos.jpg
 header_overlay: 0.45
 page_class: docs-page
@@ -18,18 +18,14 @@ extra_css: /assets/css/docs-page.css
   </aside>
 
   <div class="docs-content">
-
+    <p>NeuroVision was our first and longest serving BrainSaw system</p>
     <section>
       <h2 id="specs">Specs</h2>
-      <p>
-      "NeuroVision" is the second of our three <a href="{{ '/brainsaw/' | relative_url }}">BrainSaw</a> serial section 2-photon microscopes.
-      It is the only one of the three fitted with a PIFOC for optical sectioning.
-      </p>
       <ul>
-        <li><strong>Excitation:</strong> Chameleon (usable range ~780 to 1040&nbsp;nm)</li>
+        <li><strong>Excitation:</strong> Mai Tai eHP DS (usable range ~760 to 1040&nbsp;nm)</li>
         <li><strong>Laser modulation:</strong> Conoptics Pockels cell</li>
-        <li><strong>Detection:</strong> Three PMT channels. <a href="https://www.hamamatsu.com/resources/pdf/etd/R10699_TPMS1074E.pdf">Hamamatsu R10699 multialkali</a>.</li>
-        <li><strong>Objective:</strong> Nikon 16&times; NA 0.8 (max FOV 1.6&nbsp;mm on a side)</li>
+        <li><strong>Detection:</strong> Switch to Thorlabs PDA45 SiPMs at Q2 2026. Prior: Hamamatsu R10699 PMTs.</li>
+        <li><strong>Objective:</strong> Nikon 16&times; NA 0.8 (max FOV 1.2&nbsp;mm on a side)</li>
         <li><strong>Optical sectioning:</strong> <a href="http://www.pifoc.com/">PIFOC</a></li>
         <li><strong>Scanhead:</strong> optically coupled 8&nbsp;kHz reso/galvo</li>
         <li><strong>Vibratome:</strong> Leica VT1000</li>
@@ -51,6 +47,12 @@ extra_css: /assets/css/docs-page.css
           </tbody>
         </table>
       </div>
+
+      <figure class="docs-figure docs-figure--plot">
+        <img src="{{ '/assets/images/equipment/neurovision_filters.png' | relative_url }}" alt="Transmission spectra of the three NeuroVision bandpass filters, spanning roughly 425 to 700 nm">
+        <figcaption>Transmission of the three installed bandpass filters.</figcaption>
+      </figure>
+
     </section>
 
   </div><!-- /.docs-content -->

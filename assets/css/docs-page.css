@@ -169,12 +169,19 @@ html, body {
 .docs-figure { margin: 1.5em 0 2em; }
 .docs-figure img { border-radius: var(--radius); }
 
-/* Plots exported with a white background need their own ground, otherwise
-   they float on the dark page with no margin around the axis labels. */
+/* Plots are capped well below the content width: they are far more legible at
+   a figure size than blown up to the full column. */
 .docs-figure--plot img {
+  max-width: 40rem;
+}
+
+/* Add alongside --plot only for images exported on a white background, which
+   would otherwise float on the dark page with no margin around their axis
+   labels. Never use it on an image with transparency: the white shows through
+   the transparent pixels as well as around the edge. */
+.docs-figure--onwhite img {
   background: #fff;
   padding: 0.75em;
-  max-width: 40rem;
 }
 .docs-figure figcaption {
   margin-top: 0.6em;

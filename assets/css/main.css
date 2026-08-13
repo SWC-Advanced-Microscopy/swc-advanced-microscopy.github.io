@@ -160,11 +160,10 @@ ul { padding-left: 1.25em; }
   background-size: cover;
   background-position: center;
   color: #fff;
-  padding: 4em 1.25em;
+  padding: 2em 1.25em;
   text-align: left;
 }
 .page__header-inner { max-width: var(--content-max-width); margin: 0 auto; }
-/*.page__header h1 { margin: 0 0 0.25em; font-size: 3em; color: #fff; }*/
 .page__header h1 { margin: 0 0 0.25em; font-size: 3em; color: #fff; text-shadow: 2px 2px 5px rgba(0,0,0,0.5); }
 .page__excerpt { font-size: 1.50em; opacity: 0.9; text-shadow: 2px 2px 5px rgba(0,0,0,0.5);}
 .page__header-actions { margin-top: 1em; }
@@ -237,7 +236,8 @@ ul { padding-left: 1.25em; }
    links inside the excerpt. Those inner links sit on a higher layer so they
    still take their own clicks. */
 
-.card--link {
+.card--link,
+.hover-tile {
   position: relative;
   /* The border is always present, just invisible until hover. Introducing it
      on hover instead would narrow the content box by 2px at that moment and
@@ -246,8 +246,19 @@ ul { padding-left: 1.25em; }
   transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
 }
 
+/* .hover-tile gives a standalone element — an image link, say — the same
+   response as a clickable card. Anchors are inline by default, and transforms
+   do not apply to inline boxes, hence the display change. */
+.hover-tile {
+  display: inline-block;
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
 .card--link:hover,
-.card--link:focus-within {
+.card--link:focus-within,
+.hover-tile:hover,
+.hover-tile:focus {
   transform: scale(var(--card-hover-scale, 1.1));
   border-color: rgba(100, 110, 100, 0.3);
   box-shadow: 0 0.9rem 2.25rem rgba(0, 0, 0, 0.5);
@@ -280,8 +291,34 @@ ul { padding-left: 1.25em; }
 .card__link:focus { outline: none; }
 
 @media (prefers-reduced-motion: reduce) {
-  .card--link { transition: none; }
-  .card--link:hover, .card--link:focus-within { transform: none; }
+  .card--link, .hover-tile { transition: none; }
+  .card--link:hover, .card--link:focus-within,
+  .hover-tile:hover, .hover-tile:focus { transform: none; }
+}
+
+/* Text with a figure alongside it, image to the right of the prose.
+   The heading stays outside this wrapper so its rule still spans the full
+   content width, matching every other h2 on the page. Source order is text
+   first, so when the row is too narrow to hold both the image drops below
+   the paragraph rather than above it. */
+
+.text-aside {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.75em;
+  /* Whichever column is shorter is centred against the taller one, so the
+     prose sits at the vertical mid-point of the image. Once the row wraps
+     each item is alone on its line, so this has no effect there. */
+  align-items: center;
+  margin: 1em 0 2.5em;
+}
+
+.text-aside__body { flex: 1 1 22rem; }
+.text-aside__body > :first-child { margin-top: 0; }
+
+.text-aside > .hover-tile {
+  flex: 0 1 auto;
+  max-width: min(400px, 100%);
 }
 
 /* Wide card row: image left, text right (used for tool/equipment feature rows) */

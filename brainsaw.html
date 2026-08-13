@@ -8,18 +8,38 @@ header_overlay: 0.3
 ---
 
 
-<p>
-"BrainSaw" is the generic term for our in-house serial section 2-photon systems.
-BrainSaw systems run "BakingTray" acquisition software backed up by the "StitchIt" pre-processing and stitching pipeline.
-BrainGlobe tools can be used to analyse the results.
-This platform has contributed to <a href="#bs-pubs">over 30 research papers</a> and some 10 BrainSaw clones exist outside of the SWC.
-</p>
+<!-- The applet's own stylesheet. Everything in it is namespaced .bsm-, so it
+     cannot collide with the rest of the page. The map page's other stylesheet
+     (/assets/css/brainsaw-map.css) is not needed here: it only styles that
+     page's lede and launch card. -->
+<link rel="stylesheet" href="{{ '/brainsaw_map/map/brainsaw-map.css' | relative_url }}">
 
+<h2>What is serial section microscopy?</h2>
+
+<div class="text-aside">
+  <div class="text-aside__body">
+    <p>
+    "BrainSaw" is the generic term for our in-house serial section 2-photon systems.
+    Whole brains are embedded in agar, the face of the block is alternately imaged and sliced until the whole sample has been acquired. The sections are generally discarded after the acquisition is complete. The system is not only a labour-saving device, but also produces high-quality 3D data that can easily be registered to a standard atlas.
+    BrainSaw has contributed to <a href="#bs-pubs">over 30 research papers</a> and has been adopted outside of the SWC.
+    </p>
+  </div>
+
+  <!-- The link to the standalone map page is the no-JS fallback. Once the
+     applet has loaded, the click handler below takes over and opens the map
+     as an overlay on this page instead of navigating. -->
+  <a id="bs-map-launch" class="hover-tile" href="{{ '/brainsaw_map/' | relative_url }}" title="Open the map of BrainSaw systems">
+    <img src="{{ '/brainsaw_map/brainsaw_map_screenshot.png' | relative_url }}"
+         alt="Map of brainsaw system locations" width=350>
+  </a>
+</div>
+
+<h2>Ecosystem</h2>
 <div class="feature-row">
-  <img src="https://raw.githubusercontent.com/wiki/SainsburyWellcomeCentre/StitchIt/images/rgb_brain_example.jpg" alt="Acquisition of raw data">
+  <img src="{{ '/assets/images/serialsection/rgb_brain_example.jpg' | relative_url }}" alt="Acquisition of raw data">
   <div class="feature-row__body">
     <h3>BakingTray: serial-section acquisition software</h3>
-    <p>Our BrainSaw systems run BakingTray, a modular serial-section acquisition software for MATLAB. It can easily be modified to utilise any desired acquisition hardware (scanners, stages, etc). Images are currently acquired with ScanImage, but BakingTray can easily be extended to work with any acquisition system (e.g. a spinning-disk confocal or your own scanning software).</p>
+    <p>BakingTray is modular serial-section acquisition software for MATLAB. It accommodates diverse hardware configurations and acquires images via ScanImage.</p>
     <a class="btn" href="https://bakingtray.mouse.vision">Repo</a>
   </div>
 </div>
@@ -28,7 +48,7 @@ This platform has contributed to <a href="#bs-pubs">over 30 research papers</a> 
   <img src="{{ '/assets/images/serialsection/stitching.jpg' | relative_url }}" alt="Stitching">
   <div class="feature-row__body">
     <h3>StitchIt: assembling tile scan data to stitched sections</h3>
-    <p>Pre-processes data during acquisition, streams the last stitched section to a web page, initiates stitching automatically when acquisition completes. Includes tools for downsampling and generally batch-processing image stacks. Operations highly parallelized for speed.</p>
+    <p>Pre-processes data during acquisition, streams the last stitched section to a web page, initiates stitching automatically when acquisition completes. Includes tools for downsampling and generally batch-processing image stacks. Operations highly parallelised for speed.</p>
     <a class="btn" href="https://github.com/SWC-Advanced-Microscopy/StitchIt">Repo</a>
   </div>
 </div>
@@ -63,3 +83,22 @@ This platform has contributed to <a href="#bs-pubs">over 30 research papers</a> 
 </details>
 
 <script src="{{ '/assets/js/publication-list.js' | relative_url }}" defer></script>
+
+<!-- BrainSaw map applet. Loaded here rather than linked to, so the map opens
+     over this page. `base` tells the applet where its own folder lives
+     relative to this page, so sites.json and the system photos resolve from
+     /brainsaw/ just as they do from /brainsaw_map/. Not deferred: the inline
+     script below needs BrainSawMap to exist when it runs. -->
+<script src="{{ '/brainsaw_map/map/world.js' | relative_url }}"></script>
+<script src="{{ '/brainsaw_map/map/brainsaw-map.js' | relative_url }}"></script>
+<script>
+  BrainSawMap.create({ base: '{{ '/brainsaw_map/' | relative_url }}' }).then((map) => {
+    const launcher = document.querySelector('#bs-map-launch');
+    // Focus returns to the screenshot when the overlay closes.
+    map.opener = launcher;
+    launcher.addEventListener('click', (e) => {
+      e.preventDefault();
+      map.open();
+    });
+  });
+</script>

@@ -5,13 +5,11 @@ title: "Serial Section Imaging at SWC"
 header_image: /assets/images/home/services_header.jpg
 ---
 
-<h2>What is serial section microscopy?</h2>
-<p>Serial section microscopy is used to image whole brains embedded in agar. The face of the block is alternately imaged and sliced until the whole sample has been acquired. The sections are generally discarded after the acquisition is complete. The system is not only a labour-saving device, but also produces high-quality 3D data without the distortions which occur when working with slides and manual sectioning. Registration of brains to the Allen Atlas is automated and works well for samples that are in good condition.</p>
 
 <h2>Using the equipment</h2>
 <p>We are currently only accepting internal users for this equipment, but we are actively working on solutions for external users also.</p>
 
-<p>If you are generating no more than about a brain a month or rarely have brains then it's probably best to have brains run for you by another person in your lab or by the Facility. Users expecting to regularly generate at least about 3 to 4 brains a month can be trained to run them independently. Regardless of who runs your brains, you should have an intro session on the equipment and analysis approaches. There may be a long queue for training, so inquire well in advance. Feel free to shadow trained users from your lab, but you will still need to be formally trained before using the equipment.</p>
+<p>If you are generating no more than about a brain a month or rarely have brains then it's probably best to have brains run for you by another person in your lab or by the Facility. Users expecting to regularly generate at least about 3 to 4 brains a month can be trained to run them independently. Regardless of who runs your brains, you should have an intro session on the equipment and analysis approaches. There may be a long queue for training, so enquire well in advance. Feel free to shadow trained users from your lab, but you will still need to be formally trained before using the equipment.</p>
 
 <p>Initial training on the serial section systems takes about 10 hours: typically there are 5 training sessions spread across 3 or 4 days. Each session takes about 90 minutes plus another hour or two to discuss data handling and pre-processing (compressing data, transferring to server, registering, etc). You will need a minimum of 5 brains for initial training but we can get through up to about a dozen or so if you have them. After these initial sessions you will book the equipment yourself and run samples under supervision until you feel confident to run independently.</p>
 
@@ -33,6 +31,26 @@ header_image: /assets/images/home/services_header.jpg
 
 <h2>Citing</h2>
 <p>Please see our <a href="{{ '/publication-policy/' | relative_url }}">publication policy</a> for how to cite the serial section microscopes.</p>
+
+<h2>Manuscript methods sections</h2>
+<p>A reasonable template for manuscript methods sections is as follows:</p>
+
+<p>We imaged the brains using serial section (<a href="https://doi.org/10.1111/j.1365-2818.2008.02024.x">Mayer 2008</a>) two-photon (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3297424/">Ragan 2012</a>) microscopy. Our microscope was controlled by ScanImage Basic (MBF Bioscience) using BakingTray, a custom software wrapper for setting up the imaging parameters (<a href="https://zenodo.org/badge/latestdoi/96208671">DOI</a>). Images were assembled using StitchIt (<a href="https://zenodo.org/badge/latestdoi/57851444">DOI</a>). </p>
+
+<p>
+BrainSaw serial section 2-photon data were obtained using BakingTray (<a href="https://zenodo.org/badge/latestdoi/96208671">DOI</a>) and ScanImage R2023.1 (MBF Bioscience).
+Our Facility has three such microscopes, the following is a composite hardware description.
+A Mai Tai eHP DS laser (Spectra-Physics) was scanned over the sample using a 4 kHz or 8 kHz resonant scanner (Cambridge Technologies), focused onto the sample with a Nikon 16x NA 0.8 water immersion objective.
+Photons were collected using Hamamatsu R10699 multi-alkali PMTs (<i>from Q2 2026, NeuroVision was switched to PDA45 SiPMs from ThorLabs</i>), with data acquisition controlled by NI DAQ hardware.
+Up to four detection channels were available; band-pass filters:  Far red (Brightline 676/29), Red (Chroma 605/70m), Green (Brightline 525/39), Blue  (Brightline basic 460/60).
+Slicing was performed using a Leica VT1000 section head and a three axis stage assembled using PI stages for tile-scanning, lifted by AeroTech heavy-duty lift stages (stage models varied by microscope).
+A PI PIFOC allowed for high-speed Z-stacks and laser power was modulated by a Conoptics Pockels cell.
+</p>
+
+<p>
+You should add custom information on voxel sizes, excitation wavelengths, frame averaging, and typical power at sample.
+</p>
+
 
 <h2>Documentation</h2>
 <ul>
