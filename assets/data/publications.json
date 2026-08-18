@@ -162,7 +162,7 @@
       "doi": "10.1038/s41593-026-02362-5",
       "amf_authorship": "none",
       "affiliation": "swc",
-      "pi": [],
+      "pi": ["Stephenson-Jones"],
       "platforms": ["Whole-brain imaging", "Histology"],
       "equipment": ["AxioScan", "BrainSaw"],
       "software_tools": ["BakingTray","StitchIt"],

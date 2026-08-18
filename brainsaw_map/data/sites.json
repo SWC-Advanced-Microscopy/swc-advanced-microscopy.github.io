@@ -62,6 +62,15 @@
       ],
       "systems": [
         {
+          "id": "swc-icesaw",
+          "name": "BrainSaw TNG",
+          "microscope": "Reso custom",
+          "selfBuilt": null,
+          "status": "building",
+          "statusDetail": "Under construction",
+          "photo": "system_photos/under-construction.jpg"
+        },
+        {
           "id": "swc-brainsaw",
           "name": "BrainSaw",
           "microscope": "Reso custom",
