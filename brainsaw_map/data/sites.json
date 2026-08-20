@@ -221,7 +221,7 @@
 
     {
       "id": "nerf",
-      "lab": "IMEC / NERF",
+      "lab": "VIB-KU Leuven Center for Neuroscience",
       "short": "NERF, Leuven",
       "org": "KU Leuven",
       "city": "Leuven",
@@ -229,7 +229,7 @@
       "lat": 50.8630,
       "lon": 4.6797,
       "organisers": [
-        { "name": "Adrien Philippon", "role": "Contact" },
+        { "name": " Asli Ayaz", "role": "Contact" },
         { "name": "Vincent Bonin", "role": "Contact" }
       ],
       "systems": [
