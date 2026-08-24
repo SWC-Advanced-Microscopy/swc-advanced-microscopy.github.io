@@ -58,6 +58,12 @@ mistaken for the instrument, so it reads as a gap without needing to be labelled
 carries no visible caption, only alt text and a line in the panel's footnote. Drop a real
 photograph in, point `photo` at it and delete the flag.
 
+Each system carries `built`, the year it came into service; it shows in the status pill in the
+panel and after the status in the tooltip. Systems still under construction have `null` and
+show no year — a year not yet reached is not a fact, and the status already says construction is
+under way. Retired and paused systems keep theirs, because when a system was built is part of
+the record whether or not it is running today.
+
 `microscope` and `selfBuilt` are still in the JSON but **nothing displays them**. The systems
 are variations on one design and the differences mean little to a visitor; bring them back when
 there is a real distinction to draw, such as the coming cryostat variant.

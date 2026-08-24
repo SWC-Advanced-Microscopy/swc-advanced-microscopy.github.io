@@ -490,6 +490,16 @@
   color: var(--bsm-ink);
 }
 
+/* The build year rides inside the status pill, separated by a hairline rule
+   rather than a bullet: it is a second fact about the system, not a
+   continuation of the status. */
+.bsm-built {
+  padding-left: 8px;
+  margin-left: 1px;
+  border-left: 1px solid var(--bsm-hair);
+  color: var(--bsm-ink-2);
+}
+
 .bsm-notes {
   margin: 14px 0 0;
   font-size: 13.5px;

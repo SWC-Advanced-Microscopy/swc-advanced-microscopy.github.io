@@ -650,7 +650,7 @@ const BrainSawMap = (() => {
         <span>${esc(site.lab)}<br>${esc(this.place(site))}</span>
         <div class="bsm-tip-status">
           <span class="bsm-glyph" data-status="${esc(sys.status)}"></span>
-          ${esc(this.statusMeta[sys.status].label)}
+          ${esc(this.statusMeta[sys.status].label)}${sys.built ? ` · built ${sys.built}` : ''}
         </div>
         ${also}
         <div class="bsm-hint">Click for details</div>`;
@@ -731,6 +731,12 @@ const BrainSawMap = (() => {
       const detail = (sys.statusDetail || '').toLowerCase() === label.toLowerCase()
         ? null : sys.statusDetail;
 
+      // `built` is the year the system came into service. Systems still being
+      // built have none, and get no "Built —": a blank year is not a fact, and
+      // the status already says construction is under way. Retired and paused
+      // systems keep theirs — when a system was built is part of the record
+      // whether or not it is running today.
+
       // No specification section. The systems are variations on one design and
       // the differences do not mean anything to a visitor; sites.json still
       // carries `microscope` and `selfBuilt` for when a real distinction turns
@@ -757,6 +763,7 @@ const BrainSawMap = (() => {
           <div class="bsm-status-line">
             <span class="bsm-glyph" data-status="${esc(sys.status)}"></span>
             ${esc(this.statusMeta[sys.status].label)}
+            ${sys.built ? `<span class="bsm-built">Built ${sys.built}</span>` : ''}
           </div>
           ${detail ? `<p class="bsm-notes">${esc(detail)}</p>` : ''}
 
