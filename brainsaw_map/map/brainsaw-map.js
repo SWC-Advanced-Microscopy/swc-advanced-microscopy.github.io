@@ -99,6 +99,7 @@ const BrainSawMap = (() => {
     'UCL': 'clark',
     'UCL, Clark': 'clark',
     'Ecole Polytechnique': 'beaurepaire',
+    'Charité – Universitätsmedizin Berlin': 'charite',
   };
 
   function adaptPublications(raw) {
