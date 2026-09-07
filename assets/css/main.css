@@ -321,6 +321,46 @@ ul { padding-left: 1.25em; }
   max-width: min(400px, 100%);
 }
 
+/* Embedded video (see _includes/youtube.html).
+   The frame keeps a 16:9 box at any width and the iframe fills it, so the
+   player scales with the column instead of being pinned to a fixed size. */
+
+.video-embed {
+  /* Auto side margins so a video given a `width` sits centred in the column. */
+  margin: 1.5em auto 2.5em;
+}
+
+.video-embed__frame {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background: var(--color-bg-alt);
+  border-radius: var(--radius);
+  /* Clips the player's own square corners to the site's rounded ones. */
+  overflow: hidden;
+}
+
+.video-embed__frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.video-embed figcaption {
+  margin-top: 0.6em;
+  color: var(--color-text-dim);
+  font-size: 0.9em;
+}
+
+/* Inside a feature row the video takes the slot the image would have had, so
+   it matches that column's width rather than stretching across the row. */
+.feature-row > .video-embed {
+  flex: 0 0 16rem;
+  max-width: 16rem;
+  margin: 0;
+}
+
 /* Wide card row: image left, text right (used for tool/equipment feature rows) */
 
 .feature-row {

@@ -1,0 +1,30 @@
+{% comment %}
+  Embedded YouTube video, sized to the content column and 16:9 at every width.
+
+  Usage:
+    {% include youtube.html id="3-nLt7j6tMM" title="What the video shows" %}
+
+  Parameters:
+    id      — the video ID (the v= part of a watch URL). Required.
+    title   — accessible name for the iframe, and the caption printed beneath
+              it when `caption` is not given. Required.
+    caption — optional caption text; pass caption="" for no caption.
+    start   — optional start offset in whole seconds (the t= part of a URL).
+    width   — optional max width, e.g. "40rem". Defaults to the full column.
+
+  youtube-nocookie.com is used so no tracking cookie is set unless the visitor
+  actually plays the video.
+{% endcomment %}
+{% if include.caption %}{% assign yt_caption = include.caption %}{% else %}{% assign yt_caption = include.title %}{% endif %}
+<figure class="video-embed"{% if include.width %} style="max-width: {{ include.width }};"{% endif %}>
+  <div class="video-embed__frame">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/{{ include.id }}{% if include.start %}?start={{ include.start }}{% endif %}"
+      title="{{ include.title }}"
+      loading="lazy"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen></iframe>
+  </div>
+  {% if yt_caption != "" %}<figcaption>{{ yt_caption }}</figcaption>{% endif %}
+</figure>
