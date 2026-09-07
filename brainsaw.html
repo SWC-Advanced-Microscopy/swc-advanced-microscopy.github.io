@@ -2,7 +2,7 @@
 layout: default
 permalink: /brainsaw/
 title: "BrainSaw Serial Section 2-photon"
-excerpt: "Open tools for acquiring and stitching serial section data"
+excerpt: "Open platform for serial-section 2-photon tomography"
 header_image: /assets/images/serialsection/brainsaw_embryos.jpg
 header_overlay: 0.3
 og_title: "BrainSaw: serial-section 2-photon tomography"
@@ -19,15 +19,24 @@ og_image_height: 630
      page's lede and launch card. -->
 <link rel="stylesheet" href="{{ '/brainsaw_map/map/brainsaw-map.css' | relative_url }}">
 
-<h2>What is serial section microscopy?</h2>
+<h2>What is serial-section two-photon microscopy?</h2>
 
 <div class="text-aside">
   <div class="text-aside__body">
     <p>
-    "BrainSaw" is the generic term for our in-house serial section 2-photon systems.
-    Whole brains are embedded in agar, the face of the block is alternately imaged and sliced until the whole sample has been acquired. The sections are generally discarded after the acquisition is complete. The system is not only a labour-saving device, but also produces high-quality 3D data that can easily be registered to a standard atlas.
-    BrainSaw has contributed to <a href="#bs-pubs">over 30 research papers</a> and has been adopted outside of the SWC (interactive map on the right).
+    Block-face serial two-photon tomography (STPT) provides high-resolution, whole-organ volumetric imaging whilst avoiding complex sample preparation.
+    In an STPT system, a multi-photon microscope is coupled to a vibratome and a three-axis stage.
+    Fixed tissue is embedded in agarose and mounted in a water bath riding on the stage.
+    The tissue surface is exposed by the vibratome and imaged with a tile-scan by the 2-photon microscope.
+    The STPT system alternates between slicing and imaging of the block face until all of the sample has been acquired.
     </p>
+
+    <p>
+    STPT is ideal for reliable high-throughput whole-brain imaging; we have acquired about 8,000 brains since 2018 using our in-house "BrainSaw" serial-section platform.
+    The AMF has three open-source BrainSaw microscopes and about a dozen more have been built by others worldwide (see interactive map on the right).
+    BrainSaw has contributed to <a href="#bs-pubs">over 30 research papers</a>.
+    </p>
+
   </div>
 
   <!-- The link to the standalone map page is the no-JS fallback. Once the
@@ -45,9 +54,9 @@ og_image_height: 630
   <img src="{{ '/assets/images/serialsection/brainsaw_hardware.jpg' | relative_url }}" alt="BrainSaw">
   <div class="feature-row__body">
     <h3>BrainSaw: microscopy systems</h3>
-    <p>We provide <a href="https://github.com/SWC-Advanced-Microscopy/Brainsaw_CAD">CAD models</a> and <a href="https://bakingtray.mouse.vision/getting-started/hardware_requirements">build instructions</a> for assembling a BrainSaw serial section 2-photon microscope. Systems can be built from scratch, or serial-sectioning functionality added to an existing microscope. We have three BrainSaw systems in-house:
+    <p>We provide <a href="https://github.com/SWC-Advanced-Microscopy/Brainsaw_CAD">CAD models</a> and <a href="https://bakingtray.mouse.vision/getting-started/hardware_requirements">build instructions</a> for assembling a BrainSaw serial-section two-photon microscope. Systems can be built from scratch, or serial-sectioning functionality added to an existing microscope. We have three BrainSaw systems in-house:
       <a href="{{ '/neurovision_details/' | relative_url }}">NeuroVision</a>,
-      <a href="{{ '/brainsaw1_details/' | relative_url }}">BrainSaw OG</a>, and <a href="{{ '/organgrinder_details/' | relative_url }}">OrganGrinder</a>.
+      <a href="{{ '/brainsaw1_details/' | relative_url }}">BrainSaw OG</a>, and <a href="{{ '/organgrinder_details/' | relative_url }}">OrganGrinder</a>.</p>
   </div>
 </div>
 
@@ -63,8 +72,8 @@ og_image_height: 630
 <div class="feature-row">
   <img src="{{ '/assets/images/serialsection/stitching.jpg' | relative_url }}" alt="Stitching">
   <div class="feature-row__body">
-    <h3>StitchIt: assembling tile scan data to stitched sections</h3>
-    <p>Pre-processes data during acquisition, streams the last stitched section to a web page, initiates stitching automatically when acquisition completes. Includes tools for downsampling and generally batch-processing image stacks. Operations highly parallelised for speed.</p>
+    <h3>StitchIt: assembling tile scan data into stitched sections</h3>
+    <p>StitchIt runs alongside BakingTray to pre-process data during acquisition, stream the last stitched section to a web page, and initiate stitching automatically when acquisition completes. It includes tools for downsampling and batch-processing image stacks, with operations highly parallelised for speed.</p>
     <a class="btn" href="https://stitchit.mouse.vision">Docs</a>
   </div>
 </div>
@@ -73,7 +82,7 @@ og_image_height: 630
   <img src="{{ '/assets/images/software/bs_channel_chooser.png' | relative_url }}" alt="2-photon cross-section plotter">
   <div class="feature-row__body">
     <h3>BrainSaw Channel Chooser</h3>
-    <p>This interactive web tool helps BrainSaw users choose the best wavelength and excitation channels for their fluorophores. </p>
+    <p>This interactive web tool helps BrainSaw users choose the best wavelength and excitation channels for their fluorophores.</p>
     <a class="btn" href="https://SWC-Advanced-Microscopy.github.io/brainsaw_channel_chooser">Launch</a>
   </div>
 </div>
@@ -82,7 +91,7 @@ og_image_height: 630
   <img src="{{ '/assets/images/software/brain_render.jpg' | relative_url }}" alt="brainrender">
   <div class="feature-row__body">
     <h3>Analysis: BrainGlobe</h3>
-    <p>Our favoured option for analysis of serial section data is the BrainGlobe suite. These Python-based tools are maintained by the SWC <a href="https://neuroinformatics.dev/">neuroinformatics team</a>. BrainGlobe comprises several software packages to access, analyse and visualise anatomical data. The packages are interoperable in order to streamline the process of going from raw data to publication-ready content.</p>
+    <p>Our favoured option for analysis of serial section data is the BrainGlobe suite. These Python-based tools are maintained by the SWC <a href="https://neuroinformatics.dev/">neuroinformatics team</a>. BrainGlobe comprises several software packages to access, analyse, and visualise anatomical data.</p>
     <a class="btn" href="https://brainglobe.info/">WWW</a>
   </div>
 </div>
