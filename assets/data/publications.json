@@ -39,6 +39,25 @@
       "notes": "Schmitz labs; remote support with BakingTray/StitchIt"
     },
     {
+      "id": "bakingtray-brainsaw-2026",
+      "first_author": "Campbell",
+      "title": "High-throughput serial two-photon tomography with BakingTray and BrainSaw",
+      "journal": "bioRxiv",
+      "year": 2026,
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.748989v1",
+      "doi": "10.64898/2026.09.28.748989",
+      "amf_authorship": "first",
+      "affiliation": "swc",
+      "pi": [],
+      "platforms": ["Whole-brain imaging"],
+      "equipment": ["BrainSaw"],
+      "software_tools": ["BakingTray","StitchIt"],
+      "techniques": [],
+      "instrument_location": "AMF",
+      "external_institution": null,
+      "notes": ""
+    },
+    {
       "id": "zapit-2026",
       "first_author": "Lohse",
       "title": "Zapit: Open Source Laser-Scanning Photostimulation For Neuroscience",
