@@ -14,7 +14,7 @@
       "platforms": ["Whole-brain imaging"],
       "equipment": ["BrainSaw"],
       "software_tools": ["BakingTray","StitchIt"],
-      "techniques": [],
+      "techniques": ["Bulk projections"],
       "instrument_location": "Charité – Universitätsmedizin Berlin",
       "external_institution": "Charité – Universitätsmedizin Berlin / DZNE Berlin",
       "notes": "Schmitz & Johenning labs; remote support with BakingTray/StitchIt"
@@ -33,7 +33,7 @@
       "platforms": ["Whole-brain imaging"],
       "equipment": ["BrainSaw"],
       "software_tools": ["BakingTray","StitchIt"],
-      "techniques": [],
+      "techniques": ["Cell counting"],
       "instrument_location": "Charité – Universitätsmedizin Berlin",
       "external_institution": "Charité – Universitätsmedizin Berlin / DZNE Berlin",
       "notes": "Schmitz labs; remote support with BakingTray/StitchIt"
@@ -109,7 +109,7 @@
       "platforms": ["Whole-brain imaging"],
       "equipment": ["BrainSaw"],
       "software_tools": ["BakingTray","StitchIt"],
-      "techniques": [],
+      "techniques": ["Atlas generation"],
       "instrument_location": "AMF",
       "external_institution": null,
       "notes": ""
@@ -128,7 +128,7 @@
       "platforms": ["Whole-brain imaging"],
       "equipment": ["BrainSaw"],
       "software_tools": ["BakingTray","StitchIt","Lasagna"],
-      "techniques": [],
+      "techniques": ["Probe tracks"],
       "instrument_location": "AMF",
       "external_institution": "International Brain Laboratory (IBL)",
       "notes": "Collaboration with IBL"
@@ -185,7 +185,7 @@
       "platforms": ["Whole-brain imaging"],
       "equipment": ["BrainSaw", "MesoSPIM"],
       "software_tools": ["BakingTray","StitchIt"],
-      "techniques": [],
+      "techniques": ["Whole-mount Ab. staining validation"],
       "instrument_location": "AMF",
       "external_institution": "Chinese University of Hong Kong",
       "notes": "In collaboration with colleagues at The Chinese University of Hong Kong"
@@ -223,7 +223,7 @@
       "platforms": ["Whole-brain imaging", "Histology"],
       "equipment": ["AxioScan", "BrainSaw"],
       "software_tools": ["BakingTray","StitchIt"],
-      "techniques": ["IHC"],
+      "techniques": ["IHC", "Probe tracks"],
       "instrument_location": "AMF",
       "external_institution": null,
       "notes": ""
@@ -242,7 +242,7 @@
       "platforms": ["Whole-brain imaging"],
       "equipment": ["BrainSaw"],
       "software_tools": ["BakingTray","StitchIt","Lasagna"],
-      "techniques": [],
+      "techniques": ["Probe tracks"],
       "instrument_location": "AMF",
       "external_institution": "International Brain Laboratory (IBL)",
       "notes": "SWC and IBL"
@@ -261,7 +261,7 @@
       "platforms": ["Whole-brain imaging", "Histology"],
       "equipment": ["BrainSaw", "AxioScan"],
       "software_tools": ["BakingTray","StitchIt"],
-      "techniques": ["IHC"],
+      "techniques": ["IHC", "Fibre tracks"],
       "instrument_location": "AMF",
       "external_institution": null,
       "notes": ""
@@ -280,7 +280,7 @@
       "platforms": ["Whole-brain imaging", "Histology"],
       "equipment": ["BrainSaw", "Leica SP8"],
       "software_tools": ["BakingTray","StitchIt"],
-      "techniques": [],
+      "techniques": ["Cell counting"],
       "instrument_location": "AMF",
       "external_institution": null,
       "notes": ""
@@ -299,7 +299,7 @@
       "platforms": ["Whole-brain imaging", "Histology"],
       "equipment": ["BrainSaw", "Leica SP8"],
       "software_tools": ["BakingTray","StitchIt"],
-      "techniques": [],
+      "techniques": ["Probe tracks"],
       "instrument_location": "AMF",
       "external_institution": null,
       "notes": ""
@@ -318,7 +318,7 @@
       "platforms": ["Whole-brain imaging"],
       "equipment": ["BrainSaw"],
       "software_tools": ["BakingTray","StitchIt"],
-      "techniques": [],
+      "techniques": ["Cell counting"],
       "instrument_location": "AMF",
       "external_institution": null,
       "notes": ""
@@ -337,7 +337,7 @@
       "platforms": ["Whole-brain imaging"],
       "equipment": ["BrainSaw"],
       "software_tools": ["BakingTray","StitchIt"],
-      "techniques": [],
+      "techniques": ["Probe tracks"],
       "instrument_location": "AMF",
       "external_institution": null,
       "notes": ""
@@ -356,7 +356,7 @@
       "platforms": ["Whole-brain imaging", "Histology"],
       "equipment": ["BrainSaw"],
       "software_tools": ["BakingTray","StitchIt"],
-      "techniques": ["RNAscope"],
+      "techniques": ["RNAscope", "Probe tracks", "Fibre tracks"],
       "instrument_location": "AMF",
       "external_institution": null,
       "notes": ""
@@ -375,7 +375,7 @@
       "platforms": ["Whole-brain imaging", "Histology"],
       "equipment": ["BrainSaw", "Leica SP8"],
       "software_tools": ["BakingTray","StitchIt"],
-      "techniques": [],
+      "techniques": ["Cell counting"],
       "instrument_location": "AMF",
       "external_institution": null,
       "notes": ""
@@ -394,7 +394,7 @@
       "platforms": ["Whole-brain imaging"],
       "equipment": ["BrainSaw"],
       "software_tools": ["BakingTray","StitchIt"],
-      "techniques": [],
+      "techniques": ["Cell counting"],
       "instrument_location": "AMF",
       "external_institution": null,
       "notes": ""
@@ -413,7 +413,7 @@
       "platforms": ["Whole-brain imaging"],
       "equipment": ["BrainSaw"],
       "software_tools": ["BakingTray","StitchIt"],
-      "techniques": [],
+      "techniques": ["Screening AAV expression"],
       "instrument_location": "AMF",
       "external_institution": null,
       "notes": "Akrami lab plus external collaborators"
@@ -451,7 +451,7 @@
       "platforms": ["Whole-brain imaging", "Histology"],
       "equipment": ["BrainSaw", "AxioScan"],
       "software_tools": ["BakingTray","StitchIt"],
-      "techniques": [],
+      "techniques": ["Probe tracks"],
       "instrument_location": "AMF",
       "external_institution": null,
       "notes": ""
@@ -489,7 +489,7 @@
       "platforms": ["Whole-brain imaging"],
       "equipment": ["BrainSaw"],
       "software_tools": ["BakingTray","StitchIt"],
-      "techniques": [],
+      "techniques": ["Probe tracks"],
       "instrument_location": "AMF",
       "external_institution": null,
       "notes": ""
@@ -508,7 +508,7 @@
       "platforms": ["Whole-brain imaging"],
       "equipment": ["BrainSaw", "TissueCyte"],
       "software_tools": ["BakingTray","StitchIt"],
-      "techniques": [],
+      "techniques": ["Cell counting"],
       "instrument_location": "AMF",
       "external_institution": null,
       "notes": ""
@@ -527,7 +527,7 @@
       "platforms": ["Whole-brain imaging", "Histology"],
       "equipment": ["BrainSaw", "Imager"],
       "software_tools": ["BakingTray","StitchIt"],
-      "techniques": [],
+      "techniques": ["Probe tracks"],
       "instrument_location": "AMF",
       "external_institution": null,
       "notes": ""
@@ -546,7 +546,7 @@
       "platforms": ["Whole-brain imaging", "Histology"],
       "equipment": ["BrainSaw", "Leica SP8"],
       "software_tools": ["BakingTray","StitchIt"],
-      "techniques": [],
+      "techniques": ["Probe tracks", "Bulk projections"],
       "instrument_location": "AMF",
       "external_institution": null,
       "notes": ""
@@ -565,7 +565,7 @@
       "platforms": ["Whole-brain imaging", "Histology"],
       "equipment": ["Leica SP8", "BrainSaw", "AxioScan"],
       "software_tools": ["BakingTray","StitchIt"],
-      "techniques": [],
+      "techniques": ["Cell counting"],
       "instrument_location": "AMF",
       "external_institution": null,
       "notes": ""
@@ -584,7 +584,7 @@
       "platforms": ["Whole-brain imaging"],
       "equipment": ["BrainSaw"],
       "software_tools": ["BakingTray","StitchIt"],
-      "techniques": [],
+      "techniques": ["Mapping widefield data to Allen CCF"],
       "instrument_location": "AMF",
       "external_institution": "University of Zurich",
       "notes": ""
@@ -641,7 +641,7 @@
       "platforms": [],
       "equipment": ["BrainSaw"],
       "software_tools": ["BakingTray","StitchIt"],
-      "techniques": [],
+      "techniques": ["Cell counting"],
       "instrument_location": "Francis Crick Institute",
       "external_institution": "Francis Crick Institute",
       "notes": ""
@@ -660,7 +660,7 @@
       "platforms": [],
       "equipment": ["BrainSaw"],
       "software_tools": ["BakingTray","StitchIt"],
-      "techniques": [],
+      "techniques": ["Probe tracks"],
       "instrument_location": "UCL, Clark",
       "external_institution": "UCL",
       "notes": ""
@@ -679,7 +679,7 @@
       "platforms": [],
       "equipment": ["BrainSaw"],
       "software_tools": ["BakingTray","StitchIt"],
-      "techniques": [],
+      "techniques": ["Probe tracks"],
       "instrument_location": "UCL, Clark",
       "external_institution": "UCL",
       "notes": ""
@@ -698,7 +698,7 @@
       "platforms": ["Whole-brain imaging"],
       "equipment": ["BrainSaw"],
       "software_tools": ["BakingTray","StitchIt"],
-      "techniques": [],
+      "techniques": ["Cell counting"],
       "instrument_location": "AMF",
       "external_institution": "Francis Crick Institute",
       "notes": "Ede Rancz's Lab"
@@ -717,7 +717,7 @@
       "platforms": ["Whole-brain imaging"],
       "equipment": ["BrainSaw"],
       "software_tools": ["BakingTray","StitchIt"],
-      "techniques": [],
+      "techniques": ["Lesion mapping"],
       "instrument_location": "AMF",
       "external_institution": "University of Cambridge",
       "notes": "Julija Krupic and colleagues used BrainSaw at the AMF"
@@ -736,7 +736,7 @@
       "platforms": [],
       "equipment": ["BrainSaw"],
       "software_tools": ["BakingTray","StitchIt"],
-      "techniques": [],
+      "techniques": ["Bulk projections"],
       "instrument_location": "EPFL",
       "external_institution": "EPFL",
       "notes": "Carl Petersen's Lab"
@@ -755,7 +755,7 @@
       "platforms": [],
       "equipment": ["BrainSaw"],
       "software_tools": ["BakingTray","StitchIt"],
-      "techniques": [],
+      "techniques": ["Whole-brain single-axon tracing"],
       "instrument_location": "EPFL",
       "external_institution": "EPFL",
       "notes": "Carl Petersen's Lab"
@@ -774,7 +774,7 @@
       "platforms": ["Whole-brain imaging"],
       "equipment": ["BrainSaw"],
       "software_tools": ["BakingTray","StitchIt"],
-      "techniques": [],
+      "techniques": ["Cell counting"],
       "instrument_location": "AMF",
       "external_institution": "Francis Crick Institute",
       "notes": "Ede Rancz's Lab"
@@ -812,7 +812,7 @@
       "platforms": [],
       "equipment": ["BrainSaw"],
       "software_tools": ["BakingTray","StitchIt"],
-      "techniques": [],
+      "techniques": ["Probe tracks"],
       "instrument_location": "EPFL",
       "external_institution": "EPFL",
       "notes": "Carl Petersen's Lab"
@@ -831,7 +831,7 @@
       "platforms": [],
       "equipment": ["BrainSaw"],
       "software_tools": ["BakingTray","StitchIt"],
-      "techniques": [],
+      "techniques": ["Bulk projections"],
       "instrument_location": "EPFL",
       "external_institution": "EPFL",
       "notes": "Carl Petersen's Lab"
@@ -850,7 +850,7 @@
       "platforms": [],
       "equipment": ["BrainSaw"],
       "software_tools": ["BakingTray","StitchIt"],
-      "techniques": [],
+      "techniques": ["Bulk projections"],
       "instrument_location": "EPFL",
       "external_institution": "EPFL",
       "notes": "Carl Petersen's Lab"
@@ -869,7 +869,7 @@
       "platforms": [],
       "equipment": ["BrainSaw"],
       "software_tools": ["BakingTray","StitchIt","MPQC"],
-      "techniques": [],
+      "techniques": ["Methods development"],
       "instrument_location": "Ecole Polytechnique",
       "external_institution": "Ecole Polytechnique",
       "notes": "Emmanuel Beaurepaire's lab"
