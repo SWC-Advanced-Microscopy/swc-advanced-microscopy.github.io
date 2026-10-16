@@ -1,14 +1,16 @@
 <footer class="page__footer">
   <div class="page__footer-inner-wrap">
-    <ul class="social-icons">
-      <li><strong>Follow:</strong></li>
-      <li><a href="{{ site.github_url }}" rel="me noopener noreferrer" target="_blank">GitHub</a></li>
-      <li><a href="{{ site.bluesky_url }}" rel="me noopener noreferrer" target="_blank">Bluesky</a></li>
-    </ul>
+    <p class="footer-tools">
+      <strong>Open Tools:</strong>
+      <a href="{{ site.github_url }}" target="_blank" rel="noopener noreferrer">Software</a>
+      <span aria-hidden="true">&middot;</span>
+      <a href="https://brainsaw.org/" target="_blank" rel="noopener noreferrer">BrainSaw</a>
+      <span aria-hidden="true">&middot;</span>
+      <a href="https://zapit.swcmicroscopy.com/" target="_blank" rel="noopener noreferrer">Zapit</a>
+    </p>
 
     <div class="page__footer-copyright">
       &copy; {{ site.time | date: '%Y' }} {{ site.title }}
-      <img class="footer__logo" width="15" src="{{ '/assets/footer/Wellcome_Trust_logo_150px.png' | relative_url }}" alt="Wellcome Trust logo">
     </div>
   </div>
 

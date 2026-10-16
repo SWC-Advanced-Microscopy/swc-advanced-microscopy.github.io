@@ -407,19 +407,13 @@ ul { padding-left: 1.25em; }
 .page__footer-inner-wrap {
   max-width: var(--content-max-width);
   margin: 0 auto;
-  padding: 1.5em 1.25em;
+  padding: 1em 1.25em;
 }
-.page__footer a { color: var(--color-text-dim); }
-.page__footer a:hover { color: var(--color-accent); }
 
-.social-icons {
-  list-style: none;
-  margin: 0 0 0.75em;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5em 1.25em;
+.footer-tools {
+  margin: 0 0 0.25em;
 }
+.footer-tools span { font-size: 1.3em; }
 
 .page__footer-copyright {
   font-size: 0.9em;

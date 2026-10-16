@@ -8,7 +8,6 @@ url: "https://swcmicroscopy.com"
 baseurl: ""
 
 github_url: "https://github.com/orgs/SWC-Advanced-Microscopy/repositories"
-bluesky_url: "https://bsky.app/profile/sainsburywellcome.bsky.social"
 
 markdown: kramdown
 plugins:
